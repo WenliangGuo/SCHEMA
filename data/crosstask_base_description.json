@@ -1,0 +1,1634 @@
+{
+    "Make Jello Shots": {
+        "pour water": {
+            "before": [
+                "The jello mix is dry and powdery.",
+                "The container is empty.",
+                "The jello mix is not yet combined with water."
+            ],
+            "after": [
+                "The jello mix is now wet and liquidy.",
+                "The container is filled with a liquid mixture.",
+                "The jello mix is now combined with water."
+            ]
+        },
+        "pour juice": {
+            "before": [
+                "The cups are empty.",
+                "The cups are dry.",
+                "The cups are clear."
+            ],
+            "after": [
+                "The cups contain juice.",
+                "The cups are wet from the juice.",
+                "The cups are filled with a colored liquid."
+            ]
+        },
+        "pour jello powder": {
+            "before": [
+                "The container is empty.",
+                "The powder is dry and in a separate container.",
+                "The container is empty and the powder is dry."
+            ],
+            "after": [
+                "The container is filled with jello powder.",
+                "The powder is mixed with liquid and poured into the container.",
+                "The container is filled with a jello mixture."
+            ]
+        },
+        "pour alcohol": {
+            "before": [
+                "The jello is in a solid form.",
+                "The jello is in a bowl.",
+                "The shot glasses are empty."
+            ],
+            "after": [
+                "The jello is now a liquid.",
+                "The jello is now in shot glasses.",
+                "The shot glasses contain a mixture of jello and alcohol."
+            ]
+        },
+        "stir mixture": {
+            "before": [
+                "The mixture is separated into two layers.",
+                "The mixture is still liquid.",
+                "The mixture is not uniform."
+            ],
+            "after": [
+                "The mixture is blended together.",
+                "The mixture is thickened and more gelatinous.",
+                "The mixture is evenly blended."
+            ]
+        },
+        "pour mixture into cup": {
+            "before": [
+                "The cup is empty.",
+                "The mixture is in a bowl.",
+                "The cup is dry."
+            ],
+            "after": [
+                "The cup is filled with the jello mixture.",
+                "The mixture is poured into the cup.",
+                "The cup is wet with the jello mixture."
+            ]
+        }
+    },
+    "Build Simple Floating Shelves": {
+        "cut shelve": {
+            "before": [
+                "The shelf is a single, long piece of wood.",
+                "The shelf is uncut and unpainted.",
+                "The shelf is flat and level."
+            ],
+            "after": [
+                "The shelf has been cut into two pieces.",
+                "The shelf has been cut to size and painted.",
+                "The shelf has been cut to create a floating effect."
+            ]
+        },
+        "assemble shelve": {
+            "before": [
+                "The shelves are in pieces.",
+                "The shelves are flat and unconnected.",
+                "The shelves are empty."
+            ],
+            "after": [
+                "The shelves are assembled.",
+                "The shelves are connected and form a structure.",
+                "The shelves are filled with items."
+            ]
+        },
+        "sand shelve": {
+            "before": [
+                "The shelves are rough and unfinished.",
+                "The shelves have sharp edges.",
+                "The shelves are unpainted."
+            ],
+            "after": [
+                "The shelves are smooth and sanded.",
+                "The edges are rounded and softened.",
+                "The shelves are painted with a desired color."
+            ]
+        },
+        "paint shelve": {
+            "before": [
+                "The shelves are unpainted and unfinished.",
+                "The shelves are plain and bare.",
+                "The shelves are plain wood."
+            ],
+            "after": [
+                "The shelves are painted and finished.",
+                "The shelves are decorated with a color or pattern.",
+                "The shelves are coated with a protective layer of paint."
+            ]
+        },
+        "attach shelve": {
+            "before": [
+                "The wall is empty without shelves.",
+                "The shelves are separate from the wall.",
+                "The shelves are flat and unassembled."
+            ],
+            "after": [
+                "The shelves are attached to the wall.",
+                "The shelves are securely attached to the wall.",
+                "The shelves are assembled and mounted on the wall."
+            ]
+        }
+    },
+    "Make Taco Salad": {
+        "add onion": {
+            "before": [
+                "The ingredients are still separate.",
+                "The onion is still a whole piece.",
+                "The onion has a white exterior and a firm texture."
+            ],
+            "after": [
+                "The ingredients are mixed together.",
+                "The onion is chopped into small pieces.",
+                "The onion reveals the yellow flesh inside."
+            ]
+        },
+        "add taco": {
+            "before": [
+                "The salad is composed of lettuce, tomatoes, and other vegetables.",
+                "The salad is in a bowl.",
+                "The taco meat is in a separate container."
+            ],
+            "after": [
+                "The salad is topped with taco meat.",
+                "The bowl contains a mixture of lettuce, tomatoes, and taco meat.",
+                "The taco meat is mixed in with the other ingredients."
+            ]
+        },
+        "add lettuce": {
+            "before": [
+                "The bowl is empty.",
+                "The lettuce is in a separate container.",
+                "The lettuce is uncut."
+            ],
+            "after": [
+                "The bowl contains lettuce.",
+                "The lettuce is added to the bowl.",
+                "The lettuce is cut into small pieces."
+            ]
+        },
+        "add meat": {
+            "before": [
+                "The salad is composed of vegetables and other ingredients.",
+                "The ingredients are uncooked.",
+                "The salad is a mix of vegetables."
+            ],
+            "after": [
+                "The salad now contains cooked meat.",
+                "The ingredients are cooked and mixed together.",
+                "The salad now contains meat and other ingredients."
+            ]
+        },
+        "add tomato": {
+            "before": [
+                "The salad is without tomatoes.",
+                "The tomatoes are whole and uncut.",
+                "The salad is without tomato juice."
+            ],
+            "after": [
+                "The salad contains diced tomatoes.",
+                "The tomatoes are diced into small pieces.",
+                "The salad contains tomato juice."
+            ]
+        },
+        "add cheese": {
+            "before": [
+                "The salad is composed of vegetables and other ingredients.",
+                "The cheese is in a separate container.",
+                "The salad is without cheese."
+            ],
+            "after": [
+                "The salad is topped with cheese.",
+                "The cheese is sprinkled over the salad.",
+                "The salad is now covered with cheese."
+            ]
+        },
+        "stir": {
+            "before": [
+                "The ingredients are separate and unmixed.",
+                "The ingredients are in individual containers.",
+                "The ingredients are in their original form."
+            ],
+            "after": [
+                "The ingredients are combined and mixed together.",
+                "The ingredients are combined in one bowl.",
+                "The ingredients are blended together."
+            ]
+        },
+        "add tortilla": {
+            "before": [
+                "The salad is in a bowl without tortilla.",
+                "The tortilla chips are in a bag.",
+                "The salad is a mix of vegetables."
+            ],
+            "after": [
+                "The salad is topped with tortilla chips.",
+                "The tortilla chips are scattered on top of the salad.",
+                "The salad is topped with crunchy tortilla chips."
+            ]
+        }
+    },
+    "Grill Steak": {
+        "season steak": {
+            "before": [
+                "The steak is plain and unseasoned.",
+                "The steak is a solid, uniform color.",
+                "The steak has no flavor."
+            ],
+            "after": [
+                "The steak is covered in spices and seasonings.",
+                "The steak has a variety of colors from the seasonings.",
+                "The steak has a savory aroma and flavor."
+            ]
+        },
+        "put steak on grill": {
+            "before": [
+                "The steak is on a plate.",
+                "The grill is empty without steak.",
+                "The steak is raw and uncooked."
+            ],
+            "after": [
+                "The steak is placed on the grill.",
+                "The grill has steak on it.",
+                "The steak is being cooked on the grill."
+            ]
+        },
+        "close lid": {
+            "before": [
+                "The lid is open and the steak is exposed to the heat.",
+                "The steak is visible on the grill.",
+                "The heat is coming from the top of the grill."
+            ],
+            "after": [
+                "The lid is closed and the steak is cooking in its own heat.",
+                "The steak is hidden from view.",
+                "The heat is trapped inside the grill."
+            ]
+        },
+        "open lid": {
+            "before": [
+                "The lid is closed and the grill is not visible.",
+                "The grill is not exposed to the air.",
+                "The steak is not visible."
+            ],
+            "after": [
+                "The lid is open and the grill is visible.",
+                "The grill is exposed to the air.",
+                "The steak is visible on the grill."
+            ]
+        },
+        "move steak on grill": {
+            "before": [
+                "The steak is in one place on the grill.",
+                "The steak is in one position on the grill.",
+                "The steak is raw and uncooked."
+            ],
+            "after": [
+                "The steak is moved to a different spot on the grill.",
+                "The steak is flipped over to cook the other side.",
+                "The steak is beginning to brown and cook."
+            ]
+        },
+        "flip steak": {
+            "before": [
+                "The steak is on one side of the grill.",
+                "The steak is uncooked on one side.",
+                "The steak is raw and uncooked."
+            ],
+            "after": [
+                "The steak is flipped to the other side.",
+                "The steak is cooked on both sides.",
+                "The steak is cooked and browned on both sides."
+            ]
+        },
+        "check temperature": {
+            "before": [
+                "The steak is cooking on the grill.",
+                "The steak is cooking without any indication of temperature.",
+                "The steak is cooking without any indication of doneness."
+            ],
+            "after": [
+                "The steak is checked for temperature.",
+                "The steak is checked with a thermometer.",
+                "The steak is checked for doneness."
+            ]
+        },
+        "take steak from grill": {
+            "before": [
+                "The steak is on the grill.",
+                "The steak is cooked and browned.",
+                "The steak is hot and sizzling."
+            ],
+            "after": [
+                "The steak is removed from the grill.",
+                "The steak is now off the grill and ready to serve.",
+                "The steak is now cool enough to handle."
+            ]
+        },
+        "top steak": {
+            "before": [
+                "The steak is on the grill without any toppings.",
+                "The steak is raw and uncooked.",
+                "The steak is plain and unseasoned."
+            ],
+            "after": [
+                "The steak is topped with butter, herbs, or other ingredients.",
+                "The steak is cooked and the toppings are melted.",
+                "The steak is seasoned with salt and pepper."
+            ]
+        },
+        "cut steak": {
+            "before": [
+                "The steak is a solid piece of meat.",
+                "The steak is raw and uncooked.",
+                "The steak is a single piece."
+            ],
+            "after": [
+                "The steak is cut into smaller pieces.",
+                "The steak is cut into thin slices.",
+                "The steak is cut into multiple pieces."
+            ]
+        },
+        "taste steak": {
+            "before": [
+                "The steak is raw and uncooked.",
+                "The steak has no flavor.",
+                "The steak is a solid piece."
+            ],
+            "after": [
+                "The steak is cooked and has a different texture.",
+                "The steak has a distinct flavor.",
+                "The steak has been cut into smaller pieces."
+            ]
+        }
+    },
+    "Make Kimchi Fried Rice": {
+        "add onion": {
+            "before": [
+                "The onion is still in its original form.",
+                "The onion is a solid, round shape.",
+                "The onion has a white exterior and a firm texture."
+            ],
+            "after": [
+                "The onion is chopped into small pieces.",
+                "The onion is cut into thin slices.",
+                "The onion reveals its yellowish-white flesh inside."
+            ]
+        },
+        "add rice": {
+            "before": [
+                "The pan is empty.",
+                "The ingredients are separate.",
+                "The pan is cold."
+            ],
+            "after": [
+                "The pan contains cooked rice.",
+                "The ingredients are mixed together.",
+                "The pan is hot and the ingredients are cooking."
+            ]
+        },
+        "add ham": {
+            "before": [
+                "The rice is plain and uncooked.",
+                "The ham is in a separate container.",
+                "The rice is white and unseasoned."
+            ],
+            "after": [
+                "The rice is cooked and has ham added.",
+                "The ham is mixed in with the rice.",
+                "The rice is now seasoned with kimchi and other spices."
+            ]
+        },
+        "add kimchi": {
+            "before": [
+                "The rice is plain and uncooked.",
+                "The kimchi is in a separate container.",
+                "The rice is white and unseasoned."
+            ],
+            "after": [
+                "The rice is mixed with kimchi.",
+                "The kimchi is added to the rice.",
+                "The rice is red and flavorful."
+            ]
+        },
+        "pour sesame oil": {
+            "before": [
+                "The rice is dry and uncooked.",
+                "The sesame oil is in a container.",
+                "The rice is plain and unseasoned."
+            ],
+            "after": [
+                "The rice is coated in sesame oil.",
+                "The sesame oil is poured over the rice.",
+                "The rice is fragrant and flavorful."
+            ]
+        },
+        "stir mixture": {
+            "before": [
+                "The ingredients are separate and unmixed.",
+                "The rice is uncooked and dry.",
+                "The vegetables are in their raw form."
+            ],
+            "after": [
+                "The ingredients are combined and mixed together.",
+                "The rice is cooked and has absorbed the flavors of the other ingredients.",
+                "The vegetables are cooked and softened."
+            ]
+        }
+    },
+    "Make Meringue": {
+        "pour egg": {
+            "before": [
+                "The bowl is empty.",
+                "The egg whites are still liquid.",
+                "The bowl is still."
+            ],
+            "after": [
+                "The bowl contains egg whites.",
+                "The egg whites are beginning to form peaks.",
+                "The bowl is being whisked."
+            ]
+        },
+        "add sugar": {
+            "before": [
+                "The egg whites are in a bowl.",
+                "The egg whites are in a liquid form.",
+                "The egg whites are not sweet."
+            ],
+            "after": [
+                "The egg whites are mixed with sugar.",
+                "The egg whites are thick and glossy.",
+                "The egg whites are now sweetened with sugar."
+            ]
+        },
+        "whisk mixture": {
+            "before": [
+                "The mixture is a liquid.",
+                "The mixture is a single color.",
+                "The mixture is still in the bowl."
+            ],
+            "after": [
+                "The mixture is thick and foamy.",
+                "The mixture is light and airy with a glossy sheen.",
+                "The mixture is now in a stiff peak."
+            ]
+        },
+        "put mixture into bag": {
+            "before": [
+                "The mixture is in a bowl.",
+                "The mixture is a liquid.",
+                "The mixture is not in a bag."
+            ],
+            "after": [
+                "The mixture is in a bag.",
+                "The mixture is a thick paste.",
+                "The mixture is in a bag and ready to be piped."
+            ]
+        },
+        "spread mixture": {
+            "before": [
+                "The mixture is in a bowl.",
+                "The mixture is a thick liquid.",
+                "The mixture is a single color."
+            ],
+            "after": [
+                "The mixture is spread onto a baking sheet.",
+                "The mixture is a thin, spreadable layer.",
+                "The mixture is now a mottled pattern of whites and yellows."
+            ]
+        },
+        "put meringue into oven": {
+            "before": [
+                "The meringue is in a bowl.",
+                "The meringue is a soft, fluffy mixture.",
+                "The meringue is uncooked."
+            ],
+            "after": [
+                "The meringue is in the oven.",
+                "The meringue is cooked and has a golden-brown color.",
+                "The meringue is cooked and has a crisp texture."
+            ]
+        }
+    },
+    "Make a Latte": {
+        "add coffee": {
+            "before": [
+                "The cup is clean and has no contents.",
+                "The object is an empty cup.",
+                "The cup has no coffee."
+            ],
+            "after": [
+                "Cup contains coffee.",
+                "The cup is partially filled.",
+                "Coffee is added to the cup."
+            ]
+        },
+        "press coffee": {
+            "before": [
+                "The coffee grounds are loose and dry.",
+                "The coffee grounds are not yet extracted.",
+                "The coffee grounds are not yet mixed with water."
+            ],
+            "after": [
+                "The coffee grounds are compressed and tightly packed.",
+                "The coffee grounds are extracted and the liquid is visible.",
+                "The coffee grounds are mixed with water and the liquid is a dark brown color."
+            ]
+        },
+        "pour water": {
+            "before": [
+                "The cup is empty.",
+                "The water is in a container.",
+                "No water is present in the cup."
+            ],
+            "after": [
+                "The cup is partially filled with water.",
+                "Water is added to the cup.",
+                "The cup contains a mixture of coffee and water."
+            ]
+        },
+        "pour espresso": {
+            "before": [
+                "The cup is empty.",
+                "The espresso is in a container.",
+                "The cup has no espresso."
+            ],
+            "after": [
+                "The cup contains espresso.",
+                "The espresso is poured into the cup.",
+                "The cup has a layer of crema on top."
+            ]
+        },
+        "steam milk": {
+            "before": [
+                "The milk is cold and in liquid form.",
+                "The milk is in a container.",
+                "The cup is empty."
+            ],
+            "after": [
+                "The milk is hot and foamy.",
+                "The milk is steamed and poured into the cup.",
+                "The cup contains steamed milk."
+            ]
+        },
+        "pour milk": {
+            "before": [
+                "The cup is empty.",
+                "The milk is in a container.",
+                "The cup has no milk."
+            ],
+            "after": [
+                "The cup contains milk.",
+                "The milk is poured into the cup.",
+                "The cup has a layer of foam on top."
+            ]
+        }
+    },
+    "Make Bread and Butter Pickles": {
+        "cut cucumber": {
+            "before": [
+                "The cucumbers are whole and uncut.",
+                "The cucumber is a solid, round shape.",
+                "The cucumber has a green exterior and a firm texture."
+            ],
+            "after": [
+                "The cucumbers are cut into slices.",
+                "The cucumber has been transformed into smaller pieces.",
+                "The cucumber reveals the pale green flesh inside."
+            ]
+        },
+        "cut onion": {
+            "before": [
+                "The onion is a solid, round shape.",
+                "The onion has a white exterior and a firm texture.",
+                "The onion is whole and uncut."
+            ],
+            "after": [
+                "The onion has been cut into slices.",
+                "The onion reveals the pale yellow flesh inside.",
+                "The onion has been transformed into smaller pieces."
+            ]
+        },
+        "add salt": {
+            "before": [
+                "The cucumbers are in a bowl without any seasoning.",
+                "The bowl is empty.",
+                "The cucumbers are plain and unseasoned."
+            ],
+            "after": [
+                "The cucumbers are covered in salt.",
+                "The bowl contains a mixture of cucumbers and salt.",
+                "The cucumbers are now coated in salt."
+            ]
+        },
+        "pour water": {
+            "before": [
+                "The ingredients are still dry.",
+                "The water is in a container.",
+                "No water is present in the bowl."
+            ],
+            "after": [
+                "The ingredients are now slightly wet.",
+                "Water is added to the bowl.",
+                "The bowl contains a mixture of the ingredients."
+            ]
+        },
+        "pour vinegar": {
+            "before": [
+                "The cucumbers are in a bowl.",
+                "The cucumbers are dry.",
+                "The bowl is empty."
+            ],
+            "after": [
+                "The bowl contains a mixture of cucumbers and vinegar.",
+                "The cucumbers are now submerged in vinegar.",
+                "The bowl contains a mixture of cucumbers and vinegar."
+            ]
+        },
+        "add sugar": {
+            "before": [
+                "The cucumbers are in a bowl without sugar.",
+                "The bowl is empty.",
+                "The cucumbers are plain."
+            ],
+            "after": [
+                "The cucumbers are now coated with sugar.",
+                "The bowl contains a mixture of cucumbers and sugar.",
+                "The cucumbers have a sweet, sugary coating."
+            ]
+        },
+        "add spices": {
+            "before": [
+                "The cucumbers are plain and unseasoned.",
+                "The spices are in a separate container.",
+                "The cucumbers are plain and unseasoned."
+            ],
+            "after": [
+                "The cucumbers are now seasoned with spices.",
+                "The spices are mixed in with the cucumbers.",
+                "The cucumbers are now coated with spices."
+            ]
+        },
+        "put vegetables in water": {
+            "before": [
+                "The vegetables are dry and uncooked.",
+                "The water is clear and still.",
+                "The vegetables are separate from each other."
+            ],
+            "after": [
+                "The vegetables are submerged in water.",
+                "The water is cloudy and bubbling.",
+                "The vegetables are mixed together in the water."
+            ]
+        },
+        "pack cucumbers in jar": {
+            "before": [
+                "The cucumbers are cut and ready to be packed.",
+                "The jar is empty.",
+                "The cucumbers are not submerged in liquid."
+            ],
+            "after": [
+                "The cucumbers are packed in a jar.",
+                "The jar is filled with cucumbers.",
+                "The cucumbers are submerged in a brine solution."
+            ]
+        },
+        "seal jar": {
+            "before": [
+                "The jar is open and empty.",
+                "The lid is separate from the jar.",
+                "The jar is not airtight."
+            ],
+            "after": [
+                "The jar is sealed with a lid.",
+                "The lid is securely attached to the jar.",
+                "The jar is airtight and sealed."
+            ]
+        },
+        "put jar in water": {
+            "before": [
+                "The jar is empty and dry.",
+                "The jar is on a countertop.",
+                "The jar is sealed."
+            ],
+            "after": [
+                "The jar is filled with water.",
+                "The jar is submerged in a pot of boiling water.",
+                "The jar is open and the contents are exposed to the boiling water."
+            ]
+        }
+    },
+    "Make Lemonade": {
+        "cut lemon": {
+            "before": [
+                "The lemon is whole and uncut.",
+                "The lemon is a solid, round shape.",
+                "The lemon has a yellow exterior and a firm texture."
+            ],
+            "after": [
+                "The lemon is cut into slices.",
+                "The lemon has been transformed into smaller pieces.",
+                "The lemon reveals the juicy yellow flesh inside."
+            ]
+        },
+        "add sugar": {
+            "before": [
+                "The lemon juice is sour and tart.",
+                "The lemon juice is clear.",
+                "The lemon juice is in a container."
+            ],
+            "after": [
+                "The lemon juice is sweetened with sugar.",
+                "The lemon juice is cloudy due to the sugar.",
+                "The container is filled with a sweetened lemon juice mixture."
+            ]
+        },
+        "squeeze lemon": {
+            "before": [
+                "The lemon is whole and uncut.",
+                "The lemon is yellow and firm.",
+                "The lemon is dry and has no juice."
+            ],
+            "after": [
+                "The lemon is cut in half and the juice is squeezed out.",
+                "The lemon is soft and the juice is visible.",
+                "The lemon is wet and the juice is dripping out."
+            ]
+        },
+        "pour lemon juice": {
+            "before": [
+                "The lemon juice is in a container.",
+                "The pitcher is empty.",
+                "The lemon juice is clear."
+            ],
+            "after": [
+                "The lemon juice is poured into the pitcher.",
+                "The pitcher contains the lemon juice.",
+                "The lemon juice is now cloudy and yellow."
+            ]
+        },
+        "pour water": {
+            "before": [
+                "The lemon juice is in a container.",
+                "The pitcher is empty without lemon juice.",
+                "The lemon juice is still concentrated."
+            ],
+            "after": [
+                "The lemon juice is added to the pitcher.",
+                "The pitcher contains a mixture of the ingredients.",
+                "The lemon juice is diluted with water."
+            ]
+        },
+        "stir mixture": {
+            "before": [
+                "The ingredients are separate and unmixed.",
+                "The lemon juice and sugar are in separate containers.",
+                "The mixture is cloudy and opaque."
+            ],
+            "after": [
+                "The ingredients are blended together.",
+                "The lemon juice and sugar are combined in the same container.",
+                "The mixture is clear and transparent."
+            ]
+        },
+        "add ice": {
+            "before": [
+                "The lemonade is in a liquid form.",
+                "The lemonade is in a container.",
+                "The lemonade is warm."
+            ],
+            "after": [
+                "The lemonade is now in a slushy form.",
+                "The lemonade is now in a glass with ice.",
+                "The lemonade is now cold and refreshing."
+            ]
+        },
+        "pour lemonade into glass": {
+            "before": [
+                "The glass is empty.",
+                "The lemonade is in a pitcher.",
+                "The glass is clear."
+            ],
+            "after": [
+                "The glass is filled with lemonade.",
+                "The lemonade is poured into the glass.",
+                "The glass is filled with a yellow liquid."
+            ]
+        }
+    },
+    "Make French Toast": {
+        "pour milk": {
+            "before": [
+                "The milk is in a container.",
+                "The bowl is empty without milk.",
+                "The ingredients are still dry."
+            ],
+            "after": [
+                "Milk is added to the bowl.",
+                "The bowl contains a mixture of the ingredients.",
+                "The ingredients are now slightly wet."
+            ]
+        },
+        "whisk mixture": {
+            "before": [
+                "The mixture is separated and not blended.",
+                "The mixture is lumpy and thick.",
+                "The mixture is composed of eggs, milk, and sugar."
+            ],
+            "after": [
+                "The mixture is blended and homogenous.",
+                "The mixture is smooth and creamy.",
+                "The mixture is light and fluffy."
+            ]
+        },
+        "pour egg": {
+            "before": [
+                "The egg is in a bowl.",
+                "The bread is dry.",
+                "The egg is in its raw form."
+            ],
+            "after": [
+                "The egg is poured onto the bread.",
+                "The bread is wet with egg.",
+                "The egg has been cooked on the bread."
+            ]
+        },
+        "dip bread in mixture": {
+            "before": [
+                "The bread is dry and plain.",
+                "The mixture is in a bowl.",
+                "The bread is not cooked."
+            ],
+            "after": [
+                "The bread is coated in the egg and milk mixture.",
+                "The mixture is now on the bread.",
+                "The bread is now lightly browned."
+            ]
+        },
+        "melt butter": {
+            "before": [
+                "The butter is solid and in a block.",
+                "The butter is a pale yellow color.",
+                "The butter is cold to the touch."
+            ],
+            "after": [
+                "The butter is melted and liquid.",
+                "The butter is a golden brown color.",
+                "The butter is warm and spreadable."
+            ]
+        },
+        "put bread in pan": {
+            "before": [
+                "The bread is on a plate.",
+                "The pan is empty without bread.",
+                "The bread is dry and uncooked."
+            ],
+            "after": [
+                "The bread is placed in the pan.",
+                "The pan has bread in it.",
+                "The bread is being cooked in the pan."
+            ]
+        },
+        "add vanilla extract": {
+            "before": [
+                "The mixture is a combination of eggs and milk.",
+                "The mixture is a pale yellow color.",
+                "The mixture has no scent."
+            ],
+            "after": [
+                "The mixture has a hint of vanilla extract.",
+                "The mixture has a light brown hue.",
+                "The mixture has a sweet, vanilla aroma."
+            ]
+        },
+        "flip bread": {
+            "before": [
+                "The bread is on one side.",
+                "The bread is uncooked.",
+                "The bread is dry."
+            ],
+            "after": [
+                "The bread is flipped over.",
+                "The bread is lightly browned on both sides.",
+                "The bread is soaked in egg mixture."
+            ]
+        },
+        "remove bread from pan": {
+            "before": [
+                "The bread is in the pan.",
+                "The bread is uncooked.",
+                "The pan is empty."
+            ],
+            "after": [
+                "The bread is removed from the pan.",
+                "The bread is cooked and golden brown.",
+                "The pan contains the cooked French toast."
+            ]
+        },
+        "top toast": {
+            "before": [
+                "The toast is plain and unadorned.",
+                "The toast is lightly toasted.",
+                "The toast is dry."
+            ],
+            "after": [
+                "The toast is topped with butter, syrup, or other toppings.",
+                "The toast is golden brown and crispy.",
+                "The toast is moist and glistening with butter or syrup."
+            ]
+        }
+    },
+    "Jack Up a Car": {
+        "brake on": {
+            "before": [
+                "The car is on the ground.",
+                "The car is stationary.",
+                "The car is level with the ground."
+            ],
+            "after": [
+                "The car is lifted off the ground.",
+                "The car is raised up with the jack.",
+                "The car is raised up and the wheels are off the ground."
+            ]
+        },
+        "raise jack": {
+            "before": [
+                "The car is on the ground.",
+                "The jack is not in use.",
+                "The car is level with the ground."
+            ],
+            "after": [
+                "The car is lifted off the ground.",
+                "The jack is supporting the car.",
+                "The car is raised up by the jack."
+            ]
+        },
+        "lower jack": {
+            "before": [
+                "The car is on the ground.",
+                "The jack is not in use.",
+                "The car is level with the ground."
+            ],
+            "after": [
+                "The car is lifted off the ground.",
+                "The jack is supporting the car.",
+                "The car is raised up by the jack."
+            ]
+        }
+    },
+    "Make Kerala Fish Curry": {
+        "add onion": {
+            "before": [
+                "The onion is still in its original form.",
+                "The onion is a solid, round shape.",
+                "The onion has a white exterior and a firm texture."
+            ],
+            "after": [
+                "The onion is chopped into small pieces.",
+                "The onion is now in small, diced pieces.",
+                "The onion has been cooked and softened."
+            ]
+        },
+        "add chili powder": {
+            "before": [
+                "The ingredients are still raw and uncooked.",
+                "The chili powder is in a container.",
+                "The pot is empty without chili powder."
+            ],
+            "after": [
+                "The ingredients are now coated with chili powder.",
+                "The chili powder is added to the pot.",
+                "The pot contains a mixture of the ingredients with chili powder."
+            ]
+        },
+        "pour water": {
+            "before": [
+                "The ingredients are still dry.",
+                "The water is in a container.",
+                "No water is present in the pan."
+            ],
+            "after": [
+                "The ingredients are now slightly wet.",
+                "Water is added to the pan.",
+                "The pan contains a mixture of the ingredients."
+            ]
+        },
+        "add mustard seeds": {
+            "before": [
+                "The mustard seeds are in a container.",
+                "The pan is empty without mustard seeds.",
+                "The mustard seeds are dry and uncooked."
+            ],
+            "after": [
+                "The mustard seeds are added to the pan.",
+                "The pan contains mustard seeds.",
+                "The mustard seeds are cooked in the curry."
+            ]
+        },
+        "add curry leaves": {
+            "before": [
+                "The curry leaves are still in their dry form.",
+                "The dish is without curry leaves.",
+                "The curry leaves are a dark green color."
+            ],
+            "after": [
+                "The curry leaves are added to the dish.",
+                "The dish has curry leaves in it.",
+                "The curry leaves have released their flavor and aroma into the dish."
+            ]
+        },
+        "add fish": {
+            "before": [
+                "The curry is in a pot without fish.",
+                "The fish is uncooked.",
+                "The curry is a liquid."
+            ],
+            "after": [
+                "The curry contains fish.",
+                "The fish is cooked in the curry.",
+                "The curry is thicker due to the addition of fish."
+            ]
+        },
+        "stir mixture": {
+            "before": [
+                "The ingredients are separate and unmixed.",
+                "The ingredients are in their raw form.",
+                "The mixture is thick and lumpy."
+            ],
+            "after": [
+                "The ingredients are blended together.",
+                "The ingredients are cooked and blended together.",
+                "The mixture is smooth and creamy."
+            ]
+        }
+    },
+    "Make Banana Ice Cream": {
+        "peel banana": {
+            "before": [
+                "The banana is covered in a yellow peel.",
+                "The banana is solid and firm.",
+                "The banana is a single, unbroken piece."
+            ],
+            "after": [
+                "The banana is peeled and the yellow peel is removed.",
+                "The banana is soft and mushy.",
+                "The banana is cut into smaller pieces."
+            ]
+        },
+        "cut banana": {
+            "before": [
+                "The banana is whole and uncut.",
+                "The banana is a solid, curved shape.",
+                "The banana has a yellow exterior and a firm texture."
+            ],
+            "after": [
+                "The banana is cut into slices.",
+                "The banana has been transformed into smaller pieces.",
+                "The banana reveals the soft, creamy flesh inside."
+            ]
+        },
+        "put bananas into blender": {
+            "before": [
+                "The bananas are whole and unpeeled.",
+                "The blender is empty.",
+                "The bananas are solid."
+            ],
+            "after": [
+                "The bananas are peeled and cut into pieces.",
+                "The blender contains the banana pieces.",
+                "The bananas are blended into a smooth puree."
+            ]
+        },
+        "pour milk": {
+            "before": [
+                "The ingredients are still separate.",
+                "The milk is in a container.",
+                "The bowl is empty."
+            ],
+            "after": [
+                "The ingredients are combined in a bowl.",
+                "Milk is added to the bowl.",
+                "The bowl contains a mixture of the ingredients."
+            ]
+        },
+        "mix ingredients": {
+            "before": [
+                "The ingredients are separate and unmixed.",
+                "The ingredients are in their original form.",
+                "The ingredients are in individual containers."
+            ],
+            "after": [
+                "The ingredients are blended together.",
+                "The ingredients are combined to form a creamy mixture.",
+                "The ingredients are combined in one bowl."
+            ]
+        }
+    },
+    "Add Oil to Your Car": {
+        "remove cap": {
+            "before": [
+                "The oil cap is securely in place.",
+                "The oil reservoir is empty.",
+                "The oil cap is closed."
+            ],
+            "after": [
+                "The oil cap has been removed.",
+                "The oil reservoir is filled with oil.",
+                "The oil cap is open and ready to be filled."
+            ]
+        },
+        "put funnel": {
+            "before": [
+                "The oil container is empty.",
+                "The funnel is not in the oil container.",
+                "The oil container is closed."
+            ],
+            "after": [
+                "The funnel is placed in the oil container.",
+                "The funnel is in the oil container.",
+                "The oil container is open with the funnel in place."
+            ]
+        },
+        "pour oil": {
+            "before": [
+                "The oil container is empty.",
+                "The engine is dry.",
+                "The dipstick is dry."
+            ],
+            "after": [
+                "The oil container is partially filled.",
+                "The engine is now coated with oil.",
+                "The dipstick is now coated with oil."
+            ]
+        },
+        "remove funnel": {
+            "before": [
+                "The funnel is in the oil container.",
+                "The oil container is empty.",
+                "The oil is not visible."
+            ],
+            "after": [
+                "The funnel is removed from the oil container.",
+                "The oil container is filled with oil.",
+                "The oil is visible in the container."
+            ]
+        },
+        "close cap": {
+            "before": [
+                "The oil cap is open.",
+                "The oil container is empty.",
+                "The oil cap is loose."
+            ],
+            "after": [
+                "The oil cap is closed.",
+                "The oil container is filled with oil.",
+                "The oil cap is securely fastened."
+            ]
+        },
+        "pull out dipstick": {
+            "before": [
+                "The dipstick is in the engine.",
+                "The dipstick is clean and dry.",
+                "The oil level is unknown."
+            ],
+            "after": [
+                "The dipstick is pulled out of the engine.",
+                "The dipstick is covered in oil.",
+                "The oil level is visible on the dipstick."
+            ]
+        },
+        "wipe off dipstick": {
+            "before": [
+                "The dipstick is covered in oil.",
+                "The dipstick is covered in dirt and grime.",
+                "The dipstick is dry."
+            ],
+            "after": [
+                "The dipstick is wiped off and clean.",
+                "The dipstick is free of dirt and grime.",
+                "The dipstick is wet from being wiped off."
+            ]
+        },
+        "insert dipstick": {
+            "before": [
+                "The dipstick is not in the engine.",
+                "The oil level is unknown.",
+                "The engine is not running."
+            ],
+            "after": [
+                "The dipstick is inserted into the engine.",
+                "The oil level can be read from the dipstick.",
+                "The engine is running and the oil level can be checked."
+            ]
+        }
+    },
+    "Change a Tire": {
+        "brake on": {
+            "before": [
+                "The tire is still attached to the wheel.",
+                "The wheel is still attached to the car.",
+                "The lug nuts are still in place."
+            ],
+            "after": [
+                "The tire is removed from the wheel.",
+                "The wheel is removed from the car.",
+                "The lug nuts have been removed."
+            ]
+        },
+        "get things out": {
+            "before": [
+                "The tire is still attached to the car.",
+                "The car is on the ground.",
+                "The tire is still inflated."
+            ],
+            "after": [
+                "The tire has been removed from the car.",
+                "The car is raised off the ground.",
+                "The tire is deflated and ready to be changed."
+            ]
+        },
+        "start loose": {
+            "before": [
+                "The tire is securely attached to the wheel.",
+                "The tire is firmly in place.",
+                "The wheel is still attached to the car."
+            ],
+            "after": [
+                "The lug nuts are loosened.",
+                "The tire is beginning to be removed from the wheel.",
+                "The wheel is now detached from the car."
+            ]
+        },
+        "jack up": {
+            "before": [
+                "The tire is on the ground.",
+                "The tire is still attached to the car.",
+                "The car is resting on all four tires."
+            ],
+            "after": [
+                "The tire is lifted off the ground.",
+                "The tire is detached from the car.",
+                "The car is resting on three tires with one tire lifted off the ground."
+            ]
+        },
+        "unscrew wheel": {
+            "before": [
+                "The wheel is securely attached to the car.",
+                "The wheel is held in place by lug nuts.",
+                "The wheel is still on the car."
+            ],
+            "after": [
+                "The wheel is removed from the car.",
+                "The lug nuts are removed from the wheel.",
+                "The wheel is off the car and ready to be replaced."
+            ]
+        },
+        "withdraw wheel": {
+            "before": [
+                "The wheel is attached to the car.",
+                "The wheel is held in place by lug nuts.",
+                "The wheel is in its original position."
+            ],
+            "after": [
+                "The wheel is removed from the car.",
+                "The lug nuts are removed and the wheel is free.",
+                "The wheel is lifted off the car and set aside."
+            ]
+        },
+        "put wheel": {
+            "before": [
+                "The wheel is off the car.",
+                "The car is missing a wheel.",
+                "The wheel is not secured to the car."
+            ],
+            "after": [
+                "The wheel is on the car.",
+                "The car has all four wheels.",
+                "The wheel is securely fastened to the car."
+            ]
+        },
+        "screw wheel": {
+            "before": [
+                "The wheel is not attached to the car.",
+                "The wheel is not connected to the lug nuts.",
+                "The wheel is not balanced."
+            ],
+            "after": [
+                "The wheel is securely attached to the car.",
+                "The wheel is connected to the lug nuts.",
+                "The wheel is balanced and secured to the car."
+            ]
+        },
+        "jack down": {
+            "before": [
+                "The tire is still attached to the car.",
+                "The car is resting on all four tires.",
+                "The tire is still inflated."
+            ],
+            "after": [
+                "The tire is lifted off the ground.",
+                "The car is resting on three tires with the fourth tire lifted off the ground.",
+                "The tire is deflated and ready to be removed."
+            ]
+        },
+        "tight wheel": {
+            "before": [
+                "The wheel is loose and not secured to the car.",
+                "The tire is flat and not inflated.",
+                "The wheel is not attached to the car."
+            ],
+            "after": [
+                "The wheel is securely fastened to the car.",
+                "The tire is inflated and ready for use.",
+                "The wheel is attached to the car with lug nuts."
+            ]
+        },
+        "put things back": {
+            "before": [
+                "The tire is off the car.",
+                "The lug nuts are off the wheel.",
+                "The jack is supporting the car."
+            ],
+            "after": [
+                "The tire is back on the car.",
+                "The lug nuts are back on the wheel.",
+                "The jack is no longer supporting the car."
+            ]
+        }
+    },
+    "Make Irish Coffee": {
+        "pour alcohol": {
+            "before": [
+                "The cup is empty.",
+                "The cup has no alcohol.",
+                "The cup is cold."
+            ],
+            "after": [
+                "The cup contains alcohol.",
+                "The cup has a layer of alcohol on top.",
+                "The cup is warm from the heat of the alcohol."
+            ]
+        },
+        "pour espresso": {
+            "before": [
+                "The cup is empty.",
+                "The cup has no coffee.",
+                "The cup is cold."
+            ],
+            "after": [
+                "The cup contains espresso.",
+                "The cup has espresso in it.",
+                "The cup is hot from the espresso."
+            ]
+        },
+        "add sugar": {
+            "before": [
+                "The coffee is black and unsweetened.",
+                "The cup contains only coffee.",
+                "The sugar is in a separate container."
+            ],
+            "after": [
+                "The coffee is sweetened with sugar.",
+                "The cup contains coffee and sugar.",
+                "The sugar is mixed into the coffee."
+            ]
+        },
+        "stir mixture": {
+            "before": [
+                "The mixture is separate and unmixed.",
+                "The coffee is in a cup.",
+                "The ingredients are not combined."
+            ],
+            "after": [
+                "The mixture is blended and homogenous.",
+                "The coffee is mixed with the other ingredients.",
+                "The ingredients are stirred together."
+            ]
+        },
+        "add whipped cream": {
+            "before": [
+                "The coffee is in a cup.",
+                "The cup is filled with coffee.",
+                "The cup is empty of any topping."
+            ],
+            "after": [
+                "The coffee is topped with whipped cream.",
+                "The cup is filled with coffee and topped with whipped cream.",
+                "The cup is topped with a layer of whipped cream."
+            ]
+        }
+    },
+    "Make French Strawberry Cake": {
+        "pour egg": {
+            "before": [
+                "The bowl is empty.",
+                "The egg is in its shell.",
+                "The bowl is dry."
+            ],
+            "after": [
+                "The bowl contains egg.",
+                "The egg is cracked and the contents are in the bowl.",
+                "The bowl contains a mixture of egg and other ingredients."
+            ]
+        },
+        "add sugar": {
+            "before": [
+                "The ingredients are still dry.",
+                "The sugar is in a container.",
+                "No sugar is present in the bowl."
+            ],
+            "after": [
+                "The ingredients are now slightly wet.",
+                "Sugar is added to the bowl.",
+                "The bowl contains a mixture of the ingredients."
+            ]
+        },
+        "add flour": {
+            "before": [
+                "The bowl is empty.",
+                "The ingredients are not mixed together.",
+                "The bowl is dry."
+            ],
+            "after": [
+                "The bowl contains flour.",
+                "The ingredients are mixed together with the flour.",
+                "The bowl is now slightly damp from the addition of the flour."
+            ]
+        },
+        "add butter": {
+            "before": [
+                "The bowl is empty.",
+                "The butter is in a solid form.",
+                "The ingredients are not combined."
+            ],
+            "after": [
+                "The bowl contains butter.",
+                "The butter is melted and mixed with other ingredients.",
+                "The ingredients are blended together."
+            ]
+        },
+        "whisk mixture": {
+            "before": [
+                "The ingredients are separate and unmixed.",
+                "The mixture is lumpy and thick.",
+                "The ingredients are visible and distinct."
+            ],
+            "after": [
+                "The ingredients are blended together.",
+                "The mixture is light and fluffy.",
+                "The ingredients are combined and homogenous."
+            ]
+        },
+        "put dough into form": {
+            "before": [
+                "The dough is in a bowl.",
+                "The cake form is empty.",
+                "The dough is a soft, malleable texture."
+            ],
+            "after": [
+                "The dough is in a cake form.",
+                "The cake form is filled with dough.",
+                "The dough is now a firm shape in the cake form."
+            ]
+        },
+        "spread creme upon cake": {
+            "before": [
+                "The cake is plain and unadorned.",
+                "The cake is a single layer.",
+                "The cake is a light golden color."
+            ],
+            "after": [
+                "The cake is covered with a layer of creme.",
+                "The cake is now two layers with creme in between.",
+                "The cake is now a light pink color due to the creme."
+            ]
+        },
+        "cut strawberries": {
+            "before": [
+                "The strawberries are whole and uncut.",
+                "The strawberries are a bright red color.",
+                "The strawberries are firm and juicy."
+            ],
+            "after": [
+                "The strawberries are cut into slices.",
+                "The strawberries have been cut into smaller pieces, revealing the white interior.",
+                "The strawberries have released some of their juices."
+            ]
+        },
+        "add strawberries to cake": {
+            "before": [
+                "The cake is plain and without any fruit.",
+                "The strawberries are whole and uncut.",
+                "The cake is a solid shape."
+            ],
+            "after": [
+                "The cake is topped with strawberries.",
+                "The strawberries are cut into slices.",
+                "The cake has strawberries embedded in it."
+            ]
+        }
+    },
+    "Make Pancakes": {
+        "add flour": {
+            "before": [
+                "The bowl is empty.",
+                "The ingredients are still dry.",
+                "The bowl has no flour."
+            ],
+            "after": [
+                "The bowl contains flour.",
+                "The ingredients are now slightly damp.",
+                "The bowl has a light dusting of flour."
+            ]
+        },
+        "add sugar": {
+            "before": [
+                "The ingredients are still dry.",
+                "The sugar is in a container.",
+                "No sugar is present in the bowl."
+            ],
+            "after": [
+                "The ingredients are now slightly wet with sugar added.",
+                "Sugar is added to the bowl.",
+                "The bowl contains a mixture of the ingredients with sugar."
+            ]
+        },
+        "pour milk": {
+            "before": [
+                "The bowl is empty.",
+                "The milk is in a container.",
+                "No milk is present in the bowl."
+            ],
+            "after": [
+                "The bowl contains milk.",
+                "Milk is added to the bowl.",
+                "The bowl contains a mixture of the ingredients."
+            ]
+        },
+        "pour egg": {
+            "before": [
+                "The bowl is empty.",
+                "The egg is in a container.",
+                "The bowl has no egg."
+            ],
+            "after": [
+                "The bowl contains a mixture of egg and other ingredients.",
+                "The egg is added to the bowl.",
+                "The bowl has a yellow liquid with small pieces of egg."
+            ]
+        },
+        "whisk mixture": {
+            "before": [
+                "The ingredients are still separate.",
+                "The mixture is lumpy.",
+                "The ingredients are not evenly distributed."
+            ],
+            "after": [
+                "The ingredients are combined and blended together.",
+                "The mixture is smooth and creamy.",
+                "The ingredients are evenly distributed throughout the mixture."
+            ]
+        },
+        "pour mixture into pan": {
+            "before": [
+                "The pan is empty.",
+                "The mixture is in a bowl.",
+                "The pan is cold."
+            ],
+            "after": [
+                "The pan is filled with the pancake mixture.",
+                "The mixture is poured into the pan.",
+                "The pan is heated and the mixture is cooking."
+            ]
+        },
+        "flip pancake": {
+            "before": [
+                "The pancake is cooking on one side.",
+                "The pancake is uncooked on one side.",
+                "The pancake is flat and round."
+            ],
+            "after": [
+                "The pancake is flipped and cooking on the other side.",
+                "The pancake is cooked on both sides.",
+                "The pancake is slightly thicker and fluffier."
+            ]
+        },
+        "take pancake from pan": {
+            "before": [
+                "The pancake is in the pan.",
+                "The pancake is uncooked and raw.",
+                "The pancake is flat and round."
+            ],
+            "after": [
+                "The pancake is removed from the pan.",
+                "The pancake is cooked and golden brown.",
+                "The pancake is slightly curved and fluffy."
+            ]
+        }
+    }
+}

@@ -1,0 +1,2810 @@
+{
+    "changing_tire_0003": {
+        "task": "Changing a car tire",
+        "task_id": 0,
+        "steps": [
+            {
+                "action": "brake on",
+                "action_id": 0,
+                "start": 6.37,
+                "end": 8.0
+            },
+            {
+                "action": "start loose",
+                "action_id": 2,
+                "start": 32.7,
+                "end": 43.0
+            },
+            {
+                "action": "jack up",
+                "action_id": 3,
+                "start": 44.37,
+                "end": 54.67
+            },
+            {
+                "action": "unscrew wheel",
+                "action_id": 4,
+                "start": 63.37,
+                "end": 65.67
+            },
+            {
+                "action": "withdraw wheel",
+                "action_id": 5,
+                "start": 65.7,
+                "end": 66.67
+            },
+            {
+                "action": "put wheel",
+                "action_id": 6,
+                "start": 70.7,
+                "end": 72.33
+            },
+            {
+                "action": "screw wheel",
+                "action_id": 7,
+                "start": 76.37,
+                "end": 84.67
+            },
+            {
+                "action": "jack down",
+                "action_id": 8,
+                "start": 85.37,
+                "end": 92.0
+            }
+        ]
+    },
+    "repot_0012": {
+        "task": "repotting plant",
+        "task_id": 4,
+        "steps": [
+            {
+                "action": "take plant",
+                "action_id": 43,
+                "start": 2.0,
+                "end": 3.83
+            },
+            {
+                "action": "loosen root",
+                "action_id": 44,
+                "start": 31.33,
+                "end": 33.73
+            },
+            {
+                "action": "put soil",
+                "action_id": 41,
+                "start": 54.53,
+                "end": 57.07
+            },
+            {
+                "action": "loosen root",
+                "action_id": 44,
+                "start": 67.03,
+                "end": 75.73
+            },
+            {
+                "action": "place plant",
+                "action_id": 45,
+                "start": 75.73,
+                "end": 79.27
+            },
+            {
+                "action": "add top",
+                "action_id": 46,
+                "start": 83.87,
+                "end": 86.87
+            },
+            {
+                "action": "add top",
+                "action_id": 46,
+                "start": 99.87,
+                "end": 104.23
+            },
+            {
+                "action": "add top",
+                "action_id": 46,
+                "start": 112.73,
+                "end": 114.37
+            }
+        ]
+    },
+    "changing_tire_0008": {
+        "task": "Changing a car tire",
+        "task_id": 0,
+        "steps": [
+            {
+                "action": "start loose",
+                "action_id": 2,
+                "start": 5.24,
+                "end": 15.6
+            },
+            {
+                "action": "jack up",
+                "action_id": 3,
+                "start": 27.64,
+                "end": 52.4
+            },
+            {
+                "action": "unscrew wheel",
+                "action_id": 4,
+                "start": 64.04,
+                "end": 81.48
+            },
+            {
+                "action": "withdraw wheel",
+                "action_id": 5,
+                "start": 84.84,
+                "end": 90.4
+            },
+            {
+                "action": "put wheel",
+                "action_id": 6,
+                "start": 99.64,
+                "end": 121.8
+            },
+            {
+                "action": "screw wheel",
+                "action_id": 7,
+                "start": 122.48,
+                "end": 137.6
+            },
+            {
+                "action": "jack down",
+                "action_id": 8,
+                "start": 138.04,
+                "end": 140.8
+            },
+            {
+                "action": "tight wheel",
+                "action_id": 9,
+                "start": 147.24,
+                "end": 156.0
+            }
+        ]
+    },
+    "repot_0018": {
+        "task": "repotting plant",
+        "task_id": 4,
+        "steps": [
+            {
+                "action": "tap pot",
+                "action_id": 42,
+                "start": 5.87,
+                "end": 11.5
+            },
+            {
+                "action": "take plant",
+                "action_id": 43,
+                "start": 11.5,
+                "end": 15.13
+            },
+            {
+                "action": "loosen root",
+                "action_id": 44,
+                "start": 22.53,
+                "end": 27.67
+            },
+            {
+                "action": "place plant",
+                "action_id": 45,
+                "start": 27.67,
+                "end": 29.53
+            },
+            {
+                "action": "add top",
+                "action_id": 46,
+                "start": 36.43,
+                "end": 49.7
+            },
+            {
+                "action": "add top",
+                "action_id": 46,
+                "start": 51.67,
+                "end": 53.03
+            },
+            {
+                "action": "add top",
+                "action_id": 46,
+                "start": 59.67,
+                "end": 61.37
+            },
+            {
+                "action": "add top",
+                "action_id": 46,
+                "start": 65.1,
+                "end": 66.63
+            }
+        ]
+    },
+    "repot_0021": {
+        "task": "repotting plant",
+        "task_id": 4,
+        "steps": [
+            {
+                "action": "cover hole",
+                "action_id": 40,
+                "start": 6.96,
+                "end": 7.79
+            },
+            {
+                "action": "put soil",
+                "action_id": 41,
+                "start": 16.12,
+                "end": 22.92
+            },
+            {
+                "action": "tap pot",
+                "action_id": 42,
+                "start": 33.33,
+                "end": 35.42
+            },
+            {
+                "action": "take plant",
+                "action_id": 43,
+                "start": 35.42,
+                "end": 37.25
+            },
+            {
+                "action": "loosen root",
+                "action_id": 44,
+                "start": 44.67,
+                "end": 49.38
+            },
+            {
+                "action": "add top",
+                "action_id": 46,
+                "start": 57.33,
+                "end": 57.96
+            }
+        ]
+    },
+    "changing_tire_0017": {
+        "task": "Changing a car tire",
+        "task_id": 0,
+        "steps": [
+            {
+                "action": "brake on",
+                "action_id": 0,
+                "start": 2.04,
+                "end": 3.2
+            },
+            {
+                "action": "get things out",
+                "action_id": 1,
+                "start": 13.64,
+                "end": 22.8
+            },
+            {
+                "action": "start loose",
+                "action_id": 2,
+                "start": 26.84,
+                "end": 34.8
+            },
+            {
+                "action": "jack up",
+                "action_id": 3,
+                "start": 45.24,
+                "end": 64.4
+            },
+            {
+                "action": "unscrew wheel",
+                "action_id": 4,
+                "start": 64.84,
+                "end": 68.8
+            },
+            {
+                "action": "withdraw wheel",
+                "action_id": 5,
+                "start": 68.84,
+                "end": 70.4
+            },
+            {
+                "action": "put wheel",
+                "action_id": 6,
+                "start": 87.24,
+                "end": 98.4
+            },
+            {
+                "action": "screw wheel",
+                "action_id": 7,
+                "start": 101.64,
+                "end": 121.2
+            },
+            {
+                "action": "jack down",
+                "action_id": 8,
+                "start": 121.64,
+                "end": 125.2
+            },
+            {
+                "action": "tight wheel",
+                "action_id": 9,
+                "start": 126.04,
+                "end": 134.4
+            },
+            {
+                "action": "put things back",
+                "action_id": 10,
+                "start": 134.84,
+                "end": 144.8
+            }
+        ]
+    },
+    "repot_0028": {
+        "task": "repotting plant",
+        "task_id": 4,
+        "steps": [
+            {
+                "action": "tap pot",
+                "action_id": 42,
+                "start": 2.5,
+                "end": 9.93
+            },
+            {
+                "action": "tap pot",
+                "action_id": 42,
+                "start": 12.77,
+                "end": 14.53
+            },
+            {
+                "action": "take plant",
+                "action_id": 43,
+                "start": 14.53,
+                "end": 19.3
+            },
+            {
+                "action": "place plant",
+                "action_id": 45,
+                "start": 144.63,
+                "end": 146.93
+            },
+            {
+                "action": "put soil",
+                "action_id": 41,
+                "start": 42.5,
+                "end": 47.1
+            },
+            {
+                "action": "put soil",
+                "action_id": 41,
+                "start": 50.63,
+                "end": 57.37
+            },
+            {
+                "action": "put soil",
+                "action_id": 41,
+                "start": 64.43,
+                "end": 69.4
+            },
+            {
+                "action": "put soil",
+                "action_id": 41,
+                "start": 110.3,
+                "end": 128.53
+            },
+            {
+                "action": "take plant",
+                "action_id": 43,
+                "start": 141.8,
+                "end": 144.43
+            },
+            {
+                "action": "add top",
+                "action_id": 46,
+                "start": 159.3,
+                "end": 166.57
+            },
+            {
+                "action": "add top",
+                "action_id": 46,
+                "start": 169.93,
+                "end": 174.7
+            },
+            {
+                "action": "add top",
+                "action_id": 46,
+                "start": 183.2,
+                "end": 184.63
+            },
+            {
+                "action": "add top",
+                "action_id": 46,
+                "start": 192.77,
+                "end": 194.17
+            },
+            {
+                "action": "add top",
+                "action_id": 46,
+                "start": 200.03,
+                "end": 202.13
+            },
+            {
+                "action": "add top",
+                "action_id": 46,
+                "start": 212.07,
+                "end": 213.3
+            },
+            {
+                "action": "add top",
+                "action_id": 46,
+                "start": 219.13,
+                "end": 220.73
+            },
+            {
+                "action": "add top",
+                "action_id": 46,
+                "start": 229.07,
+                "end": 233.83
+            },
+            {
+                "action": "add top",
+                "action_id": 46,
+                "start": 239.13,
+                "end": 240.9
+            },
+            {
+                "action": "add top",
+                "action_id": 46,
+                "start": 243.4,
+                "end": 248.17
+            },
+            {
+                "action": "add top",
+                "action_id": 46,
+                "start": 268.53,
+                "end": 271.0
+            },
+            {
+                "action": "add top",
+                "action_id": 46,
+                "start": 274.53,
+                "end": 276.3
+            },
+            {
+                "action": "add top",
+                "action_id": 46,
+                "start": 284.97,
+                "end": 286.93
+            },
+            {
+                "action": "add top",
+                "action_id": 46,
+                "start": 298.97,
+                "end": 300.73
+            }
+        ]
+    },
+    "changing_tire_0020": {
+        "task": "Changing a car tire",
+        "task_id": 0,
+        "steps": [
+            {
+                "action": "start loose",
+                "action_id": 2,
+                "start": 266.27,
+                "end": 273.4
+            },
+            {
+                "action": "jack up",
+                "action_id": 3,
+                "start": 312.9,
+                "end": 320.27
+            },
+            {
+                "action": "unscrew wheel",
+                "action_id": 4,
+                "start": 321.03,
+                "end": 328.43
+            },
+            {
+                "action": "withdraw wheel",
+                "action_id": 5,
+                "start": 328.43,
+                "end": 333.03
+            },
+            {
+                "action": "put wheel",
+                "action_id": 6,
+                "start": 372.5,
+                "end": 379.4
+            },
+            {
+                "action": "screw wheel",
+                "action_id": 7,
+                "start": 381.67,
+                "end": 388.07
+            },
+            {
+                "action": "jack down",
+                "action_id": 8,
+                "start": 396.7,
+                "end": 403.6
+            },
+            {
+                "action": "tight wheel",
+                "action_id": 9,
+                "start": 409.47,
+                "end": 420.67
+            },
+            {
+                "action": "put things back",
+                "action_id": 10,
+                "start": 437.23,
+                "end": 439.5
+            }
+        ]
+    },
+    "changing_tire_0021": {
+        "task": "Changing a car tire",
+        "task_id": 0,
+        "steps": [
+            {
+                "action": "brake on",
+                "action_id": 0,
+                "start": 2.5,
+                "end": 5.17
+            },
+            {
+                "action": "get things out",
+                "action_id": 1,
+                "start": 7.27,
+                "end": 13.7
+            },
+            {
+                "action": "start loose",
+                "action_id": 2,
+                "start": 21.87,
+                "end": 29.2
+            },
+            {
+                "action": "jack up",
+                "action_id": 3,
+                "start": 46.07,
+                "end": 49.03
+            },
+            {
+                "action": "unscrew wheel",
+                "action_id": 4,
+                "start": 49.33,
+                "end": 57.87
+            },
+            {
+                "action": "withdraw wheel",
+                "action_id": 5,
+                "start": 58.47,
+                "end": 65.23
+            },
+            {
+                "action": "put wheel",
+                "action_id": 6,
+                "start": 66.4,
+                "end": 72.37
+            },
+            {
+                "action": "screw wheel",
+                "action_id": 7,
+                "start": 72.37,
+                "end": 100.07
+            },
+            {
+                "action": "jack down",
+                "action_id": 8,
+                "start": 100.27,
+                "end": 102.23
+            },
+            {
+                "action": "tight wheel",
+                "action_id": 9,
+                "start": 102.33,
+                "end": 116.13
+            }
+        ]
+    },
+    "changing_tire_0022": {
+        "task": "Changing a car tire",
+        "task_id": 0,
+        "steps": [
+            {
+                "action": "brake on",
+                "action_id": 0,
+                "start": 13.8,
+                "end": 15.1
+            },
+            {
+                "action": "start loose",
+                "action_id": 2,
+                "start": 41.23,
+                "end": 48.37
+            },
+            {
+                "action": "jack up",
+                "action_id": 3,
+                "start": 50.67,
+                "end": 55.57
+            },
+            {
+                "action": "unscrew wheel",
+                "action_id": 4,
+                "start": 55.77,
+                "end": 58.4
+            },
+            {
+                "action": "withdraw wheel",
+                "action_id": 5,
+                "start": 58.4,
+                "end": 59.83
+            },
+            {
+                "action": "put wheel",
+                "action_id": 6,
+                "start": 65.97,
+                "end": 71.5
+            },
+            {
+                "action": "screw wheel",
+                "action_id": 7,
+                "start": 71.5,
+                "end": 77.47
+            },
+            {
+                "action": "jack down",
+                "action_id": 8,
+                "start": 77.47,
+                "end": 82.2
+            },
+            {
+                "action": "tight wheel",
+                "action_id": 9,
+                "start": 83.97,
+                "end": 89.5
+            },
+            {
+                "action": "put things back",
+                "action_id": 10,
+                "start": 89.63,
+                "end": 94.83
+            }
+        ]
+    },
+    "changing_tire_0023": {
+        "task": "Changing a car tire",
+        "task_id": 0,
+        "steps": [
+            {
+                "action": "get things out",
+                "action_id": 1,
+                "start": 4.43,
+                "end": 40.1
+            },
+            {
+                "action": "start loose",
+                "action_id": 2,
+                "start": 48.9,
+                "end": 79.43
+            },
+            {
+                "action": "jack up",
+                "action_id": 3,
+                "start": 112.13,
+                "end": 186.4
+            },
+            {
+                "action": "unscrew wheel",
+                "action_id": 4,
+                "start": 187.13,
+                "end": 218.77
+            },
+            {
+                "action": "withdraw wheel",
+                "action_id": 5,
+                "start": 218.77,
+                "end": 226.47
+            },
+            {
+                "action": "put wheel",
+                "action_id": 6,
+                "start": 277.57,
+                "end": 287.13
+            },
+            {
+                "action": "screw wheel",
+                "action_id": 7,
+                "start": 287.13,
+                "end": 334.93
+            },
+            {
+                "action": "jack down",
+                "action_id": 8,
+                "start": 338.6,
+                "end": 375.73
+            },
+            {
+                "action": "tight wheel",
+                "action_id": 9,
+                "start": 377.2,
+                "end": 402.2
+            }
+        ]
+    },
+    "changing_tire_0027": {
+        "task": "Changing a car tire",
+        "task_id": 0,
+        "steps": [
+            {
+                "action": "get things out",
+                "action_id": 1,
+                "start": 0.6,
+                "end": 7.17
+            },
+            {
+                "action": "jack up",
+                "action_id": 3,
+                "start": 31.17,
+                "end": 36.7
+            },
+            {
+                "action": "unscrew wheel",
+                "action_id": 4,
+                "start": 37.63,
+                "end": 47.6
+            },
+            {
+                "action": "withdraw wheel",
+                "action_id": 5,
+                "start": 47.6,
+                "end": 49.8
+            },
+            {
+                "action": "put wheel",
+                "action_id": 6,
+                "start": 59.77,
+                "end": 71.43
+            },
+            {
+                "action": "screw wheel",
+                "action_id": 7,
+                "start": 71.43,
+                "end": 83.23
+            },
+            {
+                "action": "jack down",
+                "action_id": 8,
+                "start": 83.23,
+                "end": 91.83
+            }
+        ]
+    },
+    "changing_tire_0029": {
+        "task": "Changing a car tire",
+        "task_id": 0,
+        "steps": [
+            {
+                "action": "get things out",
+                "action_id": 1,
+                "start": 5.17,
+                "end": 76.33
+            },
+            {
+                "action": "jack up",
+                "action_id": 3,
+                "start": 106.33,
+                "end": 127.77
+            },
+            {
+                "action": "unscrew wheel",
+                "action_id": 4,
+                "start": 164.63,
+                "end": 180.33
+            },
+            {
+                "action": "start loose",
+                "action_id": 2,
+                "start": 135.77,
+                "end": 152.33
+            },
+            {
+                "action": "withdraw wheel",
+                "action_id": 5,
+                "start": 183.2,
+                "end": 191.2
+            },
+            {
+                "action": "put wheel",
+                "action_id": 6,
+                "start": 208.07,
+                "end": 220.9
+            },
+            {
+                "action": "screw wheel",
+                "action_id": 7,
+                "start": 220.9,
+                "end": 270.93
+            },
+            {
+                "action": "jack down",
+                "action_id": 8,
+                "start": 273.2,
+                "end": 296.07
+            },
+            {
+                "action": "tight wheel",
+                "action_id": 9,
+                "start": 296.07,
+                "end": 328.63
+            }
+        ]
+    },
+    "changing_tire_0030": {
+        "task": "Changing a car tire",
+        "task_id": 0,
+        "steps": [
+            {
+                "action": "brake on",
+                "action_id": 0,
+                "start": 0.32,
+                "end": 5.28
+            },
+            {
+                "action": "start loose",
+                "action_id": 2,
+                "start": 41.96,
+                "end": 58.0
+            },
+            {
+                "action": "jack up",
+                "action_id": 3,
+                "start": 58.6,
+                "end": 64.76
+            },
+            {
+                "action": "withdraw wheel",
+                "action_id": 5,
+                "start": 67.56,
+                "end": 70.16
+            },
+            {
+                "action": "put wheel",
+                "action_id": 6,
+                "start": 86.28,
+                "end": 94.04
+            },
+            {
+                "action": "screw wheel",
+                "action_id": 7,
+                "start": 97.68,
+                "end": 102.56
+            },
+            {
+                "action": "jack down",
+                "action_id": 8,
+                "start": 113.96,
+                "end": 119.76
+            },
+            {
+                "action": "tight wheel",
+                "action_id": 9,
+                "start": 122.2,
+                "end": 133.6
+            },
+            {
+                "action": "tight wheel",
+                "action_id": 9,
+                "start": 149.28,
+                "end": 158.24
+            }
+        ]
+    },
+    "coffee_0004": {
+        "task": "making coffee",
+        "task_id": 1,
+        "steps": [
+            {
+                "action": "fill water",
+                "action_id": 11,
+                "start": 1.1,
+                "end": 6.8
+            },
+            {
+                "action": "put filter",
+                "action_id": 13,
+                "start": 55.37,
+                "end": 56.73
+            },
+            {
+                "action": "add coffee",
+                "action_id": 14,
+                "start": 104.73,
+                "end": 119.93
+            },
+            {
+                "action": "even surface",
+                "action_id": 20,
+                "start": 127.53,
+                "end": 158.47
+            },
+            {
+                "action": "put filter",
+                "action_id": 13,
+                "start": 165.5,
+                "end": 167.7
+            },
+            {
+                "action": "screw top",
+                "action_id": 15,
+                "start": 171.2,
+                "end": 180.17
+            },
+            {
+                "action": "put stove",
+                "action_id": 16,
+                "start": 180.43,
+                "end": 182.87
+            },
+            {
+                "action": "see coffee",
+                "action_id": 17,
+                "start": 323.7,
+                "end": 365.2
+            },
+            {
+                "action": "withdraw stove",
+                "action_id": 18,
+                "start": 376.33,
+                "end": 381.47
+            },
+            {
+                "action": "pour cofee",
+                "action_id": 19,
+                "start": 461.23,
+                "end": 466.67
+            }
+        ]
+    },
+    "coffee_0006": {
+        "task": "making coffee",
+        "task_id": 1,
+        "steps": [
+            {
+                "action": "add coffee",
+                "action_id": 14,
+                "start": 2.08,
+                "end": 20.76
+            },
+            {
+                "action": "screw top",
+                "action_id": 15,
+                "start": 24.24,
+                "end": 36.56
+            },
+            {
+                "action": "see coffee",
+                "action_id": 17,
+                "start": 49.8,
+                "end": 63.36
+            },
+            {
+                "action": "see coffee",
+                "action_id": 17,
+                "start": 71.4,
+                "end": 74.92
+            }
+        ]
+    },
+    "coffee_0007": {
+        "task": "making coffee",
+        "task_id": 1,
+        "steps": [
+            {
+                "action": "fill water",
+                "action_id": 11,
+                "start": 0.23,
+                "end": 6.63
+            },
+            {
+                "action": "put filter",
+                "action_id": 13,
+                "start": 11.53,
+                "end": 13.53
+            },
+            {
+                "action": "add coffee",
+                "action_id": 14,
+                "start": 18.2,
+                "end": 18.93
+            },
+            {
+                "action": "screw top",
+                "action_id": 15,
+                "start": 20.9,
+                "end": 24.33
+            },
+            {
+                "action": "withdraw stove",
+                "action_id": 18,
+                "start": 60.87,
+                "end": 64.43
+            },
+            {
+                "action": "pour cofee",
+                "action_id": 19,
+                "start": 72.17,
+                "end": 74.93
+            }
+        ]
+    },
+    "coffee_0011": {
+        "task": "making coffee",
+        "task_id": 1,
+        "steps": [
+            {
+                "action": "fill water",
+                "action_id": 11,
+                "start": 0.5,
+                "end": 9.5
+            },
+            {
+                "action": "put filter",
+                "action_id": 13,
+                "start": 27.0,
+                "end": 30.23
+            },
+            {
+                "action": "screw top",
+                "action_id": 15,
+                "start": 131.2,
+                "end": 146.67
+            },
+            {
+                "action": "put stove",
+                "action_id": 16,
+                "start": 163.67,
+                "end": 166.67
+            },
+            {
+                "action": "see coffee",
+                "action_id": 17,
+                "start": 360.07,
+                "end": 415.77
+            },
+            {
+                "action": "withdraw stove",
+                "action_id": 18,
+                "start": 422.77,
+                "end": 424.53
+            },
+            {
+                "action": "pour cofee",
+                "action_id": 19,
+                "start": 424.53,
+                "end": 429.03
+            }
+        ]
+    },
+    "coffee_0014": {
+        "task": "making coffee",
+        "task_id": 1,
+        "steps": [
+            {
+                "action": "add coffee",
+                "action_id": 14,
+                "start": 0.03,
+                "end": 12.1
+            },
+            {
+                "action": "even surface",
+                "action_id": 20,
+                "start": 14.67,
+                "end": 17.5
+            },
+            {
+                "action": "screw top",
+                "action_id": 15,
+                "start": 24.8,
+                "end": 34.1
+            },
+            {
+                "action": "put stove",
+                "action_id": 16,
+                "start": 38.4,
+                "end": 40.77
+            },
+            {
+                "action": "see coffee",
+                "action_id": 17,
+                "start": 291.13,
+                "end": 336.43
+            },
+            {
+                "action": "withdraw stove",
+                "action_id": 18,
+                "start": 339.67,
+                "end": 340.53
+            },
+            {
+                "action": "pour cofee",
+                "action_id": 19,
+                "start": 364.03,
+                "end": 371.57
+            }
+        ]
+    },
+    "coffee_0015": {
+        "task": "making coffee",
+        "task_id": 1,
+        "steps": [
+            {
+                "action": "grind coffe",
+                "action_id": 12,
+                "start": 32.4,
+                "end": 37.44
+            },
+            {
+                "action": "fill water",
+                "action_id": 11,
+                "start": 70.16,
+                "end": 76.76
+            },
+            {
+                "action": "put filter",
+                "action_id": 13,
+                "start": 79.92,
+                "end": 81.16
+            },
+            {
+                "action": "add coffee",
+                "action_id": 14,
+                "start": 96.28,
+                "end": 108.2
+            },
+            {
+                "action": "screw top",
+                "action_id": 15,
+                "start": 115.44,
+                "end": 120.16
+            },
+            {
+                "action": "put stove",
+                "action_id": 16,
+                "start": 153.84,
+                "end": 160.44
+            },
+            {
+                "action": "see coffee",
+                "action_id": 17,
+                "start": 408.6,
+                "end": 416.44
+            },
+            {
+                "action": "see coffee",
+                "action_id": 17,
+                "start": 440.04,
+                "end": 451.36
+            },
+            {
+                "action": "withdraw stove",
+                "action_id": 18,
+                "start": 507.36,
+                "end": 510.16
+            },
+            {
+                "action": "pour cofee",
+                "action_id": 19,
+                "start": 513.64,
+                "end": 518.68
+            },
+            {
+                "action": "pour cofee",
+                "action_id": 19,
+                "start": 527.8,
+                "end": 532.8
+            },
+            {
+                "action": "pour cofee",
+                "action_id": 19,
+                "start": 536.6,
+                "end": 541.92
+            }
+        ]
+    },
+    "coffee_0019": {
+        "task": "making coffee",
+        "task_id": 1,
+        "steps": [
+            {
+                "action": "pour cofee",
+                "action_id": 19,
+                "start": 162.21,
+                "end": 171.96
+            },
+            {
+                "action": "fill water",
+                "action_id": 11,
+                "start": 1.21,
+                "end": 7.29
+            },
+            {
+                "action": "put filter",
+                "action_id": 13,
+                "start": 13.96,
+                "end": 15.58
+            },
+            {
+                "action": "add coffee",
+                "action_id": 14,
+                "start": 24.54,
+                "end": 27.12
+            },
+            {
+                "action": "add coffee",
+                "action_id": 14,
+                "start": 29.83,
+                "end": 30.71
+            },
+            {
+                "action": "add coffee",
+                "action_id": 14,
+                "start": 34.79,
+                "end": 38.71
+            },
+            {
+                "action": "even surface",
+                "action_id": 20,
+                "start": 38.71,
+                "end": 40.88
+            },
+            {
+                "action": "add coffee",
+                "action_id": 14,
+                "start": 42.79,
+                "end": 44.29
+            },
+            {
+                "action": "even surface",
+                "action_id": 20,
+                "start": 44.29,
+                "end": 46.79
+            },
+            {
+                "action": "add coffee",
+                "action_id": 14,
+                "start": 48.67,
+                "end": 49.75
+            },
+            {
+                "action": "even surface",
+                "action_id": 20,
+                "start": 49.67,
+                "end": 51.96
+            },
+            {
+                "action": "screw top",
+                "action_id": 15,
+                "start": 55.62,
+                "end": 61.21
+            },
+            {
+                "action": "withdraw stove",
+                "action_id": 18,
+                "start": 118.17,
+                "end": 120.04
+            },
+            {
+                "action": "pour cofee",
+                "action_id": 19,
+                "start": 120.04,
+                "end": 123.92
+            },
+            {
+                "action": "withdraw stove",
+                "action_id": 18,
+                "start": 160.0,
+                "end": 162.21
+            }
+        ]
+    },
+    "coffee_0021": {
+        "task": "making coffee",
+        "task_id": 1,
+        "steps": [
+            {
+                "action": "fill water",
+                "action_id": 11,
+                "start": 0.04,
+                "end": 6.32
+            },
+            {
+                "action": "add coffee",
+                "action_id": 14,
+                "start": 8.4,
+                "end": 10.36
+            },
+            {
+                "action": "put filter",
+                "action_id": 13,
+                "start": 11.84,
+                "end": 13.84
+            },
+            {
+                "action": "screw top",
+                "action_id": 15,
+                "start": 14.12,
+                "end": 16.36
+            },
+            {
+                "action": "put stove",
+                "action_id": 16,
+                "start": 17.44,
+                "end": 20.12
+            },
+            {
+                "action": "see coffee",
+                "action_id": 17,
+                "start": 24.36,
+                "end": 28.96
+            },
+            {
+                "action": "withdraw stove",
+                "action_id": 18,
+                "start": 29.56,
+                "end": 30.72
+            },
+            {
+                "action": "see coffee",
+                "action_id": 17,
+                "start": 31.04,
+                "end": 34.72
+            },
+            {
+                "action": "pour cofee",
+                "action_id": 19,
+                "start": 34.76,
+                "end": 37.92
+            }
+        ]
+    },
+    "coffee_0022": {
+        "task": "making coffee",
+        "task_id": 1,
+        "steps": [
+            {
+                "action": "fill water",
+                "action_id": 11,
+                "start": 1.47,
+                "end": 6.2
+            },
+            {
+                "action": "add coffee",
+                "action_id": 14,
+                "start": 12.1,
+                "end": 13.77
+            },
+            {
+                "action": "add coffee",
+                "action_id": 14,
+                "start": 15.3,
+                "end": 17.17
+            },
+            {
+                "action": "add coffee",
+                "action_id": 14,
+                "start": 18.53,
+                "end": 19.97
+            },
+            {
+                "action": "add coffee",
+                "action_id": 14,
+                "start": 20.77,
+                "end": 22.13
+            },
+            {
+                "action": "even surface",
+                "action_id": 20,
+                "start": 22.93,
+                "end": 29.3
+            },
+            {
+                "action": "add coffee",
+                "action_id": 14,
+                "start": 30.1,
+                "end": 31.07
+            },
+            {
+                "action": "add coffee",
+                "action_id": 14,
+                "start": 31.97,
+                "end": 33.0
+            },
+            {
+                "action": "even surface",
+                "action_id": 20,
+                "start": 33.0,
+                "end": 36.47
+            },
+            {
+                "action": "put filter",
+                "action_id": 13,
+                "start": 37.1,
+                "end": 38.33
+            },
+            {
+                "action": "screw top",
+                "action_id": 15,
+                "start": 53.93,
+                "end": 57.8
+            },
+            {
+                "action": "put stove",
+                "action_id": 16,
+                "start": 63.67,
+                "end": 65.83
+            },
+            {
+                "action": "withdraw stove",
+                "action_id": 18,
+                "start": 126.5,
+                "end": 129.0
+            },
+            {
+                "action": "pour cofee",
+                "action_id": 19,
+                "start": 129.0,
+                "end": 138.8
+            }
+        ]
+    },
+    "coffee_0025": {
+        "task": "making coffee",
+        "task_id": 1,
+        "steps": [
+            {
+                "action": "fill water",
+                "action_id": 11,
+                "start": 4.17,
+                "end": 8.97
+            },
+            {
+                "action": "put filter",
+                "action_id": 13,
+                "start": 14.43,
+                "end": 15.57
+            },
+            {
+                "action": "add coffee",
+                "action_id": 14,
+                "start": 22.7,
+                "end": 27.67
+            },
+            {
+                "action": "even surface",
+                "action_id": 20,
+                "start": 29.83,
+                "end": 35.93
+            },
+            {
+                "action": "screw top",
+                "action_id": 15,
+                "start": 39.77,
+                "end": 44.63
+            },
+            {
+                "action": "put stove",
+                "action_id": 16,
+                "start": 45.97,
+                "end": 47.47
+            },
+            {
+                "action": "see coffee",
+                "action_id": 17,
+                "start": 79.67,
+                "end": 103.83
+            },
+            {
+                "action": "withdraw stove",
+                "action_id": 18,
+                "start": 129.0,
+                "end": 132.23
+            },
+            {
+                "action": "pour cofee",
+                "action_id": 19,
+                "start": 135.3,
+                "end": 142.57
+            }
+        ]
+    },
+    "coffee_0026": {
+        "task": "making coffee",
+        "task_id": 1,
+        "steps": [
+            {
+                "action": "fill water",
+                "action_id": 11,
+                "start": 1.93,
+                "end": 4.77
+            },
+            {
+                "action": "put filter",
+                "action_id": 13,
+                "start": 10.0,
+                "end": 13.17
+            },
+            {
+                "action": "add coffee",
+                "action_id": 14,
+                "start": 19.43,
+                "end": 24.07
+            },
+            {
+                "action": "even surface",
+                "action_id": 20,
+                "start": 24.07,
+                "end": 25.1
+            },
+            {
+                "action": "add coffee",
+                "action_id": 14,
+                "start": 26.13,
+                "end": 28.5
+            },
+            {
+                "action": "add coffee",
+                "action_id": 14,
+                "start": 30.9,
+                "end": 33.37
+            },
+            {
+                "action": "even surface",
+                "action_id": 20,
+                "start": 34.87,
+                "end": 38.13
+            },
+            {
+                "action": "screw top",
+                "action_id": 15,
+                "start": 60.07,
+                "end": 65.73
+            },
+            {
+                "action": "put stove",
+                "action_id": 16,
+                "start": 67.53,
+                "end": 69.93
+            },
+            {
+                "action": "see coffee",
+                "action_id": 17,
+                "start": 150.4,
+                "end": 160.5
+            },
+            {
+                "action": "withdraw stove",
+                "action_id": 18,
+                "start": 185.67,
+                "end": 187.4
+            },
+            {
+                "action": "pour cofee",
+                "action_id": 19,
+                "start": 187.4,
+                "end": 195.57
+            }
+        ]
+    },
+    "coffee_0028": {
+        "task": "making coffee",
+        "task_id": 1,
+        "steps": [
+            {
+                "action": "fill water",
+                "action_id": 11,
+                "start": 0.03,
+                "end": 7.73
+            },
+            {
+                "action": "fill water",
+                "action_id": 11,
+                "start": 12.23,
+                "end": 13.73
+            },
+            {
+                "action": "add coffee",
+                "action_id": 14,
+                "start": 27.43,
+                "end": 37.3
+            },
+            {
+                "action": "even surface",
+                "action_id": 20,
+                "start": 37.3,
+                "end": 39.0
+            },
+            {
+                "action": "add coffee",
+                "action_id": 14,
+                "start": 43.07,
+                "end": 45.0
+            },
+            {
+                "action": "even surface",
+                "action_id": 20,
+                "start": 45.0,
+                "end": 47.13
+            },
+            {
+                "action": "add coffee",
+                "action_id": 14,
+                "start": 49.07,
+                "end": 51.0
+            },
+            {
+                "action": "even surface",
+                "action_id": 20,
+                "start": 54.23,
+                "end": 57.23
+            },
+            {
+                "action": "put filter",
+                "action_id": 13,
+                "start": 58.07,
+                "end": 59.57
+            },
+            {
+                "action": "screw top",
+                "action_id": 15,
+                "start": 64.73,
+                "end": 70.07
+            },
+            {
+                "action": "see coffee",
+                "action_id": 17,
+                "start": 287.3,
+                "end": 292.23
+            },
+            {
+                "action": "withdraw stove",
+                "action_id": 18,
+                "start": 316.03,
+                "end": 318.37
+            },
+            {
+                "action": "pour cofee",
+                "action_id": 19,
+                "start": 361.87,
+                "end": 369.17
+            }
+        ]
+    },
+    "cpr_0001": {
+        "task": "perform cardio pulmonary ressucitation",
+        "task_id": 2,
+        "steps": [
+            {
+                "action": "open airway",
+                "action_id": 21,
+                "start": 111.08,
+                "end": 121.79
+            },
+            {
+                "action": "check response",
+                "action_id": 22,
+                "start": 22.5,
+                "end": 26.29
+            },
+            {
+                "action": "check response",
+                "action_id": 22,
+                "start": 69.92,
+                "end": 69.92
+            },
+            {
+                "action": "check breathing",
+                "action_id": 24,
+                "start": 50.25,
+                "end": 65.75
+            },
+            {
+                "action": "check pulse",
+                "action_id": 25,
+                "start": 80.62,
+                "end": 98.12
+            },
+            {
+                "action": "give breath",
+                "action_id": 26,
+                "start": 111.21,
+                "end": 121.92
+            },
+            {
+                "action": "give breath",
+                "action_id": 26,
+                "start": 149.33,
+                "end": 157.62
+            },
+            {
+                "action": "give compression",
+                "action_id": 27,
+                "start": 184.88,
+                "end": 188.33
+            },
+            {
+                "action": "give compression",
+                "action_id": 27,
+                "start": 192.29,
+                "end": 207.83
+            },
+            {
+                "action": "give compression",
+                "action_id": 27,
+                "start": 220.88,
+                "end": 237.58
+            },
+            {
+                "action": "give compression",
+                "action_id": 27,
+                "start": 252.92,
+                "end": 269.62
+            },
+            {
+                "action": "give breath",
+                "action_id": 26,
+                "start": 269.62,
+                "end": 277.21
+            }
+        ]
+    },
+    "cpr_0002": {
+        "task": "perform cardio pulmonary ressucitation",
+        "task_id": 2,
+        "steps": [
+            {
+                "action": "check response",
+                "action_id": 22,
+                "start": 1.13,
+                "end": 7.2
+            },
+            {
+                "action": "check breathing",
+                "action_id": 24,
+                "start": 10.6,
+                "end": 21.6
+            },
+            {
+                "action": "give breath",
+                "action_id": 26,
+                "start": 35.0,
+                "end": 46.0
+            },
+            {
+                "action": "check pulse",
+                "action_id": 25,
+                "start": 46.0,
+                "end": 53.87
+            },
+            {
+                "action": "give compression",
+                "action_id": 27,
+                "start": 62.87,
+                "end": 89.17
+            },
+            {
+                "action": "give breath",
+                "action_id": 26,
+                "start": 89.17,
+                "end": 98.17
+            },
+            {
+                "action": "give compression",
+                "action_id": 27,
+                "start": 98.17,
+                "end": 123.13
+            },
+            {
+                "action": "give breath",
+                "action_id": 26,
+                "start": 123.13,
+                "end": 130.57
+            },
+            {
+                "action": "check breathing",
+                "action_id": 24,
+                "start": 144.73,
+                "end": 150.7
+            },
+            {
+                "action": "give breath",
+                "action_id": 26,
+                "start": 151.7,
+                "end": 167.1
+            }
+        ]
+    },
+    "cpr_0006": {
+        "task": "perform cardio pulmonary ressucitation",
+        "task_id": 2,
+        "steps": [
+            {
+                "action": "open airway",
+                "action_id": 21,
+                "start": 35.67,
+                "end": 39.8
+            },
+            {
+                "action": "check response",
+                "action_id": 22,
+                "start": 5.83,
+                "end": 13.37
+            },
+            {
+                "action": "give compression",
+                "action_id": 27,
+                "start": 18.93,
+                "end": 35.1
+            },
+            {
+                "action": "give breath",
+                "action_id": 26,
+                "start": 39.8,
+                "end": 49.03
+            },
+            {
+                "action": "give compression",
+                "action_id": 27,
+                "start": 49.9,
+                "end": 67.43
+            },
+            {
+                "action": "give breath",
+                "action_id": 26,
+                "start": 67.43,
+                "end": 76.2
+            },
+            {
+                "action": "give compression",
+                "action_id": 27,
+                "start": 76.2,
+                "end": 87.87
+            }
+        ]
+    },
+    "cpr_0016": {
+        "task": "perform cardio pulmonary ressucitation",
+        "task_id": 2,
+        "steps": [
+            {
+                "action": "check response",
+                "action_id": 22,
+                "start": 3.9,
+                "end": 8.83
+            },
+            {
+                "action": "open airway",
+                "action_id": 21,
+                "start": 12.27,
+                "end": 12.27
+            },
+            {
+                "action": "check pulse",
+                "action_id": 25,
+                "start": 12.23,
+                "end": 20.87
+            },
+            {
+                "action": "give compression",
+                "action_id": 27,
+                "start": 22.2,
+                "end": 36.57
+            },
+            {
+                "action": "give breath",
+                "action_id": 26,
+                "start": 39.1,
+                "end": 45.87
+            },
+            {
+                "action": "give compression",
+                "action_id": 27,
+                "start": 47.07,
+                "end": 61.37
+            },
+            {
+                "action": "give breath",
+                "action_id": 26,
+                "start": 62.37,
+                "end": 70.63
+            },
+            {
+                "action": "give compression",
+                "action_id": 27,
+                "start": 71.63,
+                "end": 85.33
+            },
+            {
+                "action": "give breath",
+                "action_id": 26,
+                "start": 86.3,
+                "end": 92.93
+            },
+            {
+                "action": "give compression",
+                "action_id": 27,
+                "start": 93.53,
+                "end": 98.83
+            }
+        ]
+    },
+    "cpr_0019": {
+        "task": "perform cardio pulmonary ressucitation",
+        "task_id": 2,
+        "steps": [
+            {
+                "action": "check response",
+                "action_id": 22,
+                "start": 2.33,
+                "end": 7.17
+            },
+            {
+                "action": "give compression",
+                "action_id": 27,
+                "start": 25.93,
+                "end": 30.97
+            },
+            {
+                "action": "give compression",
+                "action_id": 27,
+                "start": 37.63,
+                "end": 51.83
+            },
+            {
+                "action": "give compression",
+                "action_id": 27,
+                "start": 60.17,
+                "end": 62.93
+            },
+            {
+                "action": "give compression",
+                "action_id": 27,
+                "start": 81.73,
+                "end": 86.87
+            }
+        ]
+    },
+    "cpr_0025": {
+        "task": "perform cardio pulmonary ressucitation",
+        "task_id": 2,
+        "steps": [
+            {
+                "action": "open airway",
+                "action_id": 21,
+                "start": 18.04,
+                "end": 18.72
+            },
+            {
+                "action": "check response",
+                "action_id": 22,
+                "start": 6.8,
+                "end": 8.76
+            },
+            {
+                "action": "check breathing",
+                "action_id": 24,
+                "start": 18.72,
+                "end": 33.6
+            },
+            {
+                "action": "give breath",
+                "action_id": 26,
+                "start": 36.96,
+                "end": 43.48
+            },
+            {
+                "action": "give compression",
+                "action_id": 27,
+                "start": 48.92,
+                "end": 50.76
+            }
+        ]
+    },
+    "cpr_0027": {
+        "task": "perform cardio pulmonary ressucitation",
+        "task_id": 2,
+        "steps": [
+            {
+                "action": "check response",
+                "action_id": 22,
+                "start": 1.37,
+                "end": 4.33
+            },
+            {
+                "action": "give compression",
+                "action_id": 27,
+                "start": 78.27,
+                "end": 91.93
+            },
+            {
+                "action": "check breathing",
+                "action_id": 24,
+                "start": 113.17,
+                "end": 117.87
+            },
+            {
+                "action": "open airway",
+                "action_id": 21,
+                "start": 127.13,
+                "end": 129.03
+            },
+            {
+                "action": "open airway",
+                "action_id": 21,
+                "start": 144.53,
+                "end": 148.57
+            },
+            {
+                "action": "give breath",
+                "action_id": 26,
+                "start": 148.57,
+                "end": 152.97
+            }
+        ]
+    },
+    "jump_car_0006": {
+        "task": "jump car battery",
+        "task_id": 3,
+        "steps": [
+            {
+                "action": "get car",
+                "action_id": 28,
+                "start": 0.04,
+                "end": 7.25
+            },
+            {
+                "action": "open hood",
+                "action_id": 29,
+                "start": 17.71,
+                "end": 18.54
+            },
+            {
+                "action": "open hood",
+                "action_id": 29,
+                "start": 19.29,
+                "end": 20.21
+            },
+            {
+                "action": "connect redempty",
+                "action_id": 31,
+                "start": 32.96,
+                "end": 34.79
+            },
+            {
+                "action": "connect black",
+                "action_id": 32,
+                "start": 46.88,
+                "end": 49.83
+            },
+            {
+                "action": "ground black",
+                "action_id": 33,
+                "start": 56.17,
+                "end": 58.62
+            },
+            {
+                "action": "remove ground",
+                "action_id": 36,
+                "start": 67.42,
+                "end": 68.5
+            },
+            {
+                "action": "disconnect redfull",
+                "action_id": 39,
+                "start": 70.42,
+                "end": 71.62
+            },
+            {
+                "action": "start emptycar",
+                "action_id": 35,
+                "start": 89.04,
+                "end": 90.29
+            },
+            {
+                "action": "start fullcar",
+                "action_id": 34,
+                "start": 77.92,
+                "end": 81.42
+            },
+            {
+                "action": "remove black",
+                "action_id": 37,
+                "start": 93.62,
+                "end": 94.67
+            }
+        ]
+    },
+    "jump_car_0007": {
+        "task": "jump car battery",
+        "task_id": 3,
+        "steps": [
+            {
+                "action": "connect redempty",
+                "action_id": 31,
+                "start": 6.73,
+                "end": 9.5
+            },
+            {
+                "action": "connect redfull",
+                "action_id": 30,
+                "start": 15.83,
+                "end": 18.33
+            },
+            {
+                "action": "connect black",
+                "action_id": 32,
+                "start": 25.57,
+                "end": 27.67
+            },
+            {
+                "action": "ground black",
+                "action_id": 33,
+                "start": 32.53,
+                "end": 34.17
+            },
+            {
+                "action": "start fullcar",
+                "action_id": 34,
+                "start": 114.9,
+                "end": 118.4
+            },
+            {
+                "action": "start emptycar",
+                "action_id": 35,
+                "start": 173.97,
+                "end": 179.2
+            },
+            {
+                "action": "remove ground",
+                "action_id": 36,
+                "start": 191.53,
+                "end": 193.3
+            },
+            {
+                "action": "remove black",
+                "action_id": 37,
+                "start": 195.9,
+                "end": 197.63
+            },
+            {
+                "action": "disconnect redempty",
+                "action_id": 38,
+                "start": 200.77,
+                "end": 202.37
+            },
+            {
+                "action": "disconnect redfull",
+                "action_id": 39,
+                "start": 205.37,
+                "end": 207.1
+            }
+        ]
+    },
+    "jump_car_0008": {
+        "task": "jump car battery",
+        "task_id": 3,
+        "steps": [
+            {
+                "action": "connect redempty",
+                "action_id": 31,
+                "start": 3.33,
+                "end": 6.0
+            },
+            {
+                "action": "connect redfull",
+                "action_id": 30,
+                "start": 12.97,
+                "end": 14.97
+            },
+            {
+                "action": "connect black",
+                "action_id": 32,
+                "start": 16.67,
+                "end": 18.73
+            },
+            {
+                "action": "ground black",
+                "action_id": 33,
+                "start": 23.33,
+                "end": 27.7
+            },
+            {
+                "action": "remove ground",
+                "action_id": 36,
+                "start": 78.07,
+                "end": 79.53
+            },
+            {
+                "action": "remove black",
+                "action_id": 37,
+                "start": 83.3,
+                "end": 84.23
+            },
+            {
+                "action": "disconnect redfull",
+                "action_id": 39,
+                "start": 84.23,
+                "end": 86.0
+            },
+            {
+                "action": "disconnect redempty",
+                "action_id": 38,
+                "start": 87.63,
+                "end": 88.2
+            }
+        ]
+    },
+    "jump_car_0009": {
+        "task": "jump car battery",
+        "task_id": 3,
+        "steps": [
+            {
+                "action": "connect redempty",
+                "action_id": 31,
+                "start": 10.2,
+                "end": 15.23
+            },
+            {
+                "action": "ground black",
+                "action_id": 33,
+                "start": 38.8,
+                "end": 39.97
+            },
+            {
+                "action": "remove ground",
+                "action_id": 36,
+                "start": 57.03,
+                "end": 58.67
+            }
+        ]
+    },
+    "jump_car_0010": {
+        "task": "jump car battery",
+        "task_id": 3,
+        "steps": [
+            {
+                "action": "open hood",
+                "action_id": 29,
+                "start": 8.8,
+                "end": 10.48
+            },
+            {
+                "action": "connect redfull",
+                "action_id": 30,
+                "start": 26.92,
+                "end": 29.52
+            },
+            {
+                "action": "connect redempty",
+                "action_id": 31,
+                "start": 41.28,
+                "end": 45.04
+            },
+            {
+                "action": "connect black",
+                "action_id": 32,
+                "start": 49.04,
+                "end": 50.8
+            },
+            {
+                "action": "ground black",
+                "action_id": 33,
+                "start": 64.92,
+                "end": 67.08
+            },
+            {
+                "action": "start fullcar",
+                "action_id": 34,
+                "start": 86.88,
+                "end": 90.88
+            },
+            {
+                "action": "start emptycar",
+                "action_id": 35,
+                "start": 98.32,
+                "end": 102.6
+            },
+            {
+                "action": "remove ground",
+                "action_id": 36,
+                "start": 130.76,
+                "end": 132.0
+            },
+            {
+                "action": "remove black",
+                "action_id": 37,
+                "start": 134.24,
+                "end": 135.68
+            },
+            {
+                "action": "disconnect redfull",
+                "action_id": 39,
+                "start": 141.84,
+                "end": 142.84
+            }
+        ]
+    },
+    "jump_car_0015": {
+        "task": "jump car battery",
+        "task_id": 3,
+        "steps": [
+            {
+                "action": "connect redfull",
+                "action_id": 30,
+                "start": 4.37,
+                "end": 7.93
+            },
+            {
+                "action": "connect redempty",
+                "action_id": 31,
+                "start": 26.8,
+                "end": 32.03
+            },
+            {
+                "action": "connect black",
+                "action_id": 32,
+                "start": 53.7,
+                "end": 54.9
+            },
+            {
+                "action": "connect black",
+                "action_id": 32,
+                "start": 59.7,
+                "end": 63.0
+            },
+            {
+                "action": "start fullcar",
+                "action_id": 34,
+                "start": 132.67,
+                "end": 135.83
+            },
+            {
+                "action": "start emptycar",
+                "action_id": 35,
+                "start": 185.47,
+                "end": 193.27
+            },
+            {
+                "action": "remove black",
+                "action_id": 37,
+                "start": 230.5,
+                "end": 232.43
+            },
+            {
+                "action": "remove ground",
+                "action_id": 36,
+                "start": 240.8,
+                "end": 243.37
+            },
+            {
+                "action": "disconnect redempty",
+                "action_id": 38,
+                "start": 247.1,
+                "end": 248.9
+            },
+            {
+                "action": "disconnect redfull",
+                "action_id": 39,
+                "start": 255.17,
+                "end": 256.67
+            }
+        ]
+    },
+    "jump_car_0016": {
+        "task": "jump car battery",
+        "task_id": 3,
+        "steps": [
+            {
+                "action": "open hood",
+                "action_id": 29,
+                "start": 0.04,
+                "end": 6.16
+            },
+            {
+                "action": "get car",
+                "action_id": 28,
+                "start": 45.2,
+                "end": 52.92
+            },
+            {
+                "action": "connect redempty",
+                "action_id": 31,
+                "start": 65.56,
+                "end": 72.68
+            },
+            {
+                "action": "connect redfull",
+                "action_id": 30,
+                "start": 76.88,
+                "end": 80.0
+            },
+            {
+                "action": "connect black",
+                "action_id": 32,
+                "start": 90.76,
+                "end": 94.36
+            },
+            {
+                "action": "ground black",
+                "action_id": 33,
+                "start": 99.56,
+                "end": 101.8
+            },
+            {
+                "action": "start fullcar",
+                "action_id": 34,
+                "start": 137.92,
+                "end": 141.4
+            },
+            {
+                "action": "remove ground",
+                "action_id": 36,
+                "start": 156.68,
+                "end": 159.0
+            },
+            {
+                "action": "remove black",
+                "action_id": 37,
+                "start": 163.2,
+                "end": 165.0
+            },
+            {
+                "action": "disconnect redfull",
+                "action_id": 39,
+                "start": 166.2,
+                "end": 168.64
+            },
+            {
+                "action": "disconnect redempty",
+                "action_id": 38,
+                "start": 169.84,
+                "end": 172.52
+            }
+        ]
+    },
+    "jump_car_0022": {
+        "task": "jump car battery",
+        "task_id": 3,
+        "steps": [
+            {
+                "action": "open hood",
+                "action_id": 29,
+                "start": 0.04,
+                "end": 2.75
+            },
+            {
+                "action": "connect redempty",
+                "action_id": 31,
+                "start": 14.33,
+                "end": 18.62
+            },
+            {
+                "action": "connect redfull",
+                "action_id": 30,
+                "start": 23.62,
+                "end": 26.25
+            },
+            {
+                "action": "connect black",
+                "action_id": 32,
+                "start": 31.54,
+                "end": 34.21
+            },
+            {
+                "action": "ground black",
+                "action_id": 33,
+                "start": 39.96,
+                "end": 43.17
+            },
+            {
+                "action": "start fullcar",
+                "action_id": 34,
+                "start": 50.08,
+                "end": 51.25
+            },
+            {
+                "action": "start emptycar",
+                "action_id": 35,
+                "start": 56.58,
+                "end": 58.38
+            },
+            {
+                "action": "remove ground",
+                "action_id": 36,
+                "start": 65.5,
+                "end": 66.83
+            },
+            {
+                "action": "remove black",
+                "action_id": 37,
+                "start": 71.38,
+                "end": 73.29
+            },
+            {
+                "action": "disconnect redfull",
+                "action_id": 39,
+                "start": 77.88,
+                "end": 81.54
+            },
+            {
+                "action": "disconnect redempty",
+                "action_id": 38,
+                "start": 84.54,
+                "end": 88.38
+            }
+        ]
+    },
+    "jump_car_0023": {
+        "task": "jump car battery",
+        "task_id": 3,
+        "steps": [
+            {
+                "action": "open hood",
+                "action_id": 29,
+                "start": 2.43,
+                "end": 6.57
+            },
+            {
+                "action": "connect redempty",
+                "action_id": 31,
+                "start": 7.17,
+                "end": 9.37
+            },
+            {
+                "action": "connect redfull",
+                "action_id": 30,
+                "start": 16.13,
+                "end": 18.17
+            },
+            {
+                "action": "connect black",
+                "action_id": 32,
+                "start": 19.7,
+                "end": 21.53
+            },
+            {
+                "action": "ground black",
+                "action_id": 33,
+                "start": 28.37,
+                "end": 31.87
+            },
+            {
+                "action": "start fullcar",
+                "action_id": 34,
+                "start": 41.07,
+                "end": 44.1
+            },
+            {
+                "action": "remove ground",
+                "action_id": 36,
+                "start": 51.7,
+                "end": 52.67
+            },
+            {
+                "action": "remove black",
+                "action_id": 37,
+                "start": 54.83,
+                "end": 56.9
+            },
+            {
+                "action": "disconnect redfull",
+                "action_id": 39,
+                "start": 58.5,
+                "end": 60.63
+            },
+            {
+                "action": "disconnect redempty",
+                "action_id": 38,
+                "start": 61.77,
+                "end": 62.77
+            }
+        ]
+    },
+    "jump_car_0027": {
+        "task": "jump car battery",
+        "task_id": 3,
+        "steps": [
+            {
+                "action": "get car",
+                "action_id": 28,
+                "start": 4.1,
+                "end": 7.03
+            },
+            {
+                "action": "open hood",
+                "action_id": 29,
+                "start": 10.17,
+                "end": 12.13
+            },
+            {
+                "action": "connect redempty",
+                "action_id": 31,
+                "start": 21.87,
+                "end": 23.83
+            },
+            {
+                "action": "connect redfull",
+                "action_id": 30,
+                "start": 26.0,
+                "end": 28.17
+            },
+            {
+                "action": "connect black",
+                "action_id": 32,
+                "start": 30.07,
+                "end": 32.43
+            },
+            {
+                "action": "ground black",
+                "action_id": 33,
+                "start": 38.47,
+                "end": 41.1
+            },
+            {
+                "action": "start fullcar",
+                "action_id": 34,
+                "start": 65.23,
+                "end": 67.4
+            },
+            {
+                "action": "remove ground",
+                "action_id": 36,
+                "start": 82.13,
+                "end": 83.43
+            },
+            {
+                "action": "disconnect redfull",
+                "action_id": 39,
+                "start": 85.4,
+                "end": 87.0
+            },
+            {
+                "action": "disconnect redempty",
+                "action_id": 38,
+                "start": 87.97,
+                "end": 88.73
+            }
+        ]
+    },
+    "repot_0005": {
+        "task": "repotting plant",
+        "task_id": 4,
+        "steps": [
+            {
+                "action": "cover hole",
+                "action_id": 40,
+                "start": 9.0,
+                "end": 12.03
+            },
+            {
+                "action": "water plant",
+                "action_id": 47,
+                "start": 12.03,
+                "end": 14.33
+            },
+            {
+                "action": "put soil",
+                "action_id": 41,
+                "start": 17.87,
+                "end": 19.93
+            },
+            {
+                "action": "tap pot",
+                "action_id": 42,
+                "start": 29.0,
+                "end": 40.37
+            },
+            {
+                "action": "take plant",
+                "action_id": 43,
+                "start": 40.87,
+                "end": 43.1
+            },
+            {
+                "action": "loosen root",
+                "action_id": 44,
+                "start": 45.67,
+                "end": 55.8
+            },
+            {
+                "action": "place plant",
+                "action_id": 45,
+                "start": 62.1,
+                "end": 63.83
+            },
+            {
+                "action": "add top",
+                "action_id": 46,
+                "start": 63.83,
+                "end": 65.1
+            },
+            {
+                "action": "add top",
+                "action_id": 46,
+                "start": 69.53,
+                "end": 72.1
+            },
+            {
+                "action": "water plant",
+                "action_id": 47,
+                "start": 74.67,
+                "end": 77.83
+            }
+        ]
+    },
+    "repot_0009": {
+        "task": "repotting plant",
+        "task_id": 4,
+        "steps": [
+            {
+                "action": "loosen root",
+                "action_id": 44,
+                "start": 8.93,
+                "end": 58.77
+            },
+            {
+                "action": "loosen root",
+                "action_id": 44,
+                "start": 60.27,
+                "end": 76.83
+            },
+            {
+                "action": "put soil",
+                "action_id": 41,
+                "start": 91.37,
+                "end": 93.97
+            },
+            {
+                "action": "place plant",
+                "action_id": 45,
+                "start": 100.1,
+                "end": 102.3
+            },
+            {
+                "action": "add top",
+                "action_id": 46,
+                "start": 111.2,
+                "end": 116.4
+            },
+            {
+                "action": "add top",
+                "action_id": 46,
+                "start": 127.1,
+                "end": 129.43
+            },
+            {
+                "action": "water plant",
+                "action_id": 47,
+                "start": 204.33,
+                "end": 208.17
+            },
+            {
+                "action": "water plant",
+                "action_id": 47,
+                "start": 209.53,
+                "end": 213.37
+            },
+            {
+                "action": "water plant",
+                "action_id": 47,
+                "start": 217.2,
+                "end": 220.07
+            },
+            {
+                "action": "water plant",
+                "action_id": 47,
+                "start": 222.67,
+                "end": 227.73
+            },
+            {
+                "action": "water plant",
+                "action_id": 47,
+                "start": 233.07,
+                "end": 234.3
+            }
+        ]
+    }
+}

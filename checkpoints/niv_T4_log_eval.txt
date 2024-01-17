@@ -1,0 +1,10 @@
+[2023-12-03 02:01:06,926][main.py][line:168][INFO] checkpoints/niv_T4_log_eval.txt
+[2023-12-03 02:01:06,926][main.py][line:169][INFO] Namespace(model_name='niv', num_layers=2, attn_heads=32, mlp_ratio=2, embed_dim=128, fully_supervised=False, distributed=False, sample_frame=False, local_rank=-1, max_traj_len=4, epochs=500, batch_size=256, dropout=0.2, optimizer='adam', lr=0.01, step_size=20, lr_decay=0.65, momentum=0.9, queue_size=8192, weight_decay=0.0001, M=2, aug_range=0, root_dir='dataset/niv', train_json='dataset/niv/niv_train.json', valid_json='dataset/niv/niv_valid.json', features_dir='/home/wenliang/data/processed_data_niv', dsp_dir_json='/home/yulei/data/crosstask/gpt3_output_detail_v2_num3.json', eval=True, saved_path='checkpoints', last_epoch=-1, split='base', no_task=False, no_state_pred=False, no_state_decode_loss=False, no_state_encode_loss=False, no_action_proj_loss=False, no_state_memory=False, use_action_memory=False, use_random=False, use_ensemble=False, no_state_decoder=False, seed=3407, dataset='niv', text_input_dim=768, img_input_dim=512, description_type='cot', num_action=48, num_tasks=5, use_observ_memory=False, use_state_recon_loss=False, uncertain=False, num_sample=1500)
+[2023-12-03 02:01:06,926][main.py][line:221][INFO] Loading prompt features...
+[2023-12-03 02:01:06,928][main.py][line:225][INFO] Loading training data...
+[2023-12-03 02:01:07,082][main.py][line:230][INFO] Loading valid data...
+[2023-12-03 02:01:12,366][main.py][line:120][INFO] Epoch: 0 State Loss: 2.18 Top1 Acc: 32.71%
+[2023-12-03 02:01:12,367][main.py][line:122][INFO] 	Action Loss: 2.31, SR: 12.15% Acc1: 35.59% Acc5: 85.16% MIoU: 87.58
+[2023-12-03 02:01:12,367][main.py][line:128][INFO] 	Viterbi, SR: 23.26% Acc: 39.93% MIoU: 76.75
+[2023-12-03 02:01:12,367][main.py][line:133][INFO] 	Task Loss: 0.02, Acc1: 99.31%
+[2023-12-03 02:01:12,367][main.py][line:136][INFO] 	State Pred Loss: 0.17

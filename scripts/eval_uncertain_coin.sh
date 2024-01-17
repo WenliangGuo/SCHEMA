@@ -1,0 +1,29 @@
+CUDA_VISIBLE_DEVICES=3 python uncertain.py \
+    --optimizer 'adam' \
+    --lr 0.001 \
+    --dropout 0.2 \
+    --batch_size 256 \
+    --epochs 500 \
+    --max_traj_len 3 \
+    --M 2 \
+    --aug_range 0 \
+    --attn_heads 16 \
+    --num_layers 2 \
+    --step_size 40 \
+    --lr_decay 0.65 \
+    --model_name 'model_best.pth' \
+    --dataset 'coin' \
+    --num_action 778 \
+    --num_tasks 180 \
+    --img_input_dim 768 \
+    --text_input_dim 768 \
+    --embed_dim 128 \
+    --root_dir 'dataset/coin' \
+    --train_json 'dataset/coin/coin_train.json' \
+    --valid_json 'dataset/coin/coin_valid.json' \
+    --features_dir '/home/wenliang/data/coin_feature' \
+    --eval \
+    --uncertain \
+    --description_type "cot" \
+    --num_sample 1500 \
+    --saved_path 'logs/2023-08-03-23-46-19_coin_len3_noise_input'
