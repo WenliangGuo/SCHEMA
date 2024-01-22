@@ -1,4 +1,4 @@
-CUDA_VISIBLE_DEVICES=2 python main.py \
+CUDA_VISIBLE_DEVICES=0 python main.py \
     --dropout 0.2 \
     --batch_size 256 \
     --max_traj_len 3 \
@@ -16,7 +16,7 @@ CUDA_VISIBLE_DEVICES=2 python main.py \
     --train_json 'dataset/crosstask/cross_task_data_False.json' \
     --valid_json 'dataset/crosstask/cross_task_data_True.json' \
     --description_type "cot" \
-    --features_dir '/home/wenliang/data/processed_data_crosstask' \
+    --features_dir 'crosstask_features/processed_data' \
     --split 'base' \
     --model_name 'crosstask' \
     --saved_path 'checkpoints' \

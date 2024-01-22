@@ -21,5 +21,5 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
     --root_dir 'dataset/coin' \
     --train_json 'dataset/coin/coin_train.json' \
     --valid_json 'dataset/coin/coin_valid.json' \
-    --features_dir '/home/wenliang/data/coin_HowTo100_feature' \
+    --features_dir 'coin_features/processed_data' \
     --no_action_proj_loss

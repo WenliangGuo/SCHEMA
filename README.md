@@ -31,6 +31,7 @@ conda activate schema
 |    NIV    |    48   |   5   |       512       |
 
 ### Download Data
+Make a directory for each of the dataset in the root folder, change to the directory and download HowTo100M features:
 #### CrossTask
 ```
 wget https://vision.eecs.yorku.ca/WebShare/CrossTask_s3d.zip  
@@ -67,7 +68,7 @@ If you want to customize the prompts and generate new descriptions, please follo
 ```
 bash script/run_{DATASET}.sh
 ```
-
+**Note: Set the features_dir to the directory where HowTo100M features are downloaded in previous step. The parmeters can be customized, but using default ones can achieve the results reported in the paper.**
 ## Evaluation
 ```
 bash script/eval_{DATASET}.sh

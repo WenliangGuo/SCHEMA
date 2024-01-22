@@ -1,4 +1,4 @@
-CUDA_VISIBLE_DEVICES=1 python main.py \
+CUDA_VISIBLE_DEVICES=0 python main.py \
     --dropout 0.2 \
     --batch_size 256 \
     --max_traj_len 4 \
@@ -15,7 +15,7 @@ CUDA_VISIBLE_DEVICES=1 python main.py \
     --root_dir 'dataset/coin' \
     --train_json 'dataset/coin/coin_train.json' \
     --valid_json 'dataset/coin/coin_valid.json' \
-    --features_dir '/home/wenliang/data/coin_HowTo100_feature' \
+    --features_dir 'coin_features/processed_data' \
     --model_name 'coin' \
     --saved_path 'checkpoints' \
     --eval

@@ -1,4 +1,4 @@
-CUDA_VISIBLE_DEVICES=1 python main.py \
+CUDA_VISIBLE_DEVICES=0 python main.py \
     --optimizer 'adam' \
     --lr 0.004 \
     --dropout 0.2 \
@@ -18,9 +18,9 @@ CUDA_VISIBLE_DEVICES=1 python main.py \
     --img_input_dim 512 \
     --text_input_dim 768 \
     --embed_dim 128 \
-    --root_dir '/home/yulei/data/crosstask/crosstask_release' \
+    --root_dir 'dataset/crosstask/crosstask_release' \
     --train_json 'dataset/crosstask/cross_task_data_False.json' \
     --valid_json 'dataset/crosstask/cross_task_data_True.json' \
-    --features_dir '/home/wenliang/data/processed_data_crosstask' \
+    --features_dir 'crosstask_features/processed_data' \
     --split 'base' \
     --no_action_proj_loss

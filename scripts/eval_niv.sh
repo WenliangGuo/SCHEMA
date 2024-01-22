@@ -1,4 +1,4 @@
-CUDA_VISIBLE_DEVICES=1 python main.py\
+CUDA_VISIBLE_DEVICES=0 python main.py\
     --dropout 0.2 \
     --batch_size 256 \
     --max_traj_len 3 \
@@ -15,7 +15,7 @@ CUDA_VISIBLE_DEVICES=1 python main.py\
     --root_dir 'dataset/niv' \
     --train_json 'dataset/niv/niv_train.json' \
     --valid_json 'dataset/niv/niv_valid.json' \
-    --features_dir '/home/wenliang/data/processed_data_niv' \
+    --features_dir 'niv_features/processed_data' \
     --model_name 'niv' \
     --saved_path 'checkpoints' \
     --eval
