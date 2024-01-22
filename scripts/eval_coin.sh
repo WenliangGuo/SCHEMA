@@ -16,7 +16,6 @@ CUDA_VISIBLE_DEVICES=1 python main.py \
     --train_json 'dataset/coin/coin_train.json' \
     --valid_json 'dataset/coin/coin_valid.json' \
     --features_dir '/home/wenliang/data/coin_HowTo100_feature' \
-    --description_type "cot" \
     --model_name 'coin' \
     --saved_path 'checkpoints' \
     --eval

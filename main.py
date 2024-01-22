@@ -172,15 +172,8 @@ def evaluate(args):
 
     if args.dataset == 'crosstask':
         logger.info("Loading prompt features...")
-        ## GPT-generated prompt features
-        state_prompt_features = np.load(f'./data/{args.description_type}_description_features/crosstask_state_prompt_features.npy')
-        
-        ## template-based prompt features
-        # state_prompt_features = np.load(f'./data/template_1_features/crosstask_state_prompt_features.npy')
-        # state_prompt_features = np.load(f'./data/template_2_features/crosstask_state_prompt_features.npy')
-        # state_prompt_features = np.load(f'./data/template_3_features/crosstask_state_prompt_features.npy')
-        
-        action_prompt_features = np.load('./data/crosstask_action_prompt_features.npy')
+        state_prompt_features = np.load(f'./data/state_description_features/crosstask_state_prompt_features.npy')
+        action_prompt_features = np.load('./data/action_description_features/crosstask_action_prompt_features.npy')
 
         ## parse raw data
         task_info_path = os.path.join(args.root_dir, "tasks_primary.txt")
@@ -204,9 +197,8 @@ def evaluate(args):
     
     elif args.dataset == "coin":
         logger.info("Loading prompt features...")
-        state_prompt_features = np.load(f'./data/{args.description_type}_description_features/coin_state_prompt_features.npy')
-        # state_prompt_features = np.load(f'./data/template_2_features/coin_state_prompt_features.npy')
-        action_prompt_features = np.load('./data/coin_action_prompt_features.npy')
+        state_prompt_features = np.load(f'./data/state_description_features/coin_state_prompt_features.npy')
+        action_prompt_features = np.load('./data/action_description_features/coin_action_prompt_features.npy')
     
         logger.info("Loading training data...")
         train_dataset = ProcedureDataset(args.features_dir, state_prompt_features, 
@@ -221,8 +213,8 @@ def evaluate(args):
 
     elif args.dataset == "niv":
         logger.info("Loading prompt features...")
-        state_prompt_features = np.load(f'./data/{args.description_type}_description_features/niv_state_prompt_features.npy')
-        action_prompt_features = np.load('./data/niv_action_prompt_features.npy')
+        state_prompt_features = np.load(f'./data/state_description_features/niv_state_prompt_features.npy')
+        action_prompt_features = np.load('./data/action_description_features/niv_action_prompt_features.npy')
 
         logger.info("Loading training data...")
         train_dataset = ProcedureDataset(args.features_dir, state_prompt_features, 
@@ -297,15 +289,8 @@ def train(args):
 
     if args.dataset == 'crosstask':
         logger.info("Loading prompt features...")
-        ## GPT-generated prompt features
-        state_prompt_features = np.load(f'./data/{args.description_type}_description_features/crosstask_state_prompt_features.npy')
-        
-        ## template-based prompt features
-        # state_prompt_features = np.load(f'./data/template_1_features/crosstask_state_prompt_features.npy')
-        # state_prompt_features = np.load(f'./data/template_2_features/crosstask_state_prompt_features.npy')
-        # state_prompt_features = np.load(f'./data/template_3_features/crosstask_state_prompt_features.npy')
-        
-        action_prompt_features = np.load('./data/crosstask_action_prompt_features.npy')
+        state_prompt_features = np.load(f'./data/state_description_features/crosstask_state_prompt_features.npy')
+        action_prompt_features = np.load('./data/action_description_features/crosstask_action_prompt_features.npy')
 
         ## parse raw data
         task_info_path = os.path.join(args.root_dir, "tasks_primary.txt")
@@ -329,9 +314,8 @@ def train(args):
     
     elif args.dataset == "coin":
         logger.info("Loading prompt features...")
-        state_prompt_features = np.load(f'./data/{args.description_type}_description_features/coin_state_prompt_features.npy')
-        # state_prompt_features = np.load(f'./data/template_2_features/coin_state_prompt_features.npy')
-        action_prompt_features = np.load('./data/coin_action_prompt_features.npy')
+        state_prompt_features = np.load(f'./data/state_description_features/coin_state_prompt_features.npy')
+        action_prompt_features = np.load('./data/action_description_features/coin_action_prompt_features.npy')
     
         logger.info("Loading training data...")
         train_dataset = ProcedureDataset(args.features_dir, state_prompt_features, 
@@ -346,8 +330,8 @@ def train(args):
 
     elif args.dataset == "niv":
         logger.info("Loading prompt features...")
-        state_prompt_features = np.load(f'./data/{args.description_type}_description_features/niv_state_prompt_features.npy')
-        action_prompt_features = np.load('./data/niv_action_prompt_features.npy')
+        state_prompt_features = np.load(f'./data/state_description_features/niv_state_prompt_features.npy')
+        action_prompt_features = np.load('./data/action_description_features/niv_action_prompt_features.npy')
 
         logger.info("Loading training data...")
         train_dataset = ProcedureDataset(args.features_dir, state_prompt_features, 

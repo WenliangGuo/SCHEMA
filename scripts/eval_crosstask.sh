@@ -1,7 +1,7 @@
 CUDA_VISIBLE_DEVICES=2 python main.py \
     --dropout 0.2 \
     --batch_size 256 \
-    --max_traj_len 4 \
+    --max_traj_len 3 \
     --M 2 \
     --aug_range 0 \
     --attn_heads 32 \
@@ -18,7 +18,6 @@ CUDA_VISIBLE_DEVICES=2 python main.py \
     --description_type "cot" \
     --features_dir '/home/wenliang/data/processed_data_crosstask' \
     --split 'base' \
-    --description_type "cot" \
     --model_name 'crosstask' \
     --saved_path 'checkpoints' \
     --eval

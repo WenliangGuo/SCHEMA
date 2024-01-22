@@ -21,7 +21,6 @@ CUDA_VISIBLE_DEVICES=1 python main.py \
     --root_dir '/home/yulei/data/crosstask/crosstask_release' \
     --train_json 'dataset/crosstask/cross_task_data_False.json' \
     --valid_json 'dataset/crosstask/cross_task_data_True.json' \
-    --description_type "cot" \
     --features_dir '/home/wenliang/data/processed_data_crosstask' \
     --split 'base' \
     --no_action_proj_loss

@@ -303,3 +303,21 @@ def setup_seed(seed):
     torch.cuda.manual_seed_all(seed)
     torch.backends.cudnn.benchmark = False 
     torch.backends.cudnn.deterministic = True
+
+
+def read_task_info(path):
+    titles = {}
+    urls = {}
+    n_steps = {}
+    steps = {}
+    with open(path, "r") as f:
+        idx = f.readline()
+        while idx is not "":
+            idx = idx.strip()
+            titles[idx] = f.readline().strip()
+            urls[idx] = f.readline().strip()
+            n_steps[idx] = int(f.readline().strip())
+            steps[idx] = f.readline().strip().split(",")
+            next(f)
+            idx = f.readline()
+    return {"title": titles, "url": urls, "n_steps": n_steps, "steps": steps}

@@ -1,0 +1,60 @@
+{
+    "Changing a car tire": [
+        "brake on",
+        "get things out",
+        "start loose",
+        "jack up",
+        "unscrew wheel",
+        "withdraw wheel",
+        "put wheel",
+        "screw wheel",
+        "jack down",
+        "tight wheel",
+        "put things back"
+    ],
+    "making coffee": [
+        "fill water",
+        "grind coffe",
+        "put filter",
+        "add coffee",
+        "screw top",
+        "put stove",
+        "see coffee",
+        "withdraw stove",
+        "pour cofee",
+        "even surface"
+    ],
+    "perform cardio pulmonary ressucitation": [
+        "open airway",
+        "check response",
+        "call emergency",
+        "check breathing",
+        "check pulse",
+        "give breath",
+        "give compression"
+    ],
+    "jump car battery": [
+        "get car",
+        "open hood",
+        "connect redfull",
+        "connect redempty",
+        "connect black",
+        "ground black",
+        "start fullcar",
+        "start emptycar",
+        "remove ground",
+        "remove black",
+        "disconnect redempty",
+        "disconnect redfull"
+    ],
+    "repotting plant": [
+        "cover hole",
+        "put soil",
+        "tap pot",
+        "take plant",
+        "loosen root",
+        "place plant",
+        "add top",
+        "water plant"
+    ]
+}

@@ -16,7 +16,6 @@ CUDA_VISIBLE_DEVICES=1 python main.py\
     --train_json 'dataset/niv/niv_train.json' \
     --valid_json 'dataset/niv/niv_valid.json' \
     --features_dir '/home/wenliang/data/processed_data_niv' \
-    --description_type "cot" \
     --model_name 'niv' \
     --saved_path 'checkpoints' \
     --eval

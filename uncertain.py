@@ -11,7 +11,7 @@ from models.helper import AverageMeter
 from models.utils import viterbi_path
 from tools.parser import create_parser
 
-## implementation refer to https://github.dev/MCG-NJU/PDPP
+## implementation based on https://github.dev/MCG-NJU/PDPP
 def cal_uncertainty(actions_pred_logits, gt, num_sampling, horizon, act_size, all_ref):
     actions_pred = torch.argmax(actions_pred_logits, dim=-1)
     actions_pred = actions_pred.view(num_sampling, -1)
@@ -126,7 +126,7 @@ def cal_uncertainty(actions_pred_logits, gt, num_sampling, horizon, act_size, al
     return len_unique, mc_prec, mc_recall, klv, nll
 
 
-## implementation refer to https://github.dev/JoeHEZHAO/procedure-planing
+## implementation based on https://github.dev/JoeHEZHAO/procedure-planing
 def cal_viterbi(rst_argmax, act_size, pred_horz, num_sampling, transition_matrix):
     # """Formulate distribution from these samples, for viterbi results """
     ref_onehot = torch.FloatTensor(pred_horz, act_size).cuda()
@@ -162,6 +162,7 @@ def eval(
         action_prompt_features,
         transition_matrix,
         e=0,
+        device=torch.device("cuda"),
         writer=None,
         is_train=False
     ):
@@ -261,7 +262,6 @@ def eval(
             viterbi_acc1.update(acc_viterbi, batch_size)
             viterbi_miou.update(miou_viterbi, batch_size)
 
-
     logger.info("\tAction, SR: {:.2f}% Acc: {:.2f}% MIoU: {:.2f}"\
                 .format(action_sr.avg,
                         action_acc1.avg,
@@ -279,31 +279,27 @@ def eval(
 
 
 def main_worker(args):
-    use_task = not args.no_task
-    use_state_pred = not args.no_state_pred
-    use_state_memory = not args.no_state_memory
-    use_action_memory = args.use_action_memory
-    use_observ_memory = args.use_observ_memory
-    use_random = args.use_random
-    use_state_decoder = not args.no_state_decoder
-
     log_file_path = os.path.join(args.saved_path, "log_eval_certain.txt")
     logger = get_logger(log_file_path)
     logger.info("{}".format(log_file_path))
     logger.info("{}".format(args))
 
     setup_seed(args.seed)
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    if args.dataset == 'crosstask_clip' or args.dataset == 'crosstask_howto100m':
+    if args.dataset == 'crosstask':
         logger.info("Loading prompt features...")
-        state_prompt_features = np.load(f'./data/{args.description_type}_description_features/crosstask_state_prompt_features.npy')
-        action_prompt_features = np.load('./data/crosstask_action_prompt_features.npy')
+        state_prompt_features = np.load(f'./data/state_description_features/crosstask_state_prompt_features.npy')
+        action_prompt_features = np.load('./data/action_description_features/crosstask_action_prompt_features.npy')
 
         ## parse raw data
         task_info_path = os.path.join(args.root_dir, "tasks_primary.txt")
         task_info = parse_task_info(task_info_path)
+        with open("data/crosstask_idices.json", "r") as f:
+            idices_mapping = json.load(f)
         anot_dir = os.path.join(args.root_dir, "annotations")
-        anot_info, action_collect = parse_annotation(anot_dir, task_info)
+        anot_info = parse_annotation(anot_dir, task_info, idices_mapping)
+
         ## create procedure datset and dataloader
         logger.info("Loading training data...")
         train_dataset = ProcedureDataset(anot_info, args.features_dir, state_prompt_features, 
@@ -318,8 +314,8 @@ def main_worker(args):
     
     elif args.dataset == "coin":
         logger.info("Loading prompt features...")
-        state_prompt_features = np.load(f'./data/{args.description_type}_description_features/coin_state_prompt_features.npy')
-        action_prompt_features = np.load('./data/coin_action_prompt_features.npy')
+        state_prompt_features = np.load(f'./data/state_description_features/coin_state_prompt_features.npy')
+        action_prompt_features = np.load('./data/action_description_features/coin_action_prompt_features.npy')
     
         logger.info("Loading training data...")
         train_dataset = ProcedureDataset(args.features_dir, state_prompt_features, 
@@ -334,8 +330,8 @@ def main_worker(args):
 
     elif args.dataset == "niv":
         logger.info("Loading prompt features...")
-        state_prompt_features = np.load(f'./data/{args.description_type}_description_features/niv_state_prompt_features.npy')
-        action_prompt_features = np.load('./data/niv_action_prompt_features.npy')
+        state_prompt_features = np.load(f'./data/state_description_features/niv_state_prompt_features.npy')
+        action_prompt_features = np.load('./data/action_description_features/niv_action_prompt_features.npy')
 
         logger.info("Loading training data...")
         train_dataset = ProcedureDataset(args.features_dir, state_prompt_features, 
@@ -350,29 +346,19 @@ def main_worker(args):
         # observation_features = train_dataset.state_features
     
     valid_loader = DataLoader(valid_dataset, batch_size=args.batch_size, shuffle=False, num_workers=4)
+    logger.info("Training set volumn: {} Testing set volumn: {}".format(len(train_dataset), len(valid_dataset)))
     
     model = ProcedureModel(
         vis_input_dim=args.img_input_dim,
         lang_input_dim=args.text_input_dim,
         embed_dim=args.embed_dim,
         time_horz=args.max_traj_len, 
-        att_heads=args.attn_heads,
-        mlp_ratio=args.mlp_ratio,
-        num_layers=args.num_layers,
-        dropout=args.dropout,
         num_classes=args.num_action,
         num_tasks=args.num_tasks,
-        use_task=use_task,
-        use_state_pred=use_state_pred,
-        use_state_memory=use_state_memory,
-        use_action_memory=use_action_memory,
-        use_observ_memory=use_observ_memory,
-        use_random=use_random,
-        use_state_decoder=use_state_decoder,
-        uncertainty=args.uncertain
+        args=args
     ).to(device)
 
-    model_path = os.path.join(args.saved_path, args.model_name)
+    model_path = os.path.join(args.saved_path, f'{args.model_name}_T{args.max_traj_len}_uncertain.pth')
     model.load_state_dict(torch.load(model_path))
     model.eval()
     
@@ -386,24 +372,27 @@ def main_worker(args):
         state_prompt_features, 
         action_prompt_features,
         transition_matrix, 
-        -1
+        -1,
+        device
     )
 
 
 if __name__ == "__main__":
-    global device
     args = create_parser()
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    if args.split == 'base':
-        if args.dataset == 'crosstask_clip' or args.dataset == 'crosstask_howto100m':
+    if args.dataset == 'crosstask':
+        if args.split == 'base' or args.split == 'pdpp':
             from dataset.crosstask_dataloader import CrossTaskDataset as ProcedureDataset
-        elif args.dataset == 'coin':
-            from dataset.coin_dataloader import CoinDataset as ProcedureDataset
-        elif args.dataset == 'niv':
-            from dataset.niv_dataloader import NivDataset as ProcedureDataset
-        
-    elif args.split == 'p3iv':
-        from dataset.crosstask_dataloader_p3iv import CrossTaskDataset as ProcedureDataset
+            # ## use pdpp data-sample
+            # from dataset.crosstask_dataloader_pdpp import CrossTaskDataset as ProcedureDataset
+        elif args.split == 'p3iv':
+            from dataset.crosstask_dataloader_p3iv import CrossTaskDataset as ProcedureDataset
+    
+    elif args.dataset == 'coin':
+        from dataset.coin_dataloader import CoinDataset as ProcedureDataset
+    
+    elif args.dataset == 'niv':
+        from dataset.niv_dataloader import NivDataset as ProcedureDataset
+
 
     main_worker(args)
