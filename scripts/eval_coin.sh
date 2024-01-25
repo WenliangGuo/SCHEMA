@@ -1,7 +1,7 @@
 CUDA_VISIBLE_DEVICES=0 python main.py \
     --dropout 0.2 \
     --batch_size 256 \
-    --max_traj_len 4 \
+    --max_traj_len 3 \
     --M 2 \
     --aug_range 0 \
     --attn_heads 32 \
@@ -15,7 +15,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
     --root_dir 'dataset/coin' \
     --train_json 'dataset/coin/coin_train.json' \
     --valid_json 'dataset/coin/coin_valid.json' \
-    --features_dir 'coin_features/processed_data' \
+    --features_dir "data/coin_features/full_npy" \
     --model_name 'coin' \
     --saved_path 'checkpoints' \
     --eval

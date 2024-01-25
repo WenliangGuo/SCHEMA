@@ -312,7 +312,7 @@ def read_task_info(path):
     steps = {}
     with open(path, "r") as f:
         idx = f.readline()
-        while idx is not "":
+        while idx != "":
             idx = idx.strip()
             titles[idx] = f.readline().strip()
             urls[idx] = f.readline().strip()

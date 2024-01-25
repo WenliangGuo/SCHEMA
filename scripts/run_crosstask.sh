@@ -21,6 +21,6 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
     --root_dir 'dataset/crosstask/crosstask_release' \
     --train_json 'dataset/crosstask/cross_task_data_False.json' \
     --valid_json 'dataset/crosstask/cross_task_data_True.json' \
-    --features_dir 'crosstask_features/processed_data' \
+    --features_dir 'data/crosstask_features/processed_data' \
     --split 'base' \
     --no_action_proj_loss

@@ -15,8 +15,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
     --root_dir 'dataset/crosstask/crosstask_release' \
     --train_json 'dataset/crosstask/cross_task_data_False.json' \
     --valid_json 'dataset/crosstask/cross_task_data_True.json' \
-    --description_type "cot" \
-    --features_dir 'crosstask_features/processed_data' \
+    --features_dir 'data/crosstask_features/processed_data' \
     --split 'base' \
     --model_name 'crosstask' \
     --saved_path 'checkpoints' \

@@ -1,10 +1,11 @@
-[2023-12-03 02:01:35,113][main.py][line:168][INFO] checkpoints/coin_T3_log_eval.txt
-[2023-12-03 02:01:35,113][main.py][line:169][INFO] Namespace(model_name='coin', num_layers=2, attn_heads=32, mlp_ratio=2, embed_dim=128, fully_supervised=False, distributed=False, sample_frame=False, local_rank=-1, max_traj_len=3, epochs=500, batch_size=256, dropout=0.2, optimizer='adam', lr=0.01, step_size=20, lr_decay=0.65, momentum=0.9, queue_size=8192, weight_decay=0.0001, M=2, aug_range=0, root_dir='dataset/coin', train_json='dataset/coin/coin_train.json', valid_json='dataset/coin/coin_valid.json', features_dir='/home/wenliang/data/coin_HowTo100_feature', dsp_dir_json='/home/yulei/data/crosstask/gpt3_output_detail_v2_num3.json', eval=True, saved_path='checkpoints', last_epoch=-1, split='base', no_task=False, no_state_pred=False, no_state_decode_loss=False, no_state_encode_loss=False, no_action_proj_loss=False, no_state_memory=False, use_action_memory=False, use_random=False, use_ensemble=False, no_state_decoder=False, seed=3407, dataset='coin', text_input_dim=768, img_input_dim=512, description_type='cot', num_action=778, num_tasks=180, use_observ_memory=False, use_state_recon_loss=False, uncertain=False, num_sample=1500)
-[2023-12-03 02:01:35,113][main.py][line:204][INFO] Loading prompt features...
-[2023-12-03 02:01:35,121][main.py][line:209][INFO] Loading training data...
-[2023-12-03 02:01:44,410][main.py][line:213][INFO] Loading valid data...
-[2023-12-03 02:02:09,255][main.py][line:120][INFO] Epoch: 0 State Loss: 2.19 Top1 Acc: 43.93%
-[2023-12-03 02:02:09,256][main.py][line:122][INFO] 	Action Loss: 7.60, SR: 27.08% Acc1: 49.62% Acc5: 79.90% MIoU: 59.03
-[2023-12-03 02:02:09,256][main.py][line:128][INFO] 	Viterbi, SR: 32.26% Acc: 49.98% MIoU: 83.93
-[2023-12-03 02:02:09,256][main.py][line:133][INFO] 	Task Loss: 2.74, Acc1: 80.55%
-[2023-12-03 02:02:09,256][main.py][line:136][INFO] 	State Pred Loss: 3.17
+[2024-01-25 04:15:51,143][main.py][line:168][INFO] checkpoints/coin_T3_log_eval.txt
+[2024-01-25 04:15:51,143][main.py][line:169][INFO] Namespace(model_name='coin', num_layers=2, attn_heads=32, mlp_ratio=2, embed_dim=128, fully_supervised=False, distributed=False, sample_frame=False, local_rank=-1, max_traj_len=3, epochs=500, batch_size=256, dropout=0.2, optimizer='adam', lr=0.01, step_size=20, lr_decay=0.65, momentum=0.9, queue_size=8192, weight_decay=0.0001, M=2, aug_range=0, root_dir='dataset/coin', train_json='dataset/coin/coin_train.json', valid_json='dataset/coin/coin_valid.json', features_dir='data/coin_features/full_npy', dsp_dir_json='/home/yulei/data/crosstask/gpt3_output_detail_v2_num3.json', eval=True, saved_path='checkpoints', last_epoch=-1, split='base', no_task=False, no_state_pred=False, no_state_decode_loss=False, no_state_encode_loss=False, no_action_proj_loss=False, no_state_memory=False, use_action_memory=False, use_random=False, use_ensemble=False, no_state_decoder=False, seed=3407, dataset='coin', text_input_dim=768, img_input_dim=512, description_type='cot', num_action=778, num_tasks=180, use_observ_memory=False, use_state_recon_loss=False, uncertain=False, num_sample=1500)
+[2024-01-25 04:15:51,144][main.py][line:199][INFO] Loading prompt features...
+[2024-01-25 04:15:51,154][main.py][line:203][INFO] Loading training data...
+[2024-01-25 04:17:43,867][main.py][line:207][INFO] Loading valid data...
+[2024-01-25 04:18:19,710][main.py][line:231][INFO] Training set volumn: 14521 Testing set volumn: 4690
+[2024-01-25 04:18:37,190][main.py][line:120][INFO] Epoch: 0 State Loss: 2.19 Top1 Acc: 43.93%
+[2024-01-25 04:18:37,190][main.py][line:122][INFO] 	Action Loss: 7.60, SR: 27.08% Acc1: 49.62% Acc5: 79.90% MIoU: 59.03
+[2024-01-25 04:18:37,190][main.py][line:128][INFO] 	Viterbi, SR: 32.26% Acc: 49.98% MIoU: 83.93
+[2024-01-25 04:18:37,190][main.py][line:133][INFO] 	Task Loss: 2.74, Acc1: 80.55%
+[2024-01-25 04:18:37,190][main.py][line:136][INFO] 	State Pred Loss: 3.17

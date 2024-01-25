@@ -21,5 +21,5 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
     --root_dir 'dataset/coin' \
     --train_json 'dataset/coin/coin_train.json' \
     --valid_json 'dataset/coin/coin_valid.json' \
-    --features_dir 'coin_features/processed_data' \
+    --features_dir 'data/coin_features/full_npy' \
     --no_action_proj_loss

@@ -279,7 +279,7 @@ def eval(
 
 
 def main_worker(args):
-    log_file_path = os.path.join(args.saved_path, "log_eval_certain.txt")
+    log_file_path = os.path.join(args.saved_path, f"uncertain_{args.model_name}_T{args.max_traj_len}_log_eval.txt")
     logger = get_logger(log_file_path)
     logger.info("{}".format(log_file_path))
     logger.info("{}".format(args))
@@ -358,7 +358,7 @@ def main_worker(args):
         args=args
     ).to(device)
 
-    model_path = os.path.join(args.saved_path, f'{args.model_name}_T{args.max_traj_len}_uncertain.pth')
+    model_path = os.path.join(args.saved_path, f'uncertain_{args.model_name}_T{args.max_traj_len}.pth')
     model.load_state_dict(torch.load(model_path))
     model.eval()
     

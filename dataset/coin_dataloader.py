@@ -84,7 +84,7 @@ class CoinDataset(Dataset):
             vid_info = video[vid]
             feat_path = os.path.join(self.feature_dir, vid + ".npy") 
             if os.path.exists(feat_path):
-                saved_features = np.load(feat_path, allow_pickle=True)
+                saved_features = np.load(feat_path, allow_pickle=True)["frames_features"]
             else:
                 continue
 

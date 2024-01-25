@@ -16,9 +16,9 @@ conda install tensorboardX==2.2 pandas==1.5.3 ftfy==5.8 regex==2022.7.9
 pip install timm==0.6.13
 ```
 
-Or using the provided .yml file:
+Or using the provided .yaml file:
 ```
-conda env create -f env.yml
+conda env create -f env.yaml
 conda activate schema
 ```
 
@@ -30,22 +30,15 @@ conda activate schema
 |    COIN   |   778   |  180  |       512       |
 |    NIV    |    48   |   5   |       512       |
 
-### Download Data
-Make a directory for each of the dataset in the root folder, change to the directory and download HowTo100M features:
-#### CrossTask
+### Download Datasets
+Download pre-extracted HowTo100M features
 ```
-wget https://vision.eecs.yorku.ca/WebShare/CrossTask_s3d.zip  
-unzip CrossTask_s3d.zip  
-```
-#### COIN
-```
-wget https://vision.eecs.yorku.ca/WebShare/COIN_s3d.zip
-unzip COIN_s3d.zip
-``` 
-#### NIV
-```
-wget https://vision.eecs.yorku.ca/WebShare/NIV_s3d.zip
-unzip NIV_s3d.zip
+# CrossTask
+bash scripts/download_crosstask.sh
+# COIN
+bash scripts/download_coin.sh
+# NIV
+bash scripts/download_niv.sh
 ```
 ### Generate Descriptions (Optional)
 The descriptions of actions and states have been already provided in this repo. The raw descriptions are saved as .json files in the "data" folder. The state and action description features extracted by CLIP language encoder are saved respectively in the "data/state_description_features" and "data/action_description_features" folders.
@@ -68,7 +61,7 @@ If you want to customize the prompts and generate new descriptions, please follo
 ```
 bash script/run_{DATASET}.sh
 ```
-**Note: Set the features_dir to the directory where HowTo100M features are downloaded in previous step. The parmeters can be customized, but using default ones can achieve the results reported in the paper.**
+**Note: The parmeters can be customized, but using default ones can achieve the results reported in the paper.**
 ## Evaluation
 ```
 bash script/eval_{DATASET}.sh

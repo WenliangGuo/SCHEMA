@@ -1,11 +1,11 @@
-[2024-01-21 08:20:35,787][main.py][line:168][INFO] checkpoints/crosstask_T3_log_eval.txt
-[2024-01-21 08:20:35,787][main.py][line:169][INFO] Namespace(model_name='crosstask', num_layers=2, attn_heads=32, mlp_ratio=2, embed_dim=128, fully_supervised=False, distributed=False, sample_frame=False, local_rank=-1, max_traj_len=3, epochs=500, batch_size=256, dropout=0.2, optimizer='adam', lr=0.01, step_size=20, lr_decay=0.65, momentum=0.9, queue_size=8192, weight_decay=0.0001, M=2, aug_range=0, root_dir='dataset/crosstask/crosstask_release', train_json='dataset/crosstask/cross_task_data_False.json', valid_json='dataset/crosstask/cross_task_data_True.json', features_dir='/home/wenliang/data/processed_data_crosstask', dsp_dir_json='/home/yulei/data/crosstask/gpt3_output_detail_v2_num3.json', eval=True, saved_path='checkpoints', last_epoch=-1, split='base', no_task=False, no_state_pred=False, no_state_decode_loss=False, no_state_encode_loss=False, no_action_proj_loss=False, no_state_memory=False, use_action_memory=False, use_random=False, use_ensemble=False, no_state_decoder=False, seed=3407, dataset='crosstask', text_input_dim=768, img_input_dim=512, description_type='cot', num_action=133, num_tasks=18, use_observ_memory=False, use_state_recon_loss=False, uncertain=False, num_sample=1500)
-[2024-01-21 08:20:35,787][main.py][line:174][INFO] Loading prompt features...
-[2024-01-21 08:20:42,518][main.py][line:194][INFO] Loading training data...
-[2024-01-21 08:20:45,337][main.py][line:198][INFO] Loading valid data...
-[2024-01-21 08:20:45,801][main.py][line:239][INFO] Training set volumn: 12255 Testing set volumn: 2023
-[2024-01-21 08:20:52,554][main.py][line:120][INFO] Epoch: 0 State Loss: 1.38 Top1 Acc: 56.64%
-[2024-01-21 08:20:52,555][main.py][line:122][INFO] 	Action Loss: 2.52, SR: 27.09% Acc1: 56.47% Acc5: 90.16% MIoU: 69.63
-[2024-01-21 08:20:52,555][main.py][line:128][INFO] 	Viterbi, SR: 31.83% Acc: 57.31% MIoU: 78.33
-[2024-01-21 08:20:52,555][main.py][line:133][INFO] 	Task Loss: 0.31, Acc1: 93.67%
-[2024-01-21 08:20:52,555][main.py][line:136][INFO] 	State Pred Loss: 2.16
+[2024-01-25 05:11:51,410][main.py][line:168][INFO] checkpoints/crosstask_T3_log_eval.txt
+[2024-01-25 05:11:51,410][main.py][line:169][INFO] Namespace(model_name='crosstask', num_layers=2, attn_heads=32, mlp_ratio=2, embed_dim=128, fully_supervised=False, distributed=False, sample_frame=False, local_rank=-1, max_traj_len=3, epochs=500, batch_size=256, dropout=0.2, optimizer='adam', lr=0.01, step_size=20, lr_decay=0.65, momentum=0.9, queue_size=8192, weight_decay=0.0001, M=2, aug_range=0, root_dir='dataset/crosstask/crosstask_release', train_json='dataset/crosstask/cross_task_data_False.json', valid_json='dataset/crosstask/cross_task_data_True.json', features_dir='data/crosstask_features/processed_data', dsp_dir_json='/home/yulei/data/crosstask/gpt3_output_detail_v2_num3.json', eval=True, saved_path='checkpoints', last_epoch=-1, split='base', no_task=False, no_state_pred=False, no_state_decode_loss=False, no_state_encode_loss=False, no_action_proj_loss=False, no_state_memory=False, use_action_memory=False, use_random=False, use_ensemble=False, no_state_decoder=False, seed=3407, dataset='crosstask', text_input_dim=768, img_input_dim=512, description_type='cot', num_action=133, num_tasks=18, use_observ_memory=False, use_state_recon_loss=False, uncertain=False, num_sample=1500)
+[2024-01-25 05:11:51,411][main.py][line:174][INFO] Loading prompt features...
+[2024-01-25 05:11:58,467][main.py][line:187][INFO] Loading training data...
+[2024-01-25 05:12:01,231][main.py][line:191][INFO] Loading valid data...
+[2024-01-25 05:12:01,681][main.py][line:231][INFO] Training set volumn: 12255 Testing set volumn: 2023
+[2024-01-25 05:12:05,602][main.py][line:120][INFO] Epoch: 0 State Loss: 1.38 Top1 Acc: 56.64%
+[2024-01-25 05:12:05,603][main.py][line:122][INFO] 	Action Loss: 2.52, SR: 27.09% Acc1: 56.47% Acc5: 90.16% MIoU: 69.63
+[2024-01-25 05:12:05,603][main.py][line:128][INFO] 	Viterbi, SR: 31.83% Acc: 57.31% MIoU: 78.33
+[2024-01-25 05:12:05,603][main.py][line:133][INFO] 	Task Loss: 0.31, Acc1: 93.67%
+[2024-01-25 05:12:05,603][main.py][line:136][INFO] 	State Pred Loss: 2.16

@@ -1,32 +1,24 @@
-CUDA_VISIBLE_DEVICES=1 python uncertain.py \
-    --optimizer 'adam' \
-    --lr 0.004 \
+CUDA_VISIBLE_DEVICES=0 python uncertain.py \
     --dropout 0.2 \
     --batch_size 256 \
-    --epochs 500 \
-    --max_traj_len 6 \
+    --max_traj_len 3 \
     --M 2 \
     --aug_range 0 \
     --attn_heads 32 \
     --num_layers 2 \
-    --step_size 40 \
-    --lr_decay 0.65 \
-    --model_name 'model_best.pth' \
-    --dataset 'crosstask_howto100m' \
+    --dataset 'crosstask' \
     --num_action 133 \
     --num_tasks 18 \
     --img_input_dim 512 \
     --text_input_dim 768 \
     --embed_dim 128 \
-    --root_dir '/home/yulei/data/crosstask/crosstask_release' \
-    --train_json '/home/wenliang/procedure_planning/cross_task_data_False.json' \
-    --valid_json '/home/wenliang/procedure_planning/cross_task_data_True.json' \
-    --description_type "cot" \
-    --features_dir '/home/wenliang/data/processed_data_crosstask' \
-    --saved_path 'logs_howto100m_new_encoder_no_action_proj/2023-09-28-22-52-22_crosstask_uncertain_len6_seed3407' \
-    --num_sample 1500 \
+    --root_dir 'dataset/crosstask/crosstask_release' \
+    --train_json 'dataset/crosstask/cross_task_data_False.json' \
+    --valid_json 'dataset/crosstask/cross_task_data_True.json' \
+    --features_dir 'data/crosstask_features/processed_data' \
     --split 'base' \
-    --no_action_proj_loss \
-    --uncertain
-    # --noise_concat \
-    # --noise_dim 32
+    --model_name 'crosstask' \
+    --saved_path 'checkpoints' \
+    --eval \
+    --uncertain \
+    --num_sample 1
