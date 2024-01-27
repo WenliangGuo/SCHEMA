@@ -30,8 +30,8 @@ class ActionDecoder(nn.Module):
         use_state_pred = kwargs["use_state_pred"] if "use_state_pred" in kwargs else True
         use_state_memory = kwargs["use_state_memory"] if "use_state_memory" in kwargs else True
         use_action_proj_loss = kwargs["use_action_proj_loss"] if "use_action_proj_loss" in kwargs else True
-        
         self.uncertainty = kwargs["uncertainty"] if "uncertainty" in kwargs else False
+
         self.use_task = use_task
         self.use_state_pred = use_state_pred
         self.use_state_memory = use_state_memory

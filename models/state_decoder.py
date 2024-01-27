@@ -56,7 +56,7 @@ class StateDecoder(nn.Module):
             self.memory = torch.nn.Embedding(img_input_dim, embed_dim)
 
         if self.dataset == "crosstask" and self.uncertainty is False:
-            self.query_embed = nn.Linear(num_tasks, embed_dim)
+           self.query_embed = nn.Linear(num_tasks, embed_dim)
 
     def process_state_query(self, state_feat, tasks):
         # [batch_size, time_horz+1, embed_dim]

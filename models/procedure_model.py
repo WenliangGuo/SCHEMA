@@ -48,6 +48,7 @@ class ProcedureModel(nn.Module):
             vis_mode = vis_mode,
             mid_state_align=self.mid_state_align
         )
+
         if self.use_state_pred & self.use_state_decoder:
             self.state_decoder = StateDecoder(
                 embed_dim = embed_dim, 
@@ -64,6 +65,7 @@ class ProcedureModel(nn.Module):
                 uncertainty = self.uncertainty,
                 dataset = self.dataset
             )
+
         self.action_decoder = ActionDecoder(
             embed_dim = embed_dim,
             time_horz = time_horz,
@@ -82,6 +84,7 @@ class ProcedureModel(nn.Module):
             use_state_decoder = self.use_state_decoder,
             uncertainty = self.uncertainty
         )
+
         if self.use_task:
             self.task_decoder = nn.Sequential(
                 nn.Linear(embed_dim*2, embed_dim),
@@ -224,7 +227,7 @@ class ProcedureModel(nn.Module):
                 )
             else:
                 ## Using predicted task logits for crosstask increases performance
-                if self.dataset == "crosstask" and self.uncertainty is False:
+                if self.dataset == "crosstask":
                     state_feat_decode = self.state_decoder(
                         state_feat_encode,
                         state_prompt_features, 
