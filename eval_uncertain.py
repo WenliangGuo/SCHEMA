@@ -7,7 +7,7 @@ from utils import *
 from metrics import *
 from torch.utils.data import DataLoader
 from models.procedure_model import ProcedureModel
-from models.helper import AverageMeter
+from models.utils import AverageMeter
 from models.utils import viterbi_path
 from tools.parser import create_parser
 
@@ -159,7 +159,6 @@ def eval(
         model,
         logger,
         state_prompt_features,
-        action_prompt_features,
         transition_matrix,
         e=0,
         device=torch.device("cuda"),
@@ -210,7 +209,6 @@ def eval(
                 outputs, labels, losses = model(
                     visual_features = input_states,
                     state_prompt_features = state_prompt_features,
-                    action_prompt_features = action_prompt_features,
                     observation_features = None,
                     actions = input_actions,
                     tasks = input_tasks,
@@ -290,7 +288,6 @@ def main_worker(args):
     if args.dataset == 'crosstask':
         logger.info("Loading prompt features...")
         state_prompt_features = np.load(f'./data/state_description_features/crosstask_state_prompt_features.npy')
-        action_prompt_features = np.load('./data/action_description_features/crosstask_action_prompt_features.npy')
 
         ## parse raw data
         task_info_path = os.path.join(args.root_dir, "tasks_primary.txt")
@@ -310,28 +307,25 @@ def main_worker(args):
                                         args.valid_json, args.max_traj_len, aug_range=args.aug_range, 
                                         dataset=args.dataset, datasplit=args.split, mode = "valid", M=args.M)
         transition_matrix = train_dataset.transition_matrix
-        # observation_features = train_dataset.state_features
     
     elif args.dataset == "coin":
         logger.info("Loading prompt features...")
         state_prompt_features = np.load(f'./data/state_description_features/coin_state_prompt_features.npy')
-        action_prompt_features = np.load('./data/action_description_features/coin_action_prompt_features.npy')
-    
+
         logger.info("Loading training data...")
         train_dataset = ProcedureDataset(args.features_dir, state_prompt_features, 
                                         args.train_json, args.max_traj_len, aug_range=args.aug_range, 
                                         mode = "train", M=args.M)
+        
         logger.info("Loading valid data...")
         valid_dataset = ProcedureDataset(args.features_dir, state_prompt_features, 
                                         args.valid_json, args.max_traj_len, aug_range=args.aug_range, 
                                         mode = "valid", M=args.M)
         transition_matrix = train_dataset.transition_matrix
-        # observation_features = train_dataset.state_features
 
     elif args.dataset == "niv":
         logger.info("Loading prompt features...")
         state_prompt_features = np.load(f'./data/state_description_features/niv_state_prompt_features.npy')
-        action_prompt_features = np.load('./data/action_description_features/niv_action_prompt_features.npy')
 
         logger.info("Loading training data...")
         train_dataset = ProcedureDataset(args.features_dir, state_prompt_features, 
@@ -343,7 +337,6 @@ def main_worker(args):
                                         args.valid_json, args.max_traj_len, num_action = 48,
                                         aug_range=args.aug_range, mode = "valid", M=args.M)
         transition_matrix = train_dataset.transition_matrix
-        # observation_features = train_dataset.state_features
     
     valid_loader = DataLoader(valid_dataset, batch_size=args.batch_size, shuffle=False, num_workers=4)
     logger.info("Training set volumn: {} Testing set volumn: {}".format(len(train_dataset), len(valid_dataset)))
@@ -363,14 +356,12 @@ def main_worker(args):
     model.eval()
     
     state_prompt_features  = torch.tensor(state_prompt_features).to(device, dtype=torch.float32).clone().detach()
-    action_prompt_features = torch.tensor(action_prompt_features).to(device, dtype=torch.float32).clone().detach()
     eval(
         args,
         valid_loader, 
         model,
         logger, 
         state_prompt_features, 
-        action_prompt_features,
         transition_matrix, 
         -1,
         device
