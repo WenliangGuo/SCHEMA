@@ -126,6 +126,7 @@ def crossstask_make_prompt_feature(clip_model, dsp_dir_json, action_collect, dev
         a_feature = np.stack(a_feature)
         action_feature = a_feature
         return action_feature
+    
 
 def coin_make_prompt_feature(clip_model, dsp_dir_json, mapping_table, device, type="desc"):
     if type == "desc" or type == "action":
@@ -199,6 +200,7 @@ def coin_make_prompt_feature(clip_model, dsp_dir_json, mapping_table, device, ty
         a_feature = np.stack(a_feature)
         action_feature = a_feature
         return action_feature
+
 
 def niv_make_prompt_feature(clip_model, dsp_dir_json, task_steps_rec, device, type="desc"):
     with open(os.path.join(dsp_dir_json), "r") as f:
@@ -274,6 +276,7 @@ def niv_make_prompt_feature(clip_model, dsp_dir_json, task_steps_rec, device, ty
         a_feature = np.stack(a_feature)
         action_feature = a_feature
         return action_feature
+    
 
 def get_logger(filename, verbosity=1, name=None):
     level_dict = {0: logging.DEBUG, 1: logging.INFO, 2: logging.WARNING}

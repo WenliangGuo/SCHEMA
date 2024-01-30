@@ -20,7 +20,7 @@ class ProcedureModel(nn.Module):
         '''Procedure model initialization
 
         This class defines the Procedure Model. It consists of a state encoder,
-        a state decoder, a task decoderm, and an action decoder.
+        a state decoder, a task decoder, and an action decoder.
 
         Args:
             vis_input_dim:  dimension of visual features.
@@ -106,7 +106,7 @@ class ProcedureModel(nn.Module):
 
         Args:
             visual_features:        Visual observations of procedures.  [batch_size, time_horizon, 2, vis_input_dim]
-            state_prompt_features:  Descriptions for before and after state of actions. [num_action, num_prompts, lang_input_dim]
+            state_prompt_features:  Descriptions of before and after state of all actions. [num_action, num_prompts, lang_input_dim]
             actions:                Ground truth actions.     [batch_size, time_horizon]
             tasks:                  Ground truth tasks.       [batch_size]
 
@@ -116,6 +116,7 @@ class ProcedureModel(nn.Module):
             losses:  Dictionary of losses.
         '''
 
+        # forward network
         outputs = self.forward_once(
             visual_features, 
             state_prompt_features, 
@@ -126,7 +127,7 @@ class ProcedureModel(nn.Module):
         action_logits = outputs["action"].reshape(batch_size, T, -1)
         action_logits = torch.softmax(action_logits, -1)
 
-        # viterbi
+        # viterbi decoding
         if transition_matrix is not None:
             pred_viterbi = []
             for i in range(batch_size):
@@ -135,9 +136,9 @@ class ProcedureModel(nn.Module):
             pred_viterbi = torch.stack(pred_viterbi).cuda()
         else:
             pred_viterbi = None
-
         outputs["pred_viterbi"] = pred_viterbi
 
+        # loss calculation
         labels, losses = self.forward_loss(outputs, actions, tasks)
 
         return outputs, labels, losses
@@ -155,12 +156,13 @@ class ProcedureModel(nn.Module):
 
         Args:
             visual_features:        Visual observations of procedures.  [batch_size, time_horizon, 2, vis_input_dim]
-            state_prompt_features:  Descriptions for before and after state of actions.     [num_action, num_prompts, lang_input_dim]
+            state_prompt_features:  Descriptions of before and after state of all actions.     [num_action, num_prompts, lang_input_dim]
             tasks:                  Ground truth tasks.      [batch_size]
         
         Returns:
-            outputs: Dictionary of outputs.
+            outputs:                Dictionary of outputs.
         '''
+
         batch_size = visual_features.shape[0]
 
         # Step 1: state encoding
@@ -193,17 +195,13 @@ class ProcedureModel(nn.Module):
 
         # Step 3: action decoding
         prompt_features = state_prompt_features
-        action_outputs = self.action_decoder(
+        action_logits = self.action_decoder(
             state_feat_input, 
             prompt_features, 
             tasks_input
         )
-        action_logits, action_decode = action_outputs
 
-        # index of action/state
-        action_idx = list(range(1, self.time_horz*2, 2))
-        action_logits = action_logits[:, action_idx, :]
-
+        # Collect outputs
         outputs = self.process_outputs(state_prompt_features, 
                                        state_logits, 
                                        state_feat_decode, 
@@ -220,13 +218,13 @@ class ProcedureModel(nn.Module):
         action decoding, and task decoding.
 
         Args:
-            outputs: Dictionary of outputs.
-            actions: Ground truth actions.
-            tasks:   Ground truth tasks.
+            outputs:    Dictionary of outputs.
+            actions:    Ground truth actions.
+            tasks:      Ground truth tasks.
         
         Returns:
-            labels: Dictionary of processed labels.
-            losses: Dictionary of losses.
+            labels:     Dictionary of processed labels.
+            losses:     Dictionary of losses.
         '''
 
         _, num_action = outputs["action"].shape
@@ -263,10 +261,10 @@ class ProcedureModel(nn.Module):
         This function processes the outputs from the forward pass.
 
         Args:
-            state_prompt_features: Descriptions for before and after state of actions.   [num_action, num_prompts, embed_dim]
-            state_logits:          Logits for each state.   [batch_size, 2, num_action]
-            state_feat_decode:     Decoded state features.  [batch_size, time_horizon+1, embed_dim]
-            action_logits:         Logits for each action.  [batch_size, time_horizon, num_action]
+            state_prompt_features: Descriptions of before and after state of all actions.   [num_action, num_prompts, embed_dim]
+            state_logits:          Similarity between visual and linguistic features for start and end states.  [batch_size, 2, num_action]
+            state_feat_decode:     Decoded features of all states.  [batch_size, time_horizon+1, embed_dim]
+            action_logits:         Predicted action logits.  [batch_size, time_horizon, num_action]
             task_pred:             Predicted tasks.     [batch_size, num_tasks]
             pred_viterbi:          Predicted actions using viterbi decoding.    [batch_size, time_horizon]
 
@@ -300,12 +298,12 @@ class ProcedureModel(nn.Module):
     def process_state_prompts(self, state_prompt_features, actions):
         '''Process state prompts
 
-        This function combines the state descriptions after the current action with
+        This function combines the language descriptions after the current action with
         the descriptions before the next action to get consistent descriptions for 
         each state.
 
 `       Args:
-            state_prompt_features: Descriptions for before and after state of actions.   [num_action, num_prompts, embed_dim]
+            state_prompt_features: Descriptions of before and after state of all actions.   [num_action, num_prompts, embed_dim]
             actions:               Ground truth actions.    [batch_size, time_horizon]
         
         Returns:

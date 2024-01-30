@@ -311,7 +311,6 @@ def train(args):
 
     writer = SummaryWriter(path)
 
-    ## begin training
     model = ProcedureModel(
         vis_input_dim=args.img_input_dim,
         lang_input_dim=args.text_input_dim,

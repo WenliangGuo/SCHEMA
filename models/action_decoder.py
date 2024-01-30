@@ -42,7 +42,20 @@ class ActionDecoder(nn.Module):
         self.logit_scale = nn.Parameter(torch.ones([]) * np.log(1 / 0.07))
 
     def process_state_query(self, state_feat, tasks):
-        # [batch_size, time_horz+1, embed_dim]
+        '''Process the state query
+        
+        This function first generates mask tokens, and concatenates them with the visual tokens
+        to make the input query. Then it adds positional encoding to the query. The task information is
+        then introduced into the query.
+
+        Args:
+            state_feat:     Predicted visual features.  (batch, time_horz+1, embed_dim)
+            tasks:          Task.   (batch)
+
+        Returns:
+            query:          Processed state query.  (2*time_horz+1, batch, embed_dim)
+        '''
+
         batch_size, num_steps, embed_dim = state_feat.shape
 
         if self.uncertainty:
@@ -62,23 +75,35 @@ class ActionDecoder(nn.Module):
         return query
 
 
-    def forward(self, state_feat, prompt_features, tasks):
-        '''
-        input:
-        state_feat:         (batch, time_horz+1, embed_dim)
-        prompt_features:    (num_action, num_desc, embed_dim)
-        tasks:              (batch)
+    def forward(self, state_feat, state_prompt_features, tasks):
+        '''Forward pass of the action decoder
 
-        output:
-        actoin_logits:      (batch, 2*num_action+1, num_action)
-        state_feat:         (batch, 2*num_action+1, embed_dim)
+        This function first generates the state query, and then uses the prompt features as memory to
+        output the action logits.
+
+        Args:
+            state_feat:             Predicted visual features.  (batch, time_horz+1, embed_dim)
+            state_prompt_features:  Encoded description features.   (num_action, num_desc, embed_dim)
+            tasks:                  Task.   (batch)
+
+        Returns:
+            action_logits:          Predicted action logits.   (batch, time_horz, num_action)
         '''
+
         batch_size, _, _ = state_feat.shape
 
+        # Generate Query for Transformer
         state_query = self.process_state_query(state_feat, tasks) # [time_horz+1, batch_size, embed_dim]
-        memory = prompt_features.reshape(-1, prompt_features.shape[-1]) #.clone().detach()
+
+        # Generate Memory(Key and Value) for Transformer
+        memory = state_prompt_features.reshape(-1, state_prompt_features.shape[-1])
         memory = memory.unsqueeze(1).repeat(1, batch_size, 1)
+
         state_output = self.decoder(state_query, memory, memory)
-        action_logits = self.classifier(state_output)
+        state_action_logits = self.classifier(state_output)
+
+        # Select action tokens
+        action_idx = list(range(1, self.time_horz*2, 2))    # index of action/state
+        action_logits = state_action_logits[:, action_idx, :]
       
-        return action_logits, state_output
+        return action_logits

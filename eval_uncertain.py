@@ -1,5 +1,4 @@
 import torch
-import torch.nn as nn
 import os
 import numpy as np
 
@@ -11,7 +10,7 @@ from models.utils import AverageMeter
 from models.utils import viterbi_path
 from tools.parser import create_parser
 
-## implementation based on https://github.dev/MCG-NJU/PDPP
+# Implementation based on https://github.dev/MCG-NJU/PDPP
 def cal_uncertainty(actions_pred_logits, gt, num_sampling, horizon, act_size, all_ref):
     actions_pred = torch.argmax(actions_pred_logits, dim=-1)
     actions_pred = actions_pred.view(num_sampling, -1)
@@ -126,7 +125,7 @@ def cal_uncertainty(actions_pred_logits, gt, num_sampling, horizon, act_size, al
     return len_unique, mc_prec, mc_recall, klv, nll
 
 
-## implementation based on https://github.dev/JoeHEZHAO/procedure-planing
+# Implementation based on https://github.dev/JoeHEZHAO/procedure-planing
 def cal_viterbi(rst_argmax, act_size, pred_horz, num_sampling, transition_matrix):
     # """Formulate distribution from these samples, for viterbi results """
     ref_onehot = torch.FloatTensor(pred_horz, act_size).cuda()
@@ -209,7 +208,6 @@ def eval(
                 outputs, labels, losses = model(
                     visual_features = input_states,
                     state_prompt_features = state_prompt_features,
-                    observation_features = None,
                     actions = input_actions,
                     tasks = input_tasks,
                     transition_matrix = transition_matrix

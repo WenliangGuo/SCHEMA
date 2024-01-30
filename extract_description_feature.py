@@ -6,8 +6,7 @@ import argparse
 from utils import *
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--dataset', 
-                    default='crosstask', type=str, 
+parser.add_argument('--dataset', default='crosstask', type=str, 
                     help='dataset')
 args = parser.parse_args()
 

@@ -1,4 +1,4 @@
-CUDA_VISIBLE_DEVICES=3 python main.py \
+CUDA_VISIBLE_DEVICES=0 python main.py \
     --dropout 0.2 \
     --batch_size 256 \
     --max_traj_len 3 \

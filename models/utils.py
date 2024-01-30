@@ -1,33 +1,17 @@
-import torch
-import torch.nn.functional as F
 import numpy as np
 
-def process_state_feat(state_feat):
-    '''
-    input:
-    state_feat: (batch, time_horz, 2, input_dim)
-    output:
-    state_feat_tmp: (batch, time_horz+1, input_dim)
-    '''
-    b, horizon, num_obser, dim = state_feat.shape
-
-    state_feat_tmp_1 = torch.cat([state_feat[:, :, 0:1, :], state_feat[:, -1:, -1:, :]], 1) # [batch, time_horz+1, 1, dim]
-    state_feat_tmp_2 = torch.cat([state_feat[:, 0:1, 0:1, :], state_feat[:, :, -1:, :]], 1)
-    state_feat_tmp = torch.cat([state_feat_tmp_1, state_feat_tmp_2], 2) # [batch, time_horz+1, 2, dim]
-    state_feat_tmp = state_feat_tmp.mean(2) # [batch, time_horz+1, dim]
-
-    return state_feat_tmp
-
 def img_text_similarlity(state_features, prompt_features, scale):
+        ''' Compute the similarity between visual and linguistic features
+
+        Args:
+            state_features:     Input visual feature.   (batch, length, embedding_dim)
+            prompt_features:    Input language feature. (batch, length, embedding_dim)
+            scale:              Scale parameter.
+
+        Returns:
+            logits:             Similarity matrix.      (batch, length, length)
         '''
-        input:
-        state_features: (batch, length, embedding_dim)
-        prompt_features: (batch, length, embedding_dim)
-        scale: float
-        output:
-        logits_per_image: (batch, batch)
-        logits_per_text: (batch, batch)
-        '''
+
         embedding_dim = state_features.shape[-1]
         
         # flatten features
@@ -35,31 +19,32 @@ def img_text_similarlity(state_features, prompt_features, scale):
         prompt_features = prompt_features.reshape(-1, embedding_dim)
 
         # normalized features
-        image_features = state_features / state_features.norm(dim=1, keepdim=True) #.detach().clone()
-        text_features = prompt_features / prompt_features.norm(dim=1, keepdim=True) #.detach().clone()
-        # image_features = F.normalize(state_features)
-        # text_features = F.normalize(prompt_features)
+        image_features = state_features / state_features.norm(dim=1, keepdim=True)
+        text_features = prompt_features / prompt_features.norm(dim=1, keepdim=True)
 
-        # cosine similarity as logits
+        # similarity as logits
         logits = scale * image_features @ text_features.t()
-
         return logits
 
+
 def viterbi_path(transition, emission, prior=None, observation=None, return_likelihood=False):
-    '''
+    ''' Viterbi algorithm
+
+    Search the most likely sequence of hidden states given the observations.
+
     Args:
-        transition:     the transition matrix, where A[i][j] is the probability of transitioning from state i to state j.
-        emission:       the emission matrix, where B[i][j] is the probability of emitting observation j from state i.
-        prior:          the prior probabilities, where pi[i] is the probability of starting in state i.
-        observation:    the sequence of observations.
-        best_path:      the most likely action sequence
+        transition:     Transition matrix, where A[i][j] is the probability of 
+                        transitioning from state i to state j.  (num_action, num_action)
+        emission:       Emission matrix, where B[i][j] is the probability of 
+                        emitting observation j from state i.    (num_action, horizon)
+        prior:          Prior probabilities, where pi[i] is the probability of 
+                        starting in state i.    (num_action)
+        observation:    Sequence of observations.   (horizon)
+        return_likelihood:  Whether to return the likelihood of the best path.  (default: False)
     
-    Shape:
-        transition:     (num_action, num_action)
-        emission:       (num_action, horizon)
-        prior:          (num_action)
-        observation:    (horizon)
-        best_path:      (horizon)
+    Returns:
+        best_path:      The most likely action sequence.    (horizon)
+        best_path_prob: The likelihood of the best path.
     '''
 
     # Initialize trellis

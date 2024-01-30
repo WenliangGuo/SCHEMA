@@ -11,7 +11,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
     --num_layers 2 \
     --step_size 40 \
     --lr_decay 0.65 \
-    --model_name 'crosstask_uncertain' \
+    --model_name 'crosstask' \
     --dataset 'crosstask' \
     --num_action 133 \
     --num_tasks 18 \
@@ -22,5 +22,4 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
     --train_json 'dataset/crosstask/cross_task_data_False.json' \
     --valid_json 'dataset/crosstask/cross_task_data_True.json' \
     --features_dir 'data/crosstask_features/processed_data' \
-    --split 'base' \
-    --no_action_proj_loss
+    --split 'base'

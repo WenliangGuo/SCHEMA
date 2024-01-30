@@ -54,7 +54,7 @@ class StateDecoder(nn.Module):
     def process_state_query(self, state_feat, tasks):
         ''' Process the state query
 
-        This function first generates mask tokens, and concatenates them with the start-end visual features
+        This function first generates mask tokens, and concatenates them with the start-end visual tokens
         to make the input query. Then it adds positional encoding to the query. The task information is
         also introduced into the query optionally.
 
@@ -65,7 +65,7 @@ class StateDecoder(nn.Module):
         Returns:
             query:          Processed query. (time_horz+1, batch_size, embed_dim)
         '''
-        # [batch_size, time_horz+1, embed_dim]
+
         batch, _, embed_dim = state_feat.shape
 
         if self.uncertainty is True:
@@ -91,7 +91,7 @@ class StateDecoder(nn.Module):
         ''' Forward pass of the state decoder
 
         State decoder takes the encoded state feature as query, and the encoded description 
-        features as key/vaule, then outputs the predicted state features.
+        features as memory, then outputs the predicted state features.
 
         Args:
             state_feat:             Encoded start and end visual features.    (batch, 2, embed_dim)
@@ -99,16 +99,19 @@ class StateDecoder(nn.Module):
             tasks:                  Task. (batch)
 
         Returns:
-            state_feat:             Predicted  visual features.    (batch, time_horz+1, embed_dim)
+            state_feat:             Predicted visual features.    (batch, time_horz+1, embed_dim)
         '''
 
         batch_size, _, _ = state_feat.shape
 
+        # Generate Query for Transformer
         state_query = self.feat_encode(state_feat)
-        state_query = self.process_state_query(state_query, tasks) # [time_horz+1, batch_size, embed_dim]
+        state_query = self.process_state_query(state_query, tasks)  # [time_horz+1, batch_size, embed_dim]
 
+        # Generate Memory(Key and Value) for Transformer
         memory = state_prompt_features.reshape(-1, state_prompt_features.shape[-1])
         memory = memory.unsqueeze(1).repeat(1, batch_size, 1)
+
         state_output = self.decoder(state_query, memory, memory)
         
         state_output = state_output[:, 1:-1, :]

@@ -56,39 +56,22 @@ class CrossTaskDataset(Dataset):
                           "Make Pancakes": 91515}
 
         self.data = []
-        # self.state_features = []
         self.load_data()
         if self.mode == "train":
-            # self.transition_matrix += 1 # works for logs/2023-05-10-01-16-46_v0 
             self.transition_matrix = self.cal_transition(self.transition_matrix)
-            # self.state_features = np.stack(self.state_features, axis = 0)
 
     def cal_transition(self, matrix):
-        '''
-        input:
-        matrix: [num_action, num_action]
-        output:
-        transition: [num_action, num_action]
+        ''' Cauculate transition matrix
+
+        Args:
+            matrix:     [num_action, num_action]
+
+        Returns:
+            transition: [num_action, num_action]
         '''
         transition = matrix / np.sum(matrix, axis = 1, keepdims = True)
         return transition
 
-    def select_prompts(self, actions):
-        '''
-        input:
-        actions: [time_horz]
-        output:
-        cur_prompt_features: [2, num_prompts, embedding_dim]
-        '''
-        cur_prompt_features = []
-
-        t = len(actions)-1
-        cur_prompt_features.append(self.prompt_features[actions[0],:3,:])
-        cur_prompt_features.append(self.prompt_features[actions[t],3:,:])
-
-        cur_prompt_features = np.stack(cur_prompt_features, axis = 0)
-        
-        return cur_prompt_features
 
     def load_data(self):
         with open(self.video_list, "r") as f:
@@ -112,7 +95,7 @@ class CrossTaskDataset(Dataset):
             except:
                 continue
                         
-            ## remove repeated actions
+            # Remove repeated actions. Intuitively correct, but do not work well on dataset.
             # legal_video_anot = []
             # for i in range(len(video_anot)):
             #     if i == 0 or video_anot[i]["action_id"] != video_anot[i-1]["action_id"]:
@@ -132,11 +115,11 @@ class CrossTaskDataset(Dataset):
                 all_action_ids = []
 
                 for j in range(self.horizon):
-                    ## Using adjacent frames for data augmentation
                     cur_video_anot = video_anot[i+j]
                     cur_action_id = cur_video_anot["action_id"]-1
                     features = []
                     
+                    ## Using adjacent frames for data augmentation
                     for frame_offset in range(-self.aug_range, self.aug_range+1):
                         s_time = cur_video_anot["start"]+frame_offset
                         e_time = cur_video_anot["end"]+frame_offset

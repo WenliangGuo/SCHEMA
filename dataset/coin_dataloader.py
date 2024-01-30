@@ -29,17 +29,8 @@ class CoinDataset(Dataset):
         self.data = []
         self.load_data()
         if self.mode == "train":
-            self.transition_matrix += 1  
+            self.transition_matrix += 1  # Laplace smoothing
             self.transition_matrix = self.cal_transition(self.transition_matrix)
-            # follow p3iv implementation
-            # Normalize the Transition Matrix row-by-row 
-            # self.transition_matrix = torch.from_numpy(self.transition_matrix)
-            # for i in range(self.transition_matrix.shape[1]):
-            #     self.transition_matrix[:, i] = sample_gumbel_softmax_v2(
-            #         self.transition_matrix[:, i],
-            #         temperature=1.0,
-            #     )
-            # self.transition_matrix = self.transition_matrix.numpy()
 
     def cal_transition(self, matrix):
         '''
@@ -49,32 +40,9 @@ class CoinDataset(Dataset):
         transition: [num_action, num_action]
         '''
         transition = matrix / np.sum(matrix, axis = 1, keepdims = True)
-        # normalize transition matrix: p3iv implementation
-        # matrix = torch.from_numpy(matrix, dtype = torch.float32)
-        # for idx, row in enumerate(matrix):
-        #     if (row == 0).all():
-        #         matrix[idx] = torch.ones(row.shape) * (1 / self.num_action)
-        # tnorm = matrix.sum(1).unsqueeze(1).repeat(1, self.num_action)
-        # transition = matrix / tnorm
         return transition
     
-    def select_prompts(self, actions):
-        '''
-        input:
-        actions: [time_horz]
-        output:
-        cur_prompt_features: [2, num_prompts, embedding_dim]
-        '''
-        cur_prompt_features = []
 
-        t = len(actions)-1
-        cur_prompt_features.append(self.prompt_features[actions[0],:3,:])
-        cur_prompt_features.append(self.prompt_features[actions[t],3:,:])
-
-        cur_prompt_features = np.stack(cur_prompt_features, axis = 0)
-        
-        return cur_prompt_features
-    
     def load_data(self):
         with open(self.coin_json, "r") as f:
             coin_data = json.load(f)
@@ -91,7 +59,7 @@ class CoinDataset(Dataset):
             task_id = vid_info["recipe_type"]
             video_anot = vid_info["annotation"]
 
-            # ## remove repeated actions
+            # Remove repeated actions. Intuitively correct, but do not work well on dataset.
             # legal_video_anot = []
             # for i in range(len(video_anot)):
             #     if i == 0 or video_anot[i]["id"] != video_anot[i-1]["id"]:
@@ -111,11 +79,11 @@ class CoinDataset(Dataset):
                 all_action_ids = []
 
                 for j in range(self.horizon):
-                    ## Using adjacent frames for data augmentation
                     cur_video_anot = video_anot[i+j]
                     cur_action_id = int(cur_video_anot["id"])-1
                     features = []
                     
+                    ## Using adjacent frames for data augmentation
                     for frame_offset in range(-self.aug_range, self.aug_range+1):
                         s_time = int(cur_video_anot["segment"][0])+frame_offset
                         e_time = int(cur_video_anot["segment"][1])+frame_offset
