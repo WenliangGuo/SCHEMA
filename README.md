@@ -76,7 +76,7 @@ bash scripts/eval_{DATASET}.sh
 |    NIV (T=3)    |    27.93%    |  41.64%  | 76.77% |
 |    NIV (T=4)    |    23.26%    |  39.93%  | 76.75% |
 
-## (Optional) Use P3IV or PDPP Dataloading
+## (Optional) Change Dataloader
 In this work, we followed the data pre-processing of [1] to curate and load datasets, and used the data-split of [2] to train and evaluate models. For comparison purposes, the dataloaders and data-splits of P3IV [3] and PDPP [4] are also provided in this repo. You can use them by simply setting the argument *split* to *pdpp* or *p3iv* in files *scripts/run_crosstask.sh* and *scripts/eval_crosstask.sh*.
 
 [1] Chang, C. Y., Huang, D. A., Xu, D., Adeli, E., Fei-Fei, L., & Niebles, J. C. (2020, August). Procedure planning in instructional videos. In European Conference on Computer Vision (pp. 334-350). Cham: Springer International Publishing.  
