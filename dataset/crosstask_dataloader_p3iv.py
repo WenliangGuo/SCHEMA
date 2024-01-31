@@ -61,22 +61,6 @@ class CrossTaskDataset(Dataset):
         transition = matrix / np.sum(matrix, axis = 1, keepdims = True)
         return transition
 
-    def select_prompts(self, actions):
-        '''
-        input:
-        actions: [time_horz]
-        output:
-        cur_prompt_features: [2, num_prompts, embedding_dim]
-        '''
-        cur_prompt_features = []
-
-        t = len(actions)-1
-        cur_prompt_features.append(self.prompt_features[actions[0],:3,:])
-        cur_prompt_features.append(self.prompt_features[actions[t],3:,:])
-
-        cur_prompt_features = np.stack(cur_prompt_features, axis = 0)
-        
-        return cur_prompt_features
 
     def load_data(self):
         ## gather all the indices of the same video
