@@ -24,13 +24,30 @@ class CrossTaskDataset(Dataset):
         self.prompt_features = prompt_features
         self.aug_range = aug_range
         self.horizon = horizon
-        self.video_list = video_list
+        self.video_list = "dataset/crosstask/p3iv_t3_datasplit.pth"
         self.mode = mode
         self.M = M
-
+        self.task_info = {"Make Jello Shots": 23521, 
+                    "Build Simple Floating Shelves": 59684, 
+                    "Make Taco Salad": 71781, 
+                    "Grill Steak": 113766,
+                    "Make Kimchi Fried Rice": 105222, 
+                    "Make Meringue": 94276,
+                    "Make a Latte": 53193, 
+                    "Make Bread and Butter Pickles": 105253,
+                    "Make Lemonade": 44047, 
+                    "Make French Toast": 76400,
+                    "Jack Up a Car": 16815, 
+                    "Make Kerala Fish Curry": 95603,
+                    "Make Banana Ice Cream": 109972, 
+                    "Add Oil to Your Car": 44789,
+                    "Change a Tire": 40567, 
+                    "Make Irish Coffee": 77721,
+                    "Make French Strawberry Cake": 87706, 
+                    "Make Pancakes": 91515}
         self.vid_gather = {}
         
-        with open(video_list, "rb") as f:
+        with open(self.video_list, "rb") as f:
             self.datasplit = pickle.load(f)
         self.datasplit = self.datasplit["train"] if mode == "train" else self.datasplit["test"]
 
@@ -57,7 +74,6 @@ class CrossTaskDataset(Dataset):
             # update transition matrix
             for i in range(len(adj)):
                 matrix[adj[i]] += 1
-        matrix += 100
         transition = matrix / np.sum(matrix, axis = 1, keepdims = True)
         return transition
 
@@ -72,20 +88,18 @@ class CrossTaskDataset(Dataset):
         
         ## load data for each video
         for vid, idxs in self.vid_gather.items():
-            npy_path = os.path.join(self.feature_dir, vid+".npy")
-            if not os.path.exists(npy_path):
-                continue
-            saved_features = np.load(npy_path)
             video_anot = self.anot_info[vid]
             task_id = self.anot_info[vid][0]["task_id"]
-
+            task = self.anot_info[vid][0]["task"]
+            npy_path = os.path.join(self.feature_dir, f"{self.task_info[task]}_{vid}.npy")
+            saved_features = np.load(npy_path, allow_pickle=True)["frames_features"]
+            
             for idx in idxs:
                 data_item = self.datasplit[idx]
                 start_idx = data_item[4][0]
                 end_idx = data_item[4][1]
                 action_id = []
                 state_feat = []
-
 
                 for t in range(start_idx, end_idx):     ## end_idx - start_idx = time_horizon
                     action_id.append(video_anot[t]["action_id"]-1)

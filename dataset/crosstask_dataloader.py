@@ -14,8 +14,6 @@ class CrossTaskDataset(Dataset):
         video_list, 
         horizon = 3, 
         num_action = 133, 
-        dataset = "crosstask",
-        datasplit = 'base',
         aug_range = 0, 
         M = 2, 
         mode = "train", 
@@ -30,9 +28,6 @@ class CrossTaskDataset(Dataset):
         self.max_duration = 0
         self.mode = mode
         self.M = M
-        self.dataset = dataset
-        self.datasplit = datasplit
-
         self.num_action = num_action
         self.transition_matrix = np.zeros((num_action, num_action))
 
@@ -78,11 +73,7 @@ class CrossTaskDataset(Dataset):
             video_info_dict = json.load(f)
         
         for video_info in video_info_dict:
-            if self.datasplit == 'base':
-                video_id = video_info["id"]["vid"]
-            elif self.datasplit == 'pdpp':
-                video_id = video_info["vid"]
-
+            video_id = video_info["id"]["vid"]
             video_anot = self.anot_info[video_id]
             task_id = video_anot[0]["task_id"]
             task = video_anot[0]["task"]

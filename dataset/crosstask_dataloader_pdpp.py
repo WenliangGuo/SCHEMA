@@ -1,10 +1,8 @@
 import numpy as np
-import itertools
-from torch.utils.data import Dataset
 import torch
 import json
 import os
-from collections import namedtuple
+from torch.utils.data import Dataset
 
 class CrossTaskDataset(Dataset):
     def __init__(
@@ -15,8 +13,6 @@ class CrossTaskDataset(Dataset):
         video_list, 
         horizon = 3, 
         num_action = 133, 
-        dataset = "crosstask_howto100m",
-        datasplit = 'base',
         aug_range = 0, 
         M = 2, 
         mode = "train", 
@@ -27,11 +23,14 @@ class CrossTaskDataset(Dataset):
         self.prompt_features = prompt_features
         self.aug_range = aug_range
         self.horizon = horizon
-        self.video_list = video_list
         self.max_duration = 0
         self.mode = mode
         self.M = M
-        self.dataset = dataset
+
+        if self.mode == "train":
+            self.video_list = "dataset/crosstask/pdpp_train_list.json"
+        else:
+            self.video_list = "dataset/crosstask/pdpp_test_list.json"
 
         self.num_action = num_action
         self.transition_matrix = np.zeros((num_action, num_action))
@@ -55,12 +54,9 @@ class CrossTaskDataset(Dataset):
                     "Make Pancakes": 91515}
 
         self.data = []
-        self.state_features = []
         self.load_data()
         if self.mode == "train":
-            # self.transition_matrix += 100 # works for logs/2023-05-10-01-16-46_v0 
             self.transition_matrix = self.cal_transition(self.transition_matrix)
-            self.state_features = np.stack(self.state_features, axis = 0)
 
     def cal_transition(self, matrix):
         '''
@@ -78,26 +74,18 @@ class CrossTaskDataset(Dataset):
             video_info_dict = json.load(f)
         
         for video_info in video_info_dict:
-            # video_id = video_info["id"]["vid"]
             video_id = video_info["vid"]
             video_anot = self.anot_info[video_id]
             task_id = video_anot[0]["task_id"]
             task = video_anot[0]["task"]
             
-            if self.dataset == "crosstask_clip":
-                try:
-                    saved_features = \
-                        np.load(os.path.join(self.feature_dir, "{}.npy".format(video_id)))
-                except:
-                    continue
-            elif self.dataset == "crosstask_howto100m":
-                try:
-                    saved_features = \
-                        np.load(os.path.join(self.feature_dir, "{}_{}.npy".\
-                                                format(self.task_info[task], video_id)), 
-                                allow_pickle=True)["frames_features"]
-                except:
-                    continue
+            try:
+                saved_features = \
+                    np.load(os.path.join(self.feature_dir, "{}_{}.npy".\
+                                            format(self.task_info[task], video_id)), 
+                            allow_pickle=True)["frames_features"]
+            except:
+                continue
 
             ## update transition matrix
             if self.mode == "train":
@@ -109,8 +97,6 @@ class CrossTaskDataset(Dataset):
                     e_time = video_anot[i]["end"]
                     if s_time < 0 or e_time >= saved_features.shape[0]:
                         continue
-                    self.state_features.append(saved_features[s_time])
-                    self.state_features.append(saved_features[e_time])
 
             for i in range(len(video_anot)-self.horizon+1):
                 all_features = []
@@ -131,7 +117,6 @@ class CrossTaskDataset(Dataset):
                     else:
                         start_feature = saved_features[len(saved_features) - self.M - 1: len(saved_features)]
                     
-                    # all_features.append(np.concatenate(start_feature))
                     if self.M == 0:
                         start_feature = np.expand_dims(start_feature, axis = 0)
                         all_features.append(start_feature)
@@ -146,7 +131,6 @@ class CrossTaskDataset(Dataset):
                 else:
                     end_feature = saved_features[len(saved_features) - self.M - 1: len(saved_features)]
 
-                # all_features.append(np.concatenate(end_feature))
                 if self.M == 0:
                     end_feature = np.expand_dims(end_feature, axis = 0)
                     all_features.append(end_feature)
@@ -157,7 +141,7 @@ class CrossTaskDataset(Dataset):
                 all_action_ids = np.array(all_action_ids)
                 all_reduced_action_ids = np.array(all_reduced_action_ids)
                 task_id = np.array(cur_video_anot["task_id"])
-                
+
                 self.data.append({"states": all_features,
                                 "actions": all_reduced_action_ids, 
                                 "init_actions": all_action_ids,
@@ -171,9 +155,8 @@ class CrossTaskDataset(Dataset):
         init_actions = torch.as_tensor(self.data[idx]["init_actions"], dtype=torch.long)
         reduced_actions = torch.as_tensor(self.data[idx]["actions"], dtype=torch.long)
         tasks = torch.as_tensor(self.data[idx]["tasks"], dtype=torch.long)
-        # batch = Batch(states, init_actions, reduced_actions, tasks)
 
-        # return states, init_actions, reduced_actions, tasks
+        # return states, reduced_actions, tasks
         return states, init_actions, tasks
 
 

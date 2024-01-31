@@ -295,15 +295,15 @@ def main_worker(args):
         anot_dir = os.path.join(args.root_dir, "annotations")
         anot_info = parse_annotation(anot_dir, task_info, idices_mapping)
 
-        ## create procedure datset and dataloader
         logger.info("Loading training data...")
         train_dataset = ProcedureDataset(anot_info, args.features_dir, state_prompt_features, 
                                         args.train_json, args.max_traj_len, aug_range=args.aug_range, 
-                                        dataset=args.dataset, datasplit=args.split, mode = "train", M=args.M)
+                                        mode = "train", M=args.M)
+        
         logger.info("Loading valid data...")
         valid_dataset = ProcedureDataset(anot_info, args.features_dir, state_prompt_features, 
                                         args.valid_json, args.max_traj_len, aug_range=args.aug_range, 
-                                        dataset=args.dataset, datasplit=args.split, mode = "valid", M=args.M)
+                                        mode = "valid", M=args.M)
         transition_matrix = train_dataset.transition_matrix
     
     elif args.dataset == "coin":
@@ -370,11 +370,14 @@ if __name__ == "__main__":
     args = create_parser()
 
     if args.dataset == 'crosstask':
-        if args.split == 'base' or args.split == 'pdpp':
+        if args.split == 'base':
             from dataset.crosstask_dataloader import CrossTaskDataset as ProcedureDataset
-            # ## use pdpp data-sample
-            # from dataset.crosstask_dataloader_pdpp import CrossTaskDataset as ProcedureDataset
+        elif args.split == 'pdpp':
+            # use PDPP data split and data sample
+            from dataset.crosstask_dataloader_pdpp import CrossTaskDataset as ProcedureDataset
         elif args.split == 'p3iv':
+            # use P3IV data split and data sample
+            assert args.max_traj_len == 3, "Only the datasplit for max_traj_len = 3 is available."
             from dataset.crosstask_dataloader_p3iv import CrossTaskDataset as ProcedureDataset
     
     elif args.dataset == 'coin':
@@ -382,6 +385,5 @@ if __name__ == "__main__":
     
     elif args.dataset == 'niv':
         from dataset.niv_dataloader import NivDataset as ProcedureDataset
-
 
     main_worker(args)

@@ -1,7 +1,7 @@
 CUDA_VISIBLE_DEVICES=0 python eval_uncertain.py \
     --dropout 0.2 \
     --batch_size 256 \
-    --max_traj_len 4 \
+    --max_traj_len 3 \
     --M 2 \
     --aug_range 0 \
     --attn_heads 32 \

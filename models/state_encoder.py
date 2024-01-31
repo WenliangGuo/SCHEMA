@@ -54,7 +54,8 @@ class StateEncoder(nn.Module):
 
         batch_size = state_feat.shape[0]
 
-        state_feat = self.process_state_feat(state_feat) # [batch, time_horz+1, input_dim]
+        if len(state_feat.shape) != 3:            
+            state_feat = self.process_state_feat(state_feat) # [batch, time_horz+1, input_dim]
 
         # encode description feature
         prompt_features = self.desc_encoder(self.dropout(all_state_desc_feat))

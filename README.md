@@ -40,7 +40,7 @@ bash scripts/download_coin.sh
 # NIV
 bash scripts/download_niv.sh
 ```
-### Generate Descriptions (Optional)
+### (Optional) Generate Descriptions
 The descriptions of actions and states have been already provided in this repo. The raw descriptions are saved as .json files in the "data" folder. The state and action description features extracted by CLIP language encoder are saved respectively in the "data/state_description_features" and "data/action_description_features" folders.
 
 If you want to customize the prompts and generate new descriptions, please follow the steps below:
@@ -75,6 +75,12 @@ bash scripts/eval_{DATASET}.sh
 |    COIN (T=4)   |    21.89%    |  45.25%  | 83.51% |
 |    NIV (T=3)    |    27.93%    |  41.64%  | 76.77% |
 |    NIV (T=4)    |    23.26%    |  39.93%  | 76.75% |
+
+## (Optional) Use P3IV or PDPP Dataloading
+In this work, we followed the data pre-processing of [1] to curate and load datasets, and used the data-split of [2] to train and evaluate models. For comparison purposes, the dataloaders and data-splits of P3IV and PDPP are also provided in this repo. You can use them by simply setting the argument *split* to *pdpp* or *p3iv* in files *scripts/run_crosstask.sh* and *scripts/eval_crosstask.sh*.
+
+[1] Chang, C. Y., Huang, D. A., Xu, D., Adeli, E., Fei-Fei, L., & Niebles, J. C. (2020, August). Procedure planning in instructional videos. In European Conference on Computer Vision (pp. 334-350). Cham: Springer International Publishing.  
+[2] Sun, J., Huang, D. A., Lu, B., Liu, Y. H., Zhou, B., & Garg, A. (2022). PlaTe: Visually-grounded planning with transformers in procedural tasks. IEEE Robotics and Automation Letters, 7(2), 4924-4930.
 
 ## Probabilistic (Uncertain) Modeling
 ```
