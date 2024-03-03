@@ -157,17 +157,17 @@ def evaluate(args):
         anot_dir = os.path.join(args.root_dir, "annotations")
         anot_info = parse_annotation(anot_dir, task_info, idices_mapping)
 
-        ## create procedure datset and dataloader
         logger.info("Loading training data...")
         train_dataset = ProcedureDataset(anot_info, args.features_dir, state_prompt_features, 
                                         args.train_json, args.max_traj_len, aug_range=args.aug_range, 
-                                        dataset=args.dataset, datasplit=args.split, mode = "train", M=args.M)
+                                        mode = "train", M=args.M)
         
         logger.info("Loading valid data...")
         valid_dataset = ProcedureDataset(anot_info, args.features_dir, state_prompt_features, 
                                         args.valid_json, args.max_traj_len, aug_range=args.aug_range, 
-                                        dataset=args.dataset, datasplit=args.split, mode = "valid", M=args.M)
+                                        mode = "valid", M=args.M)
         transition_matrix = train_dataset.transition_matrix
+        
     
     elif args.dataset == "coin":
         logger.info("Loading prompt features...")
@@ -198,6 +198,7 @@ def evaluate(args):
                                         args.valid_json, args.max_traj_len, num_action = 48,
                                         aug_range=args.aug_range, mode = "valid", M=args.M)
         transition_matrix = train_dataset.transition_matrix
+
     
     logger.info("Training set volumn: {} Testing set volumn: {}".format(len(train_dataset), len(valid_dataset)))
     
@@ -213,7 +214,7 @@ def evaluate(args):
         args=args
     ).to(device)
 
-    model_path = os.path.join(args.saved_path, f'{args.model_name}_T{args.max_traj_len}.pth')
+    model_path = os.path.join(args.saved_path, args.dataset, f'{args.model_name}_T{args.max_traj_len}.pth')
     model.load_state_dict(torch.load(model_path))
     model.eval()
     
@@ -232,11 +233,7 @@ def evaluate(args):
 
 
 def train(args):
-    path = "logs/{}_{}_len{}_seed{}".format(
-        time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime()), 
-        args.model_name, 
-        args.max_traj_len,
-        args.seed)
+    path = "logs/{}_len{}".format(args.model_name, args.max_traj_len)
     if args.last_epoch > -1:
         path += "_last{}".format(args.last_epoch)
     args.saved_path = path

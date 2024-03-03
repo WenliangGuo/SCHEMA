@@ -61,7 +61,12 @@ If you want to customize the prompts and generate new descriptions, please follo
 ```
 bash scripts/run_{DATASET}.sh
 ```
-The parmeters can be customized, but using default ones can achieve the results reported in the paper.
+Checkpoint and log files are saved to the default path /logs. To evaluate the checkpoint, please copy .pth file to the folder /checkpoints using the command below:
+```
+## E.g., cp logs/crosstask_len3/model_best.pth checkpoints/crosstask/crosstask_T3.pth
+cp logs/{DATASET}_len{max_traj_len}/model_best.pth checkpoints/{DATASET}/{DATASET}_T{max_traj_len}.pth
+```
+
 ## Evaluation
 ```
 bash scripts/eval_{DATASET}.sh
