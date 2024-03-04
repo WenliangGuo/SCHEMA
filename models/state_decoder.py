@@ -48,8 +48,7 @@ class StateDecoder(nn.Module):
         self.state_proj = nn.Linear(embed_dim, embed_dim, bias=False)
         self.logit_scale = nn.Parameter(torch.ones([]) * np.log(1 / 0.07))
 
-        # if self.dataset == "crosstask":
-        if self.dataset == "crosstask" or self.dataset == "coin" or self.dataset == "niv":
+        if self.dataset == "crosstask":
             if self.uncertainty is False:
                 self.query_embed = nn.Linear(num_tasks, embed_dim)
 
@@ -82,8 +81,7 @@ class StateDecoder(nn.Module):
         query = query.permute(1, 0, 2)
 
         # adding predicted task infomation to query for crosstask increases performance
-        # if self.dataset == "crosstask":
-        if self.dataset == "crosstask" or self.dataset == "coin" or self.dataset == "niv":
+        if self.dataset == "crosstask":
             if self.uncertainty is False:
                 task_query = self.query_embed(tasks.clone().detach()).expand(self.time_horz + 1, -1, -1)
                 query = query + task_query
