@@ -58,7 +58,7 @@ class ActionDecoder(nn.Module):
 
         batch_size, num_steps, embed_dim = state_feat.shape
 
-        if self.uncertainty:
+        if self.uncertainty is True:
             init_tensor = torch.randn([batch_size, 1, embed_dim]).to(state_feat.device)
             init_tensor = init_tensor.repeat(1, self.time_horz, 1)
         else:

@@ -48,9 +48,8 @@ class StateDecoder(nn.Module):
         self.state_proj = nn.Linear(embed_dim, embed_dim, bias=False)
         self.logit_scale = nn.Parameter(torch.ones([]) * np.log(1 / 0.07))
 
-        if self.dataset == "crosstask":
-            if self.uncertainty is False:
-                self.query_embed = nn.Linear(num_tasks, embed_dim)
+        if self.uncertainty is False:
+            self.query_embed = nn.Linear(num_tasks, embed_dim)
 
     def process_state_query(self, state_feat, tasks):
         ''' Process the state query
@@ -69,11 +68,12 @@ class StateDecoder(nn.Module):
 
         batch, _, embed_dim = state_feat.shape
 
-        if self.uncertainty is True:
+        if self.uncertainty is False:
+            init_tensor = torch.zeros([batch, self.time_horz-1, embed_dim]).to(state_feat.device)
+        else:
             init_tensor = torch.randn([batch, 1, embed_dim]).to(state_feat.device)
             init_tensor = init_tensor.repeat(1, self.time_horz-1, 1)
-        else:
-            init_tensor = torch.zeros([batch, self.time_horz-1, embed_dim]).to(state_feat.device)
+            
         init_tensor = torch.zeros([batch, self.time_horz-1, embed_dim]).to(state_feat.device)
         state_feat_tmp = torch.cat([state_feat[:, :1, :], init_tensor, state_feat[:, -1:, :]], 1)
 
@@ -81,10 +81,9 @@ class StateDecoder(nn.Module):
         query = query.permute(1, 0, 2)
 
         # adding predicted task infomation to query for crosstask increases performance
-        if self.dataset == "crosstask":
-            if self.uncertainty is False:
-                task_query = self.query_embed(tasks.clone().detach()).expand(self.time_horz + 1, -1, -1)
-                query = query + task_query
+        if self.uncertainty is False:
+            task_query = self.query_embed(tasks.clone().detach()).expand(self.time_horz + 1, -1, -1)
+            query = query + task_query
 
         return query
 

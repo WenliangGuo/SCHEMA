@@ -21,4 +21,5 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
     --root_dir 'dataset/niv' \
     --train_json 'dataset/niv/niv_train.json' \
     --valid_json 'dataset/niv/niv_valid.json' \
-    --features_dir 'data/niv_features/processed_data'
+    --features_dir 'data/niv_features/processed_data' \
+    --saved_path 'checkpoints'

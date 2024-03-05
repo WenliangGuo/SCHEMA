@@ -178,19 +178,11 @@ class ProcedureModel(nn.Module):
             tasks_input = tasks
 
         # Step 2.2: state decoding
-        ## Using predicted task logits for crosstask increases performance
-        if self.dataset == "crosstask":
-            state_feat_decode = self.state_decoder(
-                state_feat_encode,
-                state_prompt_features, 
-                task_pred
-            )
-        else:
-            state_feat_decode = self.state_decoder(
-                state_feat_encode,
-                state_prompt_features, 
-                tasks_input
-            )
+        state_feat_decode = self.state_decoder(
+            state_feat_encode,
+            state_prompt_features, 
+            task_pred
+        )
         state_feat_input = state_feat_decode
 
         # Step 3: action decoding

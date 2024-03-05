@@ -138,7 +138,7 @@ def eval(
 
 
 def evaluate(args):
-    log_file_path = os.path.join(args.saved_path, args.dataset, f"{args.model_name}_T{args.max_traj_len}_log_eval.txt")
+    log_file_path = os.path.join(args.saved_path, args.dataset, f"T{args.max_traj_len}_log_eval.txt")
     logger = get_logger(log_file_path)
     logger.info("{}".format(log_file_path))
     logger.info("{}".format(args))
@@ -214,7 +214,7 @@ def evaluate(args):
         args=args
     ).to(device)
 
-    model_path = os.path.join(args.saved_path, args.dataset, f'{args.model_name}_T{args.max_traj_len}.pth')
+    model_path = os.path.join(args.saved_path, args.dataset, f"T{args.max_traj_len}_model_best.pth")
     model.load_state_dict(torch.load(model_path))
     model.eval()
     
@@ -233,12 +233,14 @@ def evaluate(args):
 
 
 def train(args):
-    path = "logs/{}_len{}".format(args.model_name, args.max_traj_len)
+    logger_path = "logs/{}_{}_len{}".format(
+                    time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime()), 
+                    args.model_name, 
+                    args.max_traj_len)
     if args.last_epoch > -1:
-        path += "_last{}".format(args.last_epoch)
-    args.saved_path = path
-    os.makedirs(path)
-    log_file_path = os.path.join(path, "log.txt")
+        logger_path += "_last{}".format(args.last_epoch)
+    os.makedirs(logger_path)
+    log_file_path = os.path.join(logger_path, "log.txt")
     logger = get_logger(log_file_path)
     logger.info("{}".format(log_file_path))
     logger.info("{}".format(args))
@@ -306,7 +308,7 @@ def train(args):
 
     logger.info("Training set volumn: {} Testing set volumn: {}".format(len(train_dataset), len(valid_dataset)))
 
-    writer = SummaryWriter(path)
+    writer = SummaryWriter(logger_path)
 
     model = ProcedureModel(
         vis_input_dim=args.img_input_dim,
@@ -441,21 +443,23 @@ def train(args):
                       writer=writer, 
                       is_train=True)
             
+            # save the last model to logger path
             torch.save(
                 model.state_dict(), 
                 os.path.join(
-                    args.saved_path, 
-                    "model_last.pth"
+                    logger_path,
+                    f"T{args.max_traj_len}_model_last.pth"  
                 )
             )
-
+            # save the best model to checkpoints path
             if SR > max_SR:
                 max_SR = SR
                 torch.save(
                     model.state_dict(), 
                     os.path.join(
                         args.saved_path, 
-                        "model_best.pth"
+                        args.dataset,
+                        f"T{args.max_traj_len}_model_best.pth"
                     )
                 )        
 
