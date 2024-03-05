@@ -1,10 +1,10 @@
-CUDA_VISIBLE_DEVICES=0 python main.py \
+CUDA_VISIBLE_DEVICES=1 python main.py \
    --optimizer 'adam' \
     --lr 0.005 \
     --dropout 0.2 \
     --batch_size 256 \
     --epochs 500 \
-    --max_traj_len 3 \
+    --max_traj_len 4 \
     --M 2 \
     --aug_range 0 \
     --attn_heads 32 \

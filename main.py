@@ -138,7 +138,7 @@ def eval(
 
 
 def evaluate(args):
-    log_file_path = os.path.join(args.saved_path, f"{args.model_name}_T{args.max_traj_len}_log_eval.txt")
+    log_file_path = os.path.join(args.saved_path, args.dataset, f"{args.model_name}_T{args.max_traj_len}_log_eval.txt")
     logger = get_logger(log_file_path)
     logger.info("{}".format(log_file_path))
     logger.info("{}".format(args))
