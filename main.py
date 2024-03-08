@@ -454,14 +454,17 @@ def train(args):
             # save the best model to checkpoints path
             if SR > max_SR:
                 max_SR = SR
-                torch.save(
-                    model.state_dict(), 
-                    os.path.join(
+                log_save_path = os.path.join(
+                    logger_path,
+                    f"T{args.max_traj_len}_model_best.pth"  
+                )
+                checkpoint_save_path = os.path.join(
                         args.saved_path, 
                         args.dataset,
                         f"T{args.max_traj_len}_model_best.pth"
                     )
-                )        
+                torch.save(model.state_dict(), checkpoint_save_path)        
+                os.system(f"cp {checkpoint_save_path} {log_save_path}")
 
 if __name__ == "__main__":
     args = create_parser()

@@ -68,6 +68,9 @@ def create_parser():
     parser.add_argument('--aug_range',
                         default=0, type=int,
                         metavar='W', help='augmentation range (default: 0)')
+    parser.add_argument('--no_state_task', 
+                        action='store_true',
+                        help='inject task information into state decoder')
 
     parser.add_argument('--root_dir', 
                         default='/home/yulei/data/crosstask/crosstask_release', type=str, 

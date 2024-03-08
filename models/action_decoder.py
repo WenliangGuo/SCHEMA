@@ -41,6 +41,7 @@ class ActionDecoder(nn.Module):
         self.proj = nn.Linear(embed_dim, embed_dim)
         self.logit_scale = nn.Parameter(torch.ones([]) * np.log(1 / 0.07))
 
+
     def process_state_query(self, state_feat, tasks):
         '''Process the state query
         

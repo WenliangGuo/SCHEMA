@@ -74,7 +74,7 @@ If you want to customize the prompts and generate new descriptions, please follo
 bash scripts/run_{DATASET}.sh
 ```
 
-With default setting, the last checkpoint and log files are saved to the folder */logs*,and the best checkpoint is saved to the folder */checkpoints*.
+With default setting, the checkpoint and running log are saved to the folder */logs*, and the best checkpoint is saved to the folder */checkpoints/{DATASET}*.
 
 ## Evaluation
 
@@ -82,13 +82,13 @@ With default setting, the last checkpoint and log files are saved to the folder 
 bash scripts/eval_{DATASET}.sh
 ```
 
-|                | Success Rate | Accuracy |  MIoU  |
+|                 | Success Rate | Accuracy |  MIoU  |
 | :-------------: | :----------: | :------: | :----: |
 | CrossTask (T=3) |    31.83%    |  57.31%  | 78.33% |
 | CrossTask (T=4) |    20.18%    |  51.86%  | 74.45% |
-|   COIN (T=3)   |    32.52%    |  49.84%  | 84.11% |
-|   COIN (T=4)   |    22.30%    |  45.70%  | 83.71% |
-|    NIV (T=3)    |    27.93%    |  41.44%  | 77.24% |
+|   COIN (T=3)    |    32.37%    |  50.58%  | 84.11% |
+|   COIN (T=4)    |    22.72%    |  45.74%  | 83.92% |
+|    NIV (T=3)    |    27.93%    |  41.64%  | 76.77% |
 |    NIV (T=4)    |    23.26%    |  39.93%  | 76.75% |
 
 ## (Optional) Change Dataloader

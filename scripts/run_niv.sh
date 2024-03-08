@@ -4,7 +4,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
     --dropout 0.2 \
     --batch_size 256 \
     --epochs 500 \
-    --max_traj_len 4 \
+    --max_traj_len 3 \
     --M 2 \
     --aug_range 0 \
     --attn_heads 32 \
@@ -18,6 +18,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
     --img_input_dim 512 \
     --text_input_dim 768 \
     --embed_dim 128 \
+    --no_state_task \
     --root_dir 'dataset/niv' \
     --train_json 'dataset/niv/niv_train.json' \
     --valid_json 'dataset/niv/niv_valid.json' \

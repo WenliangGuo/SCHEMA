@@ -1,11 +1,11 @@
-[2024-03-05 05:51:07,395][main.py][line:143][INFO] checkpoints/coin/coin_T4_log_eval.txt
-[2024-03-05 05:51:07,395][main.py][line:144][INFO] Namespace(model_name='coin', num_layers=2, attn_heads=32, mlp_ratio=2, text_input_dim=768, img_input_dim=512, embed_dim=128, max_traj_len=4, dataset='coin', num_action=778, num_tasks=180, epochs=500, batch_size=256, dropout=0.2, optimizer='adam', lr=0.01, step_size=20, lr_decay=0.65, weight_decay=0.0001, M=2, aug_range=0, root_dir='dataset/coin', train_json='dataset/coin/coin_train.json', valid_json='dataset/coin/coin_valid.json', features_dir='data/coin_features/full_npy', eval=True, saved_path='checkpoints', last_epoch=-1, split='base', seed=3407, uncertain=False, num_sample=1500)
-[2024-03-05 05:51:07,395][main.py][line:173][INFO] Loading prompt features...
-[2024-03-05 05:51:07,401][main.py][line:176][INFO] Loading training data...
-[2024-03-05 05:51:16,165][main.py][line:181][INFO] Loading valid data...
-[2024-03-05 05:51:19,001][main.py][line:203][INFO] Training set volumn: 9013 Testing set volumn: 2892
-[2024-03-05 05:51:35,278][main.py][line:101][INFO] Epoch: 0 State Loss: 2.23 Top1 Acc: 43.95%
-[2024-03-05 05:51:35,278][main.py][line:103][INFO] 	Action Loss: 7.80, SR: 16.87% Acc1: 44.80% Acc5: 79.03% MIoU: 58.24
-[2024-03-05 05:51:35,278][main.py][line:109][INFO] 	Viterbi, SR: 22.30% Acc: 45.70% MIoU: 83.71
-[2024-03-05 05:51:35,278][main.py][line:113][INFO] 	Task Loss: 2.32, Acc1: 79.98%
-[2024-03-05 05:51:35,278][main.py][line:115][INFO] 	State Pred Loss: 2.24
+[2024-03-07 22:08:12,978][main.py][line:143][INFO] checkpoints/coin/T4_log_eval.txt
+[2024-03-07 22:08:12,979][main.py][line:144][INFO] Namespace(model_name='coin', num_layers=2, attn_heads=32, mlp_ratio=2, text_input_dim=768, img_input_dim=512, embed_dim=128, max_traj_len=4, dataset='coin', num_action=778, num_tasks=180, epochs=500, batch_size=256, dropout=0.2, optimizer='adam', lr=0.01, step_size=20, lr_decay=0.65, weight_decay=0.0001, M=2, aug_range=0, no_state_task=False, root_dir='dataset/coin', train_json='dataset/coin/coin_train.json', valid_json='dataset/coin/coin_valid.json', features_dir='data/coin_features/full_npy', eval=True, saved_path='checkpoints', last_epoch=-1, split='base', seed=3407, uncertain=False, num_sample=1500)
+[2024-03-07 22:08:12,979][main.py][line:173][INFO] Loading prompt features...
+[2024-03-07 22:08:12,984][main.py][line:176][INFO] Loading training data...
+[2024-03-07 22:08:19,259][main.py][line:181][INFO] Loading valid data...
+[2024-03-07 22:08:21,272][main.py][line:203][INFO] Training set volumn: 9013 Testing set volumn: 2892
+[2024-03-07 22:08:36,821][main.py][line:101][INFO] Epoch: 0 State Loss: 2.22 Top1 Acc: 43.34%
+[2024-03-07 22:08:36,821][main.py][line:103][INFO] 	Action Loss: 6.96, SR: 17.63% Acc1: 45.13% Acc5: 79.28% MIoU: 60.42
+[2024-03-07 22:08:36,821][main.py][line:109][INFO] 	Viterbi, SR: 22.72% Acc: 45.74% MIoU: 83.92
+[2024-03-07 22:08:36,821][main.py][line:113][INFO] 	Task Loss: 2.13, Acc1: 80.29%
+[2024-03-07 22:08:36,821][main.py][line:115][INFO] 	State Pred Loss: 1.97

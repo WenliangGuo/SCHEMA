@@ -41,6 +41,7 @@ class ProcedureModel(nn.Module):
         self.dataset = args.dataset
         self.time_horz = time_horz
         self.embed_dim = embed_dim
+        self.state_task_pred = not args.no_state_task
 
         self.state_encoder = StateEncoder(
             vis_input_dim,
@@ -56,11 +57,10 @@ class ProcedureModel(nn.Module):
             mlp_ratio = self.mlp_ratio,
             num_layers = self.num_layers,
             dropout = self.dropout, 
-            num_classes = num_classes,
             num_tasks = num_tasks,
-            img_input_dim = vis_input_dim,
             uncertainty = self.uncertainty,
-            dataset = self.dataset
+            dataset = self.dataset,
+            use_task_pred = self.state_task_pred
         )
 
         self.action_decoder = ActionDecoder(
@@ -172,10 +172,6 @@ class ProcedureModel(nn.Module):
         # Step 2.1: task prediction
         state_feat_concat = state_feat_encode.reshape(batch_size, -1)
         task_pred = self.task_decoder(state_feat_concat)
-        if self.training is False:
-            tasks_input = task_pred.argmax(-1)
-        else:
-            tasks_input = tasks
 
         # Step 2.2: state decoding
         state_feat_decode = self.state_decoder(
@@ -190,7 +186,7 @@ class ProcedureModel(nn.Module):
         action_logits = self.action_decoder(
             state_feat_input, 
             prompt_features, 
-            tasks_input
+            tasks if self.training is True else task_pred.argmax(-1)
         )
 
         # Collect outputs

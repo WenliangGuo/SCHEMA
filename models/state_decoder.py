@@ -12,17 +12,17 @@ class StateDecoder(nn.Module):
             mlp_ratio = 2,
             num_layers = 2,
             dropout = 0.1, 
-            img_input_dim = 768,
-            num_classes = 133,
             num_tasks = 18,
             uncertainty = False,
-            dataset = "crosstask"
+            dataset = "crosstask",
+            use_task_pred = True
         ):
         super().__init__()
         self.time_horz = time_horz
         self.embed_dim = embed_dim
         self.uncertainty = uncertainty
         self.dataset = dataset
+        self.use_task_pred = use_task_pred
 
         self.feat_encode = nn.Linear(embed_dim, embed_dim, bias=True)
 
@@ -47,8 +47,7 @@ class StateDecoder(nn.Module):
         # Projection Layer
         self.state_proj = nn.Linear(embed_dim, embed_dim, bias=False)
         self.logit_scale = nn.Parameter(torch.ones([]) * np.log(1 / 0.07))
-
-        if self.uncertainty is False:
+        if self.use_task_pred is True and self.uncertainty is False:
             self.query_embed = nn.Linear(num_tasks, embed_dim)
 
     def process_state_query(self, state_feat, tasks):
@@ -80,10 +79,9 @@ class StateDecoder(nn.Module):
         query = self.pos_encoder(state_feat_tmp) # [batch_size, time_horz+1, embed_dim]
         query = query.permute(1, 0, 2)
 
-        # adding predicted task infomation to query for crosstask increases performance
-        if self.uncertainty is False:
+        if self.use_task_pred is True and self.uncertainty is False:
             task_query = self.query_embed(tasks.clone().detach()).expand(self.time_horz + 1, -1, -1)
-            query = query + task_query
+            query = query + task_query 
 
         return query
 

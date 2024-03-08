@@ -12,6 +12,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py\
     --img_input_dim 512 \
     --text_input_dim 768 \
     --embed_dim 128 \
+    --no_state_task \
     --root_dir 'dataset/niv' \
     --train_json 'dataset/niv/niv_train.json' \
     --valid_json 'dataset/niv/niv_valid.json' \
