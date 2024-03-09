@@ -57,6 +57,7 @@ If you want to customize the prompts and generate new descriptions, please follo
 1. Modify line 9 of *generate_descriptors.py*, set the variable *openai_key* to your OpenAI key.
 2. Modify the prompt starting from line 25 of *generate_descriptors.py*.
 3. Download OpenAI package and generate description files:
+
    ```
    pip install openai
    python generate_descriptors.py --dataset [DATASET]
@@ -64,6 +65,7 @@ If you want to customize the prompts and generate new descriptions, please follo
 
    **Note: Replace the [DATASET] with a specific dataset: crosstask or coin or niv. (Same for the following steps)**
 4. Extract description features:
+
    ```
    python extract_description_feature.py --dataset [DATASET]
    ```
@@ -82,12 +84,12 @@ With default setting, the checkpoint and running log are saved to the folder */l
 bash scripts/eval_{DATASET}.sh
 ```
 
-|                 | Success Rate | Accuracy |  MIoU  |
+|                | Success Rate | Accuracy |  MIoU  |
 | :-------------: | :----------: | :------: | :----: |
 | CrossTask (T=3) |    31.83%    |  57.31%  | 78.33% |
 | CrossTask (T=4) |    20.18%    |  51.86%  | 74.45% |
-|   COIN (T=3)    |    32.37%    |  50.58%  | 84.11% |
-|   COIN (T=4)    |    22.72%    |  45.74%  | 83.92% |
+|   COIN (T=3)   |    32.37%    |  50.58%  | 84.11% |
+|   COIN (T=4)   |    22.72%    |  45.74%  | 83.92% |
 |    NIV (T=3)    |    27.93%    |  41.64%  | 76.77% |
 |    NIV (T=4)    |    23.26%    |  39.93%  | 76.75% |
 
@@ -120,3 +122,16 @@ You can modify the parameters *num_sample* (defalut 1500) in *eval_uncertain_cro
 | :-------------: | :----------: | :------: | :----: | :------: | :-----: | :----: | :--: |
 | CrossTask (T=3) |    29.51%    |  57.09%  | 77.76% |  38.32  |  37.70  |  3.62  | 4.15 |
 | CrossTask (T=4) |    16.55%    |  51.93%  | 74.42% |  26.46  |  23.76  |  3.82  | 4.62 |
+
+## Citation
+
+If you find our work helpful for your research, please consider citing the following BibTeX entry.
+
+```
+@article{niu2024schema,
+  title={SCHEMA: State CHangEs MAtter for Procedure Planning in Instructional Videos},
+  author={Niu, Yulei and Guo, Wenliang and Chen, Long and Lin, Xudong and Chang, Shih-Fu},
+  journal={arXiv preprint arXiv:2403.01599},
+  year={2024}
+}
+```
