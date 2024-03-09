@@ -1,0 +1,356 @@
+{
+    "23521":
+    {
+        "task_name":"Make Jello Shots",
+        "task_cls": 0,
+        "step_name":{
+            "0":"pour water",
+            "1":"pour juice",
+            "2":"pour jello powder",
+            "3":"pour alcohol",
+            "4":"stir mixture",
+            "5":"pour mixutre into cup"
+        },
+        "steps":
+        {"pour water":1,"pour juice":2,"pour jello powder":3,"pour alcohol":4,
+            "stir mixture":5,"pour mixutre into cup":6
+        }
+    },
+
+    "59684":
+    {
+        "task_name":"Build Simple Floating Shelves",
+        "task_cls": 0,
+        "step_name":{
+            "0":"cut shelve",
+            "1":"assemble shelve",
+            "2":"sand shelve",
+            "3":"paint shelve",
+            "4":"attach shelve"
+        },
+        "steps": 
+        {"cut shelve":7,"assemble shelve":8,"sand shelve":9,"paint shelve":10,
+            "attach shelve":11
+        }
+    },
+
+    "71781":
+    {
+        "task_name":"Make Taco Salad",
+        "task_cls": 0,
+        "step_name":{
+            "0":"add onion",
+            "1":"add taco",
+            "2":"add lettuce",
+            "3":"add meat",
+            "4":"add tomato",
+            "5":"add cheese",
+            "6":"stir",
+            "7":"add tortilla"
+        },
+        "steps": 
+        {"add onion":12,"add taco":13,"add lettuce":14,"add meat":15,
+            "add tomato":16,"add cheese":17,"stir":18,"add tortilla":19
+        }
+    },
+
+    "113766":
+    {
+        "task_name":"Grill Steak",
+        "task_cls": 0,
+        "step_name":{
+            "0":"season steak",
+            "1":"put steak on grill",
+            "2":"close lid",
+            "3":"open lid",
+            "4":"move steak on grill",
+            "5":"flip steak",
+            "6":"check temperature",
+            "7":"take steak from grill",
+            "8":"top steak",
+            "9":"cut steak",
+            "10":"taste steak"
+        },
+        "steps": 
+        {"season steak":20,"put steak on grill":21,"close lid":22,"open lid":23,
+            "move steak on grill":24,"flip steak":25,"check temperature":26, "take steak from grill":27,
+            "top steak":28, "cut steak":29, "taste steak":30
+        }
+    },
+
+    "105222":
+    {
+        "task_name": "Make Kimchi Fried Rice",
+        "task_cls": 0,
+        "step_name":{
+            "0":"add onion",
+            "1":"add rice",
+            "2":"add ham",
+            "3":"add kimchi",
+            "4":"pour sesame oil",
+            "5":"stir mixture"
+        },
+        "steps": 
+        {"add onion":12,"add rice":31,"add ham":32,"add kimchi":33,"pour sesame oil":34,
+            "stir mixture":5
+        }
+    },
+
+    "94276":
+    {
+        "task_name": "Make Meringue",
+        "task_cls": 0,
+        "step_name":{
+            "0":"pour egg",
+            "1":"add sugar",
+            "2":"whisk mixture",
+            "3":"put mixture into bag",
+            "4":"spread mixture",
+            "5":"put merigue into oven"
+        },
+        "steps": 
+        {"pour egg":35,"add sugar":36,"whisk mixture":37,"put mixture into bag":38,"spread mixture":39,
+            "put merigue into oven":40
+        }
+    },
+
+    "53193":
+    {
+        "task_name": "Make a Latte",
+        "task_cls": 0,
+        "step_name":{
+            "0":"add coffee",
+            "1":"press coffee",
+            "2":"pour water",
+            "3":"pour espresso",
+            "4":"steam milk",
+            "5":"pour milk"
+        },
+        "steps": 
+        {"add coffee":41,"press coffee":42,"pour water":1,"pour espresso":43,"steam milk":44,
+         "pour milk":57
+
+        }
+    },
+
+    "105253":
+    {
+        "task_name": "Make Bread and Butter Pickles",
+        "task_cls": 0,
+        "step_name":{
+            "0":"cut cucumber",
+            "1":"cut onion",
+            "2":"add salt",
+            "3":"pour water",
+            "4":"pour vinegar",
+            "5":"add sugar",
+            "6":"add spices",
+            "7":"put vegetables in water",
+            "8":"pack cucumbers in jar",
+            "9":"seal jar",
+            "10":"put jar in water"
+        },
+        "steps": 
+        {"cut cucumber":45,"cut onion":46,"add salt":47,"pour water":1,"pour vinegar":105,"add sugar":36,
+            "add spices":104,"put vegetables in water":48, "pack cucumbers in jar":49, "seal jar":50, "put jar in water":51
+        }
+    },
+    
+    "44047":
+    {
+        "task_name": "Make Lemonade",
+        "task_cls": 0,
+        "step_name":{
+            "0":"cut lemon",
+            "1":"add sugar",
+            "2":"squeeze lemon",
+            "3":"pour lemon juice",
+            "4":"pour water",
+            "5":"stir mixture",
+            "6":"add ice",
+            "7":"pour lemonade into glass"
+        },
+        "steps": 
+        {"cut lemon":52,"add sugar":36,"squeeze lemon":53,"pour lemon juice":54,"pour water":1,"stir mixture":5,
+            "add ice":55,"pour lemonade into glass":56
+        }
+    },
+
+    "76400":
+    {
+        "task_name": "Make French Toast",
+        "task_cls": 0,
+        "step_name":{
+            "0":"pour milk",
+            "1":"whisk mixture",
+            "2":"pour egg",
+            "3":"dip bread in mixture",
+            "4":"melt butter",
+            "5":"put bread in pan",
+            "6":"add vanilla extract",
+            "7":"flip bread",
+            "8":"remove bread from pan",
+            "9":"top toast"
+        },
+        "steps": 
+        {"pour milk":57,"whisk mixture":37,"pour egg":35,"dip bread in mixture":58,"melt butter":59,"put bread in pan":60,
+            "add vanilla extract":61,"flip bread":62, "remove bread from pan":63, "top toast":64
+        }
+    },
+
+    "16815":
+    {
+        "task_name": "Jack Up a Car",
+        "task_cls": 0,
+        "step_name":{
+            "0":"brake on",
+            "1":"raise jack",
+            "2":"lower jack"
+        },
+        "steps": 
+        {"brake on":65, "raise jack":66, "lower jack":67
+        }
+    },
+
+    "95603":
+    {
+        "task_name": "Make Kerala Fish Curry",
+        "task_cls": 0,
+        "step_name":{
+            "0":"add onion",
+            "1":"add chili powder",
+            "2":"pour water",
+            "3":"add mustard seeds",
+            "4":"add curry leaves",
+            "5":"add fish",
+            "6":"stir mixture"
+        },
+        "steps": 
+        {
+            "add onion":12, "add chili powder":68,"pour water":1,"add mustard seeds":69,"add curry leaves":70,
+            "add fish":71, "stir mixture":5
+        }
+    },
+
+    "109972":
+    {
+        "task_name": "Make Banana Ice Cream",
+        "task_cls": 0,
+        "step_name":{
+            "0":"peel banana",
+            "1":"cut banana",
+            "2":"put banana into blender",
+            "3":"pour milk",
+            "4":"mix ingredients"
+        },
+        "steps": 
+        {
+            "peel banana":72, "cut banana":73,"put banana into blender":74,"pour milk":57,"mix ingredients":75
+        }
+    },
+
+    "44789":
+    {
+        "task_name": "Add Oil to Your Car",
+        "task_cls": 0,
+        "step_name":{
+            "0":"remove cap",
+            "1":"put funnel",
+            "2":"pour oil",
+            "3":"remove funnel",
+            "4":"close cap",
+            "5":"pull out dipstick",
+            "6":"wipe off dipstick",
+            "7":"insert dipstick"
+        },
+        "steps": 
+        {
+            "remove cap":76, "put funnel":77, "pour oil":78, "remove funnel":79,"close cap":80,"pull out dipstick":81,
+            "wipe off dipstick":82, "insert dipstick":83
+        }
+    },
+
+    "77721":
+    {
+        "task_name": "Make Irish Coffee",
+        "task_cls": 0,
+        "step_name":{
+            "0":"pour alcohol",
+            "1":"pour espresso",
+            "2":"add sugar",
+            "3":"stir mixture",
+            "4":"add whipped cream"
+        },
+        "steps": 
+        {
+            "pour alcohol":4, "pour espresso":43, "add sugar":36, "stir mixture":5, "add whipped cream":84
+        }
+    },
+
+    "87706":
+    {
+        "task_name": "Make French Strawberry Cake",
+        "task_cls": 0,
+        "step_name":{
+            "0":"pour egg",
+            "1":"add sugar",
+            "2":"add flour",
+            "3":"add butter",
+            "4":"whisk mixture",
+            "5":"put dough into form",
+            "6":"spread creme upon cake",
+            "7":"cut strawberries",
+            "8":"add strawberries to cake"
+        },
+        "steps": 
+        {
+            "pour egg":35, "add sugar":36, "add flour":85, "add butter":86, "whisk mixture":37, "put dough into form":87,
+            "spread creme upon cake":88, "cut strawberries":89, "add strawberries to cake":90
+        }
+    },
+
+    "91515":
+    {
+        "task_name": "Make Pancakes",
+        "task_cls": 0,
+        "step_name":{
+            "0":"add flour",
+            "1":"add sugar",
+            "2":"pour milk",
+            "3":"pour egg",
+            "4":"whisk mixture",
+            "5":"pour mixture into pan",
+            "6":"flip pancake",
+            "7":"take pancake from pan"
+        },
+        "steps": 
+        {
+            "add flour":85, "add sugar":36, "pour milk":57, "pour egg":35, "whisk mixture":37, "pour mixture into pan":91, 
+            "flip pancake":92, "take pancake from pan":93
+        }
+    },
+
+    "40567":
+    {
+        "task_name": "Change a Tire",
+        "task_cls": 0,
+        "step_name":{
+            "0":"brake on",
+            "1":"get things out",
+            "2":"start loose",
+            "3":"jack up",
+            "4":"unscrew wheel",
+            "5":"withdraw wheel",
+            "6":"put wheel",
+            "7":"screw wheel",
+            "8":"jack down",
+            "9":"tight wheel",
+            "10":"put things back"
+        },
+        "steps": 
+        {
+            "brake on":65, "get things out":94,"start loose":95,"jack up":96,"unscrew wheel":97,"withdraw wheel":98,
+            "put wheel":99, "screw wheel":100,"jack down":101,"tight wheel":102,"put things back":103
+        }
+    }
+}

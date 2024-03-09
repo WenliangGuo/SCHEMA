@@ -1,0 +1,11 @@
+[2024-03-07 22:04:28,260][main.py][line:143][INFO] checkpoints/niv/T3_log_eval.txt
+[2024-03-07 22:04:28,260][main.py][line:144][INFO] Namespace(model_name='niv', num_layers=2, attn_heads=32, mlp_ratio=2, text_input_dim=768, img_input_dim=512, embed_dim=128, max_traj_len=3, dataset='niv', num_action=48, num_tasks=5, epochs=500, batch_size=256, dropout=0.2, optimizer='adam', lr=0.01, step_size=20, lr_decay=0.65, weight_decay=0.0001, M=2, aug_range=0, no_state_task=True, root_dir='dataset/niv', train_json='dataset/niv/niv_train.json', valid_json='dataset/niv/niv_valid.json', features_dir='data/niv_features/processed_data', eval=True, saved_path='checkpoints', last_epoch=-1, split='base', seed=3407, uncertain=False, num_sample=1500)
+[2024-03-07 22:04:28,261][main.py][line:188][INFO] Loading prompt features...
+[2024-03-07 22:04:28,262][main.py][line:191][INFO] Loading training data...
+[2024-03-07 22:04:28,503][main.py][line:196][INFO] Loading valid data...
+[2024-03-07 22:04:28,577][main.py][line:203][INFO] Training set volumn: 687 Testing set volumn: 333
+[2024-03-07 22:04:31,626][main.py][line:101][INFO] Epoch: 0 State Loss: 2.12 Top1 Acc: 32.39%
+[2024-03-07 22:04:31,626][main.py][line:103][INFO] 	Action Loss: 2.43, SR: 16.82% Acc1: 38.44% Acc5: 83.58% MIoU: 83.13
+[2024-03-07 22:04:31,626][main.py][line:109][INFO] 	Viterbi, SR: 27.93% Acc: 41.64% MIoU: 76.77
+[2024-03-07 22:04:31,626][main.py][line:113][INFO] 	Task Loss: 0.03, Acc1: 98.80%
+[2024-03-07 22:04:31,626][main.py][line:115][INFO] 	State Pred Loss: 0.18

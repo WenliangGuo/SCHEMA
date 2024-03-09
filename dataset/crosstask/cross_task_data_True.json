@@ -1,0 +1,3062 @@
+[
+    {
+        "id": {
+            "vid": "rzxVluau83Q",
+            "task": "105222",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/rzxVluau83Q.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105222_rzxVluau83Q.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "2uDeIqlNWaE",
+            "task": "105222",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/2uDeIqlNWaE.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105222_2uDeIqlNWaE.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "0mnuAqJCg5c",
+            "task": "105222",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/0mnuAqJCg5c.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105222_0mnuAqJCg5c.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "W3-Nf-QgfaI",
+            "task": "105222",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/W3-Nf-QgfaI.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105222_W3-Nf-QgfaI.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "9SUcLzYq5xc",
+            "task": "105222",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/9SUcLzYq5xc.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105222_9SUcLzYq5xc.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "bo355kAfADM",
+            "task": "105222",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bo355kAfADM.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105222_bo355kAfADM.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "g29-ltho-Ig",
+            "task": "105222",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/g29-ltho-Ig.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105222_g29-ltho-Ig.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "9-GieozYn7Q",
+            "task": "105222",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/9-GieozYn7Q.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105222_9-GieozYn7Q.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "L76HCE16ivU",
+            "task": "105222",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/L76HCE16ivU.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105222_L76HCE16ivU.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "g3HNsRMt6XQ",
+            "task": "105222",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/g3HNsRMt6XQ.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105222_g3HNsRMt6XQ.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "LBjtPtJt3vg",
+            "task": "105222",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/LBjtPtJt3vg.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105222_LBjtPtJt3vg.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "ZkB3U7tKQbE",
+            "task": "105222",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/ZkB3U7tKQbE.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105222_ZkB3U7tKQbE.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "aQfu4Bgc9Qw",
+            "task": "105222",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/aQfu4Bgc9Qw.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105222_aQfu4Bgc9Qw.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "DLrZYkn8zBU",
+            "task": "105222",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/DLrZYkn8zBU.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105222_DLrZYkn8zBU.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "SzuZy5S82as",
+            "task": "105222",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/SzuZy5S82as.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105222_SzuZy5S82as.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "U74sM8O1wVg",
+            "task": "105222",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/U74sM8O1wVg.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105222_U74sM8O1wVg.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "vUUaTO4oDh8",
+            "task": "105222",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/vUUaTO4oDh8.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105222_vUUaTO4oDh8.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "-YtYoSwdUf8",
+            "task": "105222",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/-YtYoSwdUf8.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105222_-YtYoSwdUf8.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "EUt-0DS2GGU",
+            "task": "105253",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/EUt-0DS2GGU.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105253_EUt-0DS2GGU.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "yFniLOHakvk",
+            "task": "105253",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/yFniLOHakvk.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105253_yFniLOHakvk.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "JHex_kpeAWo",
+            "task": "105253",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/JHex_kpeAWo.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105253_JHex_kpeAWo.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "WtBh0I9Lmmk",
+            "task": "105253",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/WtBh0I9Lmmk.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105253_WtBh0I9Lmmk.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "Rz83bdCRoF0",
+            "task": "105253",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/Rz83bdCRoF0.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105253_Rz83bdCRoF0.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "60plfq4pOZY",
+            "task": "105253",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/60plfq4pOZY.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105253_60plfq4pOZY.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "yRBj4z7a-2I",
+            "task": "105253",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/yRBj4z7a-2I.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105253_yRBj4z7a-2I.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "ISPAy0OTrq0",
+            "task": "105253",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/ISPAy0OTrq0.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105253_ISPAy0OTrq0.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "tJCUQ4IbUjk",
+            "task": "105253",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/tJCUQ4IbUjk.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105253_tJCUQ4IbUjk.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "goB2cnGHueg",
+            "task": "105253",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/goB2cnGHueg.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105253_goB2cnGHueg.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "9oOKar_uNpc",
+            "task": "105253",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/9oOKar_uNpc.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105253_9oOKar_uNpc.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "S7wF6S5ywo4",
+            "task": "105253",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/S7wF6S5ywo4.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105253_S7wF6S5ywo4.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "UXh-Y7jzyTM",
+            "task": "105253",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/UXh-Y7jzyTM.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105253_UXh-Y7jzyTM.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "mS2Q_nRe7AI",
+            "task": "105253",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/mS2Q_nRe7AI.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105253_mS2Q_nRe7AI.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "OWwFlJrYhDs",
+            "task": "105253",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/OWwFlJrYhDs.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105253_OWwFlJrYhDs.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "h68TQJz8PqY",
+            "task": "105253",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/h68TQJz8PqY.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105253_h68TQJz8PqY.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "EEJJtGswxLE",
+            "task": "105253",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/EEJJtGswxLE.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105253_EEJJtGswxLE.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "WTx0f4z0aAE",
+            "task": "105253",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/WTx0f4z0aAE.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105253_WTx0f4z0aAE.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "UGvbb_i91zI",
+            "task": "105253",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/UGvbb_i91zI.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/105253_UGvbb_i91zI.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "24cTWScIYlc",
+            "task": "109972",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/24cTWScIYlc.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/109972_24cTWScIYlc.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "fkJVun3NveM",
+            "task": "109972",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/fkJVun3NveM.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/109972_fkJVun3NveM.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "QAKsFGaZ-O0",
+            "task": "109972",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/QAKsFGaZ-O0.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/109972_QAKsFGaZ-O0.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "w4-QneRhfak",
+            "task": "109972",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/w4-QneRhfak.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/109972_w4-QneRhfak.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "ZvuZQzDCGaI",
+            "task": "109972",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/ZvuZQzDCGaI.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/109972_ZvuZQzDCGaI.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "DZsJB5KIuZs",
+            "task": "109972",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/DZsJB5KIuZs.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/109972_DZsJB5KIuZs.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "E2Vu3O1BB10",
+            "task": "109972",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/E2Vu3O1BB10.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/109972_E2Vu3O1BB10.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "PCkCp0SbQ5A",
+            "task": "109972",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/PCkCp0SbQ5A.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/109972_PCkCp0SbQ5A.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "ayWPyP5BPYY",
+            "task": "109972",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/ayWPyP5BPYY.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/109972_ayWPyP5BPYY.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "2Lb_HjJWrJQ",
+            "task": "109972",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/2Lb_HjJWrJQ.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/109972_2Lb_HjJWrJQ.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "hhKcPXFJG2Y",
+            "task": "109972",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/hhKcPXFJG2Y.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/109972_hhKcPXFJG2Y.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "rJx94d1cPiA",
+            "task": "109972",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/rJx94d1cPiA.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/109972_rJx94d1cPiA.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "IBwBvFlhIaE",
+            "task": "109972",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/IBwBvFlhIaE.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/109972_IBwBvFlhIaE.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "lJxdpjpgL8s",
+            "task": "109972",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/lJxdpjpgL8s.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/109972_lJxdpjpgL8s.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "cBirifhqHr4",
+            "task": "109972",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/cBirifhqHr4.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/109972_cBirifhqHr4.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "Zr3D6NKcg_A",
+            "task": "109972",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/Zr3D6NKcg_A.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/109972_Zr3D6NKcg_A.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "tGEIOZKTrOE",
+            "task": "109972",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/tGEIOZKTrOE.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/109972_tGEIOZKTrOE.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "9kcyxgfPQKs",
+            "task": "109972",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/9kcyxgfPQKs.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/109972_9kcyxgfPQKs.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "2DpvnVh8MBo",
+            "task": "113766",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/2DpvnVh8MBo.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/113766_2DpvnVh8MBo.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "WrHdbhtJNfA",
+            "task": "113766",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/WrHdbhtJNfA.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/113766_WrHdbhtJNfA.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "Dk3DPGB8mwM",
+            "task": "113766",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/Dk3DPGB8mwM.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/113766_Dk3DPGB8mwM.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "AS8K9Oa43EQ",
+            "task": "113766",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/AS8K9Oa43EQ.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/113766_AS8K9Oa43EQ.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "bQBNnsExUlg",
+            "task": "113766",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bQBNnsExUlg.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/113766_bQBNnsExUlg.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "p9qgGach0QQ",
+            "task": "113766",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/p9qgGach0QQ.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/113766_p9qgGach0QQ.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "po0aE0MpdVE",
+            "task": "113766",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/po0aE0MpdVE.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/113766_po0aE0MpdVE.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "dqtuZebQ_ks",
+            "task": "113766",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/dqtuZebQ_ks.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/113766_dqtuZebQ_ks.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "dl91S-X_VJs",
+            "task": "113766",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/dl91S-X_VJs.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/113766_dl91S-X_VJs.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "MdHpekvJM-Y",
+            "task": "113766",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/MdHpekvJM-Y.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/113766_MdHpekvJM-Y.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "aY16eSniUmk",
+            "task": "113766",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/aY16eSniUmk.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/113766_aY16eSniUmk.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "fAEZKPOcI5Y",
+            "task": "113766",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/fAEZKPOcI5Y.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/113766_fAEZKPOcI5Y.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "70jQPy4UQ9M",
+            "task": "113766",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/70jQPy4UQ9M.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/113766_70jQPy4UQ9M.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "p0fXV5lWjkQ",
+            "task": "113766",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/p0fXV5lWjkQ.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/113766_p0fXV5lWjkQ.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "WV_MNL8Hw2g",
+            "task": "113766",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/WV_MNL8Hw2g.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/113766_WV_MNL8Hw2g.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "KuTk1TvkDgk",
+            "task": "113766",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/KuTk1TvkDgk.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/113766_KuTk1TvkDgk.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "maUjmMScyz4",
+            "task": "113766",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/maUjmMScyz4.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/113766_maUjmMScyz4.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "MQ7C3vYCD48",
+            "task": "113766",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/MQ7C3vYCD48.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/113766_MQ7C3vYCD48.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "vB16Dbjz8oo",
+            "task": "113766",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/vB16Dbjz8oo.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/113766_vB16Dbjz8oo.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "Sm-Er9tMi8g",
+            "task": "113766",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/Sm-Er9tMi8g.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/113766_Sm-Er9tMi8g.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "8BE0xJKczT0",
+            "task": "16815",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/8BE0xJKczT0.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/16815_8BE0xJKczT0.pkl"
+        },
+        "instruction_len": 3
+    },
+    {
+        "id": {
+            "vid": "eCZEq7pAHUE",
+            "task": "16815",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/eCZEq7pAHUE.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/16815_eCZEq7pAHUE.pkl"
+        },
+        "instruction_len": 3
+    },
+    {
+        "id": {
+            "vid": "GnvLqIoKzgw",
+            "task": "16815",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/GnvLqIoKzgw.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/16815_GnvLqIoKzgw.pkl"
+        },
+        "instruction_len": 3
+    },
+    {
+        "id": {
+            "vid": "-SPMxbd7Wtc",
+            "task": "16815",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/-SPMxbd7Wtc.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/16815_-SPMxbd7Wtc.pkl"
+        },
+        "instruction_len": 3
+    },
+    {
+        "id": {
+            "vid": "vhmn4fZBlag",
+            "task": "16815",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/vhmn4fZBlag.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/16815_vhmn4fZBlag.pkl"
+        },
+        "instruction_len": 3
+    },
+    {
+        "id": {
+            "vid": "iCiFu6ooYaM",
+            "task": "16815",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/iCiFu6ooYaM.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/16815_iCiFu6ooYaM.pkl"
+        },
+        "instruction_len": 3
+    },
+    {
+        "id": {
+            "vid": "yqXIrSVQ3ts",
+            "task": "16815",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/yqXIrSVQ3ts.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/16815_yqXIrSVQ3ts.pkl"
+        },
+        "instruction_len": 3
+    },
+    {
+        "id": {
+            "vid": "Yy1tTVoFGE8",
+            "task": "16815",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/Yy1tTVoFGE8.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/16815_Yy1tTVoFGE8.pkl"
+        },
+        "instruction_len": 3
+    },
+    {
+        "id": {
+            "vid": "IbexW-c9UwY",
+            "task": "16815",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/IbexW-c9UwY.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/16815_IbexW-c9UwY.pkl"
+        },
+        "instruction_len": 3
+    },
+    {
+        "id": {
+            "vid": "wTVrCbaQM5Y",
+            "task": "16815",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/wTVrCbaQM5Y.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/16815_wTVrCbaQM5Y.pkl"
+        },
+        "instruction_len": 3
+    },
+    {
+        "id": {
+            "vid": "Y-d4aaqI12c",
+            "task": "16815",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/Y-d4aaqI12c.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/16815_Y-d4aaqI12c.pkl"
+        },
+        "instruction_len": 3
+    },
+    {
+        "id": {
+            "vid": "1JhYkWZPzZE",
+            "task": "16815",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/1JhYkWZPzZE.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/16815_1JhYkWZPzZE.pkl"
+        },
+        "instruction_len": 3
+    },
+    {
+        "id": {
+            "vid": "JYTJPftR50I",
+            "task": "16815",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/JYTJPftR50I.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/16815_JYTJPftR50I.pkl"
+        },
+        "instruction_len": 3
+    },
+    {
+        "id": {
+            "vid": "mmMPM--NhU8",
+            "task": "16815",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/mmMPM--NhU8.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/16815_mmMPM--NhU8.pkl"
+        },
+        "instruction_len": 3
+    },
+    {
+        "id": {
+            "vid": "YRCHn2mxPhs",
+            "task": "16815",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/YRCHn2mxPhs.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/16815_YRCHn2mxPhs.pkl"
+        },
+        "instruction_len": 3
+    },
+    {
+        "id": {
+            "vid": "MMS2fUDiWhU",
+            "task": "16815",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/MMS2fUDiWhU.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/16815_MMS2fUDiWhU.pkl"
+        },
+        "instruction_len": 3
+    },
+    {
+        "id": {
+            "vid": "YR_MToGXxf0",
+            "task": "16815",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/YR_MToGXxf0.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/16815_YR_MToGXxf0.pkl"
+        },
+        "instruction_len": 3
+    },
+    {
+        "id": {
+            "vid": "X2XdxPJnpNE",
+            "task": "16815",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/X2XdxPJnpNE.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/16815_X2XdxPJnpNE.pkl"
+        },
+        "instruction_len": 3
+    },
+    {
+        "id": {
+            "vid": "hik67bVvum0",
+            "task": "16815",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/hik67bVvum0.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/16815_hik67bVvum0.pkl"
+        },
+        "instruction_len": 3
+    },
+    {
+        "id": {
+            "vid": "gEkku-1nOcI",
+            "task": "23521",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/gEkku-1nOcI.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/23521_gEkku-1nOcI.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "M407Rivxv7M",
+            "task": "23521",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/M407Rivxv7M.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/23521_M407Rivxv7M.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "01-ZFvmSaAg",
+            "task": "23521",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/01-ZFvmSaAg.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/23521_01-ZFvmSaAg.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "CLP19G1u46I",
+            "task": "23521",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/CLP19G1u46I.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/23521_CLP19G1u46I.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "1tWIrhG9YGM",
+            "task": "23521",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/1tWIrhG9YGM.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/23521_1tWIrhG9YGM.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "fxyKuY0kg70",
+            "task": "23521",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/fxyKuY0kg70.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/23521_fxyKuY0kg70.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "NG09-6fFrx4",
+            "task": "23521",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/NG09-6fFrx4.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/23521_NG09-6fFrx4.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "yvH0D4q3GqE",
+            "task": "23521",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/yvH0D4q3GqE.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/23521_yvH0D4q3GqE.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "hqlLAM7xxOA",
+            "task": "23521",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/hqlLAM7xxOA.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/23521_hqlLAM7xxOA.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "sN6iQyzguN4",
+            "task": "23521",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/sN6iQyzguN4.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/23521_sN6iQyzguN4.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "Pw7uBCZkJeU",
+            "task": "23521",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/Pw7uBCZkJeU.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/23521_Pw7uBCZkJeU.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "PXGNpj89Vxw",
+            "task": "23521",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/PXGNpj89Vxw.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/23521_PXGNpj89Vxw.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "piGtNm1Ix7c",
+            "task": "23521",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/piGtNm1Ix7c.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/23521_piGtNm1Ix7c.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "5cqUUh_2D9c",
+            "task": "23521",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/5cqUUh_2D9c.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/23521_5cqUUh_2D9c.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "bBDF0QpJmjU",
+            "task": "23521",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bBDF0QpJmjU.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/23521_bBDF0QpJmjU.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "tvjy1uazW3A",
+            "task": "23521",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/tvjy1uazW3A.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/23521_tvjy1uazW3A.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "UbUDv76s0Lo",
+            "task": "23521",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/UbUDv76s0Lo.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/23521_UbUDv76s0Lo.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "AUKdjwVlHfo",
+            "task": "23521",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/AUKdjwVlHfo.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/23521_AUKdjwVlHfo.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "i2JWkDyg26A",
+            "task": "40567",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/i2JWkDyg26A.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/40567_i2JWkDyg26A.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "pK3vZljnAgY",
+            "task": "40567",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/pK3vZljnAgY.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/40567_pK3vZljnAgY.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "3gSyHyrFN2Y",
+            "task": "40567",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/3gSyHyrFN2Y.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/40567_3gSyHyrFN2Y.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "PAG4g1nFlNg",
+            "task": "40567",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/PAG4g1nFlNg.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/40567_PAG4g1nFlNg.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "ysHXDXqi4mc",
+            "task": "40567",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/ysHXDXqi4mc.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/40567_ysHXDXqi4mc.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "ydT9sLyhL1k",
+            "task": "40567",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/ydT9sLyhL1k.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/40567_ydT9sLyhL1k.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "q-zvR4ibs8Q",
+            "task": "40567",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/q-zvR4ibs8Q.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/40567_q-zvR4ibs8Q.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "17Z9jQeteAA",
+            "task": "40567",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/17Z9jQeteAA.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/40567_17Z9jQeteAA.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "LReec2a4XeQ",
+            "task": "40567",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/LReec2a4XeQ.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/40567_LReec2a4XeQ.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "EdNdiSMepng",
+            "task": "40567",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/EdNdiSMepng.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/40567_EdNdiSMepng.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "VKABsd7Ayn4",
+            "task": "40567",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/VKABsd7Ayn4.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/40567_VKABsd7Ayn4.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "O6UjkyccfVM",
+            "task": "40567",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/O6UjkyccfVM.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/40567_O6UjkyccfVM.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "Q1ZOstti8Tg",
+            "task": "40567",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/Q1ZOstti8Tg.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/40567_Q1ZOstti8Tg.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "S15qByu-pNE",
+            "task": "40567",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/S15qByu-pNE.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/40567_S15qByu-pNE.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "bQilMjXciTg",
+            "task": "40567",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bQilMjXciTg.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/40567_bQilMjXciTg.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "iJAI-cy2fZc",
+            "task": "40567",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/iJAI-cy2fZc.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/40567_iJAI-cy2fZc.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "zlyrv-h97z8",
+            "task": "40567",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/zlyrv-h97z8.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/40567_zlyrv-h97z8.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "goqPhR4gW4Y",
+            "task": "40567",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/goqPhR4gW4Y.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/40567_goqPhR4gW4Y.pkl"
+        },
+        "instruction_len": 11
+    },
+    {
+        "id": {
+            "vid": "hVu3FIp9Jlc",
+            "task": "44047",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/hVu3FIp9Jlc.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44047_hVu3FIp9Jlc.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "b21PQg4KOYg",
+            "task": "44047",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/b21PQg4KOYg.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44047_b21PQg4KOYg.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "MbCAiWBhAjo",
+            "task": "44047",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/MbCAiWBhAjo.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44047_MbCAiWBhAjo.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "SIw714h5kx0",
+            "task": "44047",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/SIw714h5kx0.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44047_SIw714h5kx0.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "8IJJGK2td2c",
+            "task": "44047",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/8IJJGK2td2c.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44047_8IJJGK2td2c.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "88QX6nH21fw",
+            "task": "44047",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/88QX6nH21fw.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44047_88QX6nH21fw.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "Cc0Yw8pnzlI",
+            "task": "44047",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/Cc0Yw8pnzlI.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44047_Cc0Yw8pnzlI.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "NkuUNUhmQSs",
+            "task": "44047",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/NkuUNUhmQSs.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44047_NkuUNUhmQSs.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "0Ll7VKyFReE",
+            "task": "44047",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/0Ll7VKyFReE.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44047_0Ll7VKyFReE.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "hxmu13bEQM8",
+            "task": "44047",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/hxmu13bEQM8.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44047_hxmu13bEQM8.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "Hisg3dFKHIY",
+            "task": "44047",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/Hisg3dFKHIY.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44047_Hisg3dFKHIY.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "Q20OiGUM0ao",
+            "task": "44047",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/Q20OiGUM0ao.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44047_Q20OiGUM0ao.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "ur5JfhgJdYc",
+            "task": "44047",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/ur5JfhgJdYc.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44047_ur5JfhgJdYc.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "tv3PT3AjbKQ",
+            "task": "44047",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/tv3PT3AjbKQ.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44047_tv3PT3AjbKQ.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "9YJpXkPC0JE",
+            "task": "44047",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/9YJpXkPC0JE.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44047_9YJpXkPC0JE.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "2H6X7tQWpv0",
+            "task": "44047",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/2H6X7tQWpv0.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44047_2H6X7tQWpv0.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "rVL1utZJfJ4",
+            "task": "44047",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/rVL1utZJfJ4.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44047_rVL1utZJfJ4.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "uDmUGdg40Hg",
+            "task": "44789",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/uDmUGdg40Hg.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44789_uDmUGdg40Hg.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "lpiT7_w5NdA",
+            "task": "44789",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/lpiT7_w5NdA.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44789_lpiT7_w5NdA.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "TvS1LkCqoSE",
+            "task": "44789",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/TvS1LkCqoSE.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44789_TvS1LkCqoSE.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "FKG7bgo4biE",
+            "task": "44789",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/FKG7bgo4biE.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44789_FKG7bgo4biE.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "7gnM-MM8_34",
+            "task": "44789",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/7gnM-MM8_34.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44789_7gnM-MM8_34.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "D2OJt4S6lwk",
+            "task": "44789",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/D2OJt4S6lwk.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44789_D2OJt4S6lwk.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "0x83li1Klkw",
+            "task": "44789",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/0x83li1Klkw.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44789_0x83li1Klkw.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "OiigBOhLfQs",
+            "task": "44789",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/OiigBOhLfQs.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44789_OiigBOhLfQs.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "Zjj7trgKYNo",
+            "task": "44789",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/Zjj7trgKYNo.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44789_Zjj7trgKYNo.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "VuPALAnHjRM",
+            "task": "44789",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/VuPALAnHjRM.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44789_VuPALAnHjRM.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "BGZmGzlGHbY",
+            "task": "44789",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/BGZmGzlGHbY.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44789_BGZmGzlGHbY.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "R0lQR2QZwjg",
+            "task": "44789",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/R0lQR2QZwjg.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44789_R0lQR2QZwjg.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "qiHp18HzLsU",
+            "task": "44789",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/qiHp18HzLsU.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44789_qiHp18HzLsU.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "xc4zzy75UXg",
+            "task": "44789",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/xc4zzy75UXg.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44789_xc4zzy75UXg.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "bKpcIpirKOs",
+            "task": "44789",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bKpcIpirKOs.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44789_bKpcIpirKOs.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "yaH0WOFpx7A",
+            "task": "44789",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/yaH0WOFpx7A.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44789_yaH0WOFpx7A.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "orkB0JlED8g",
+            "task": "44789",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/orkB0JlED8g.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44789_orkB0JlED8g.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "IT9wR21WzRE",
+            "task": "44789",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/IT9wR21WzRE.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44789_IT9wR21WzRE.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "UiV5geQumHI",
+            "task": "44789",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/UiV5geQumHI.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44789_UiV5geQumHI.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "7SIiAxY4kgY",
+            "task": "44789",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/7SIiAxY4kgY.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/44789_7SIiAxY4kgY.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "VsLsoCe8mhU",
+            "task": "53193",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/VsLsoCe8mhU.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/53193_VsLsoCe8mhU.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "lFBp_aqV8k8",
+            "task": "53193",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/lFBp_aqV8k8.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/53193_lFBp_aqV8k8.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "Z_J6Q4oAvLM",
+            "task": "53193",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/Z_J6Q4oAvLM.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/53193_Z_J6Q4oAvLM.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "9LQ7UMAknwA",
+            "task": "53193",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/9LQ7UMAknwA.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/53193_9LQ7UMAknwA.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "2qhBLFc5CqM",
+            "task": "53193",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/2qhBLFc5CqM.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/53193_2qhBLFc5CqM.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "WIlIoCM2iJg",
+            "task": "53193",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/WIlIoCM2iJg.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/53193_WIlIoCM2iJg.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "BSE9PiSw53Y",
+            "task": "53193",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/BSE9PiSw53Y.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/53193_BSE9PiSw53Y.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "X8HxFpHIoVA",
+            "task": "53193",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/X8HxFpHIoVA.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/53193_X8HxFpHIoVA.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "qsHacrTIXh4",
+            "task": "53193",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/qsHacrTIXh4.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/53193_qsHacrTIXh4.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "W3Qx6P7FtBc",
+            "task": "53193",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/W3Qx6P7FtBc.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/53193_W3Qx6P7FtBc.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "I1hAvTkEvPU",
+            "task": "53193",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/I1hAvTkEvPU.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/53193_I1hAvTkEvPU.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "2Ao5b6uqI40",
+            "task": "53193",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/2Ao5b6uqI40.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/53193_2Ao5b6uqI40.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "2IfW2leGdzQ",
+            "task": "53193",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/2IfW2leGdzQ.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/53193_2IfW2leGdzQ.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "SmkU0l-yKMw",
+            "task": "53193",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/SmkU0l-yKMw.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/53193_SmkU0l-yKMw.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "V4LftxagMlM",
+            "task": "53193",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/V4LftxagMlM.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/53193_V4LftxagMlM.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "ejdn67zHuEY",
+            "task": "53193",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/ejdn67zHuEY.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/53193_ejdn67zHuEY.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "MJI1W5_lGeA",
+            "task": "53193",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/MJI1W5_lGeA.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/53193_MJI1W5_lGeA.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "o_0DiKlwdy0",
+            "task": "53193",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/o_0DiKlwdy0.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/53193_o_0DiKlwdy0.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "vrVQ_R84EGQ",
+            "task": "53193",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/vrVQ_R84EGQ.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/53193_vrVQ_R84EGQ.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "zA1WNWGCOx0",
+            "task": "53193",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/zA1WNWGCOx0.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/53193_zA1WNWGCOx0.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "z_eJjvh4lvE",
+            "task": "59684",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/z_eJjvh4lvE.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/59684_z_eJjvh4lvE.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "3NuTuw2yJGo",
+            "task": "59684",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/3NuTuw2yJGo.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/59684_3NuTuw2yJGo.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "_GcHkT726qM",
+            "task": "59684",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/_GcHkT726qM.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/59684__GcHkT726qM.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "6cBZlk1fdIo",
+            "task": "59684",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/6cBZlk1fdIo.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/59684_6cBZlk1fdIo.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "J9QuaXnEl7w",
+            "task": "59684",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/J9QuaXnEl7w.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/59684_J9QuaXnEl7w.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "QloeeTbH7ao",
+            "task": "59684",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/QloeeTbH7ao.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/59684_QloeeTbH7ao.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "xvlxjTc9Qhw",
+            "task": "59684",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/xvlxjTc9Qhw.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/59684_xvlxjTc9Qhw.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "RTtBODrS32Y",
+            "task": "59684",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/RTtBODrS32Y.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/59684_RTtBODrS32Y.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "r_I4tWj_xgI",
+            "task": "59684",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/r_I4tWj_xgI.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/59684_r_I4tWj_xgI.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "43HMxBw9x80",
+            "task": "59684",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/43HMxBw9x80.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/59684_43HMxBw9x80.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "bTIQxX6MrHs",
+            "task": "59684",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bTIQxX6MrHs.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/59684_bTIQxX6MrHs.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "zBnP3Mvkcdc",
+            "task": "59684",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/zBnP3Mvkcdc.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/59684_zBnP3Mvkcdc.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "28jB3HoQkdQ",
+            "task": "59684",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/28jB3HoQkdQ.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/59684_28jB3HoQkdQ.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "A6rIQfb-BoA",
+            "task": "59684",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/A6rIQfb-BoA.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/59684_A6rIQfb-BoA.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "QVjNPIE9FlM",
+            "task": "59684",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/QVjNPIE9FlM.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/59684_QVjNPIE9FlM.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "3FwULlpXayU",
+            "task": "59684",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/3FwULlpXayU.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/59684_3FwULlpXayU.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "VCdLDsjQCQ0",
+            "task": "59684",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/VCdLDsjQCQ0.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/59684_VCdLDsjQCQ0.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "FyT1KDR7sFs",
+            "task": "59684",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/FyT1KDR7sFs.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/59684_FyT1KDR7sFs.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "jidGn8sNzLw",
+            "task": "59684",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/jidGn8sNzLw.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/59684_jidGn8sNzLw.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "Fsosc3B0Agw",
+            "task": "71781",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/Fsosc3B0Agw.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/71781_Fsosc3B0Agw.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "QrMR8Rbpqjc",
+            "task": "71781",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/QrMR8Rbpqjc.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/71781_QrMR8Rbpqjc.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "k5alqWUASM8",
+            "task": "71781",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/k5alqWUASM8.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/71781_k5alqWUASM8.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "uNYHMuQae2U",
+            "task": "71781",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/uNYHMuQae2U.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/71781_uNYHMuQae2U.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "upqBZTmc-0A",
+            "task": "71781",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/upqBZTmc-0A.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/71781_upqBZTmc-0A.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "JDIuW3wXK7Y",
+            "task": "71781",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/JDIuW3wXK7Y.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/71781_JDIuW3wXK7Y.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "EA-DV0pzkWU",
+            "task": "71781",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/EA-DV0pzkWU.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/71781_EA-DV0pzkWU.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "1VDvvF6pE54",
+            "task": "71781",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/1VDvvF6pE54.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/71781_1VDvvF6pE54.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "H4EWKvp85nA",
+            "task": "71781",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/H4EWKvp85nA.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/71781_H4EWKvp85nA.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "ZMUdhVj4rVk",
+            "task": "71781",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/ZMUdhVj4rVk.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/71781_ZMUdhVj4rVk.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "J6ZYt9Jv84s",
+            "task": "71781",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/J6ZYt9Jv84s.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/71781_J6ZYt9Jv84s.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "VS4zWF9hQpQ",
+            "task": "71781",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/VS4zWF9hQpQ.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/71781_VS4zWF9hQpQ.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "gx1zrdD27eE",
+            "task": "71781",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/gx1zrdD27eE.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/71781_gx1zrdD27eE.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "HGjG6MBKusQ",
+            "task": "71781",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/HGjG6MBKusQ.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/71781_HGjG6MBKusQ.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "YScbuEQVJL8",
+            "task": "71781",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/YScbuEQVJL8.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/71781_YScbuEQVJL8.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "OcnIj8r-T1k",
+            "task": "71781",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/OcnIj8r-T1k.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/71781_OcnIj8r-T1k.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "3hXSlsPRaLE",
+            "task": "71781",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/3hXSlsPRaLE.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/71781_3hXSlsPRaLE.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "uf482GbeTC0",
+            "task": "71781",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/uf482GbeTC0.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/71781_uf482GbeTC0.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "wLOiCszJr5I",
+            "task": "76400",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/wLOiCszJr5I.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/76400_wLOiCszJr5I.pkl"
+        },
+        "instruction_len": 10
+    },
+    {
+        "id": {
+            "vid": "RKAEa59CZo4",
+            "task": "76400",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/RKAEa59CZo4.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/76400_RKAEa59CZo4.pkl"
+        },
+        "instruction_len": 10
+    },
+    {
+        "id": {
+            "vid": "1rRgCcZxjUI",
+            "task": "76400",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/1rRgCcZxjUI.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/76400_1rRgCcZxjUI.pkl"
+        },
+        "instruction_len": 10
+    },
+    {
+        "id": {
+            "vid": "3zv8EjVGTPs",
+            "task": "76400",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/3zv8EjVGTPs.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/76400_3zv8EjVGTPs.pkl"
+        },
+        "instruction_len": 10
+    },
+    {
+        "id": {
+            "vid": "ceY1D3Eu-Ek",
+            "task": "76400",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/ceY1D3Eu-Ek.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/76400_ceY1D3Eu-Ek.pkl"
+        },
+        "instruction_len": 10
+    },
+    {
+        "id": {
+            "vid": "dY1ozgoVRqk",
+            "task": "76400",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/dY1ozgoVRqk.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/76400_dY1ozgoVRqk.pkl"
+        },
+        "instruction_len": 10
+    },
+    {
+        "id": {
+            "vid": "a8JKu4Pqe4E",
+            "task": "76400",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/a8JKu4Pqe4E.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/76400_a8JKu4Pqe4E.pkl"
+        },
+        "instruction_len": 10
+    },
+    {
+        "id": {
+            "vid": "zfck95sWfPw",
+            "task": "76400",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/zfck95sWfPw.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/76400_zfck95sWfPw.pkl"
+        },
+        "instruction_len": 10
+    },
+    {
+        "id": {
+            "vid": "trEWCgSF9ow",
+            "task": "76400",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/trEWCgSF9ow.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/76400_trEWCgSF9ow.pkl"
+        },
+        "instruction_len": 10
+    },
+    {
+        "id": {
+            "vid": "24tQQiYdpCI",
+            "task": "76400",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/24tQQiYdpCI.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/76400_24tQQiYdpCI.pkl"
+        },
+        "instruction_len": 10
+    },
+    {
+        "id": {
+            "vid": "K1KFFzOlBks",
+            "task": "76400",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/K1KFFzOlBks.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/76400_K1KFFzOlBks.pkl"
+        },
+        "instruction_len": 10
+    },
+    {
+        "id": {
+            "vid": "l0XnYQlm36E",
+            "task": "76400",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/l0XnYQlm36E.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/76400_l0XnYQlm36E.pkl"
+        },
+        "instruction_len": 10
+    },
+    {
+        "id": {
+            "vid": "3kIs5YyLd_M",
+            "task": "76400",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/3kIs5YyLd_M.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/76400_3kIs5YyLd_M.pkl"
+        },
+        "instruction_len": 10
+    },
+    {
+        "id": {
+            "vid": "BA2kem-xkwc",
+            "task": "76400",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/BA2kem-xkwc.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/76400_BA2kem-xkwc.pkl"
+        },
+        "instruction_len": 10
+    },
+    {
+        "id": {
+            "vid": "y8NDwiJG5Qk",
+            "task": "76400",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/y8NDwiJG5Qk.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/76400_y8NDwiJG5Qk.pkl"
+        },
+        "instruction_len": 10
+    },
+    {
+        "id": {
+            "vid": "GWyDZVj9Xpc",
+            "task": "76400",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/GWyDZVj9Xpc.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/76400_GWyDZVj9Xpc.pkl"
+        },
+        "instruction_len": 10
+    },
+    {
+        "id": {
+            "vid": "k5_89KhvpK4",
+            "task": "76400",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/k5_89KhvpK4.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/76400_k5_89KhvpK4.pkl"
+        },
+        "instruction_len": 10
+    },
+    {
+        "id": {
+            "vid": "U8WsB25zQR0",
+            "task": "76400",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/U8WsB25zQR0.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/76400_U8WsB25zQR0.pkl"
+        },
+        "instruction_len": 10
+    },
+    {
+        "id": {
+            "vid": "nZzbNnaR7Wc",
+            "task": "77721",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/nZzbNnaR7Wc.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/77721_nZzbNnaR7Wc.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "TNir6MEUPQw",
+            "task": "77721",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/TNir6MEUPQw.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/77721_TNir6MEUPQw.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "cActFheaw4w",
+            "task": "77721",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/cActFheaw4w.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/77721_cActFheaw4w.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "K2nsKDgayKY",
+            "task": "77721",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/K2nsKDgayKY.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/77721_K2nsKDgayKY.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "lyxvMk0dNC0",
+            "task": "77721",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/lyxvMk0dNC0.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/77721_lyxvMk0dNC0.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "9PTUZmGniZY",
+            "task": "77721",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/9PTUZmGniZY.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/77721_9PTUZmGniZY.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "ovAhBUHfXKw",
+            "task": "77721",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/ovAhBUHfXKw.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/77721_ovAhBUHfXKw.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "kdcLvPPWvYA",
+            "task": "77721",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/kdcLvPPWvYA.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/77721_kdcLvPPWvYA.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "GasUDZrpDgE",
+            "task": "77721",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/GasUDZrpDgE.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/77721_GasUDZrpDgE.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "AIcdq28yfG4",
+            "task": "77721",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/AIcdq28yfG4.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/77721_AIcdq28yfG4.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "Ffzqo4d2L9s",
+            "task": "77721",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/Ffzqo4d2L9s.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/77721_Ffzqo4d2L9s.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "DdNYVQcg8F4",
+            "task": "77721",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/DdNYVQcg8F4.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/77721_DdNYVQcg8F4.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "XCqLDGk7bwc",
+            "task": "77721",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/XCqLDGk7bwc.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/77721_XCqLDGk7bwc.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "TVyqglxYaZE",
+            "task": "77721",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/TVyqglxYaZE.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/77721_TVyqglxYaZE.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "LFbRpoyDnzE",
+            "task": "77721",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/LFbRpoyDnzE.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/77721_LFbRpoyDnzE.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "hnUx5hhih3E",
+            "task": "77721",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/hnUx5hhih3E.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/77721_hnUx5hhih3E.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "o2lWTB7A9RU",
+            "task": "77721",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/o2lWTB7A9RU.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/77721_o2lWTB7A9RU.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "jo4G8Sdrc4Q",
+            "task": "77721",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/jo4G8Sdrc4Q.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/77721_jo4G8Sdrc4Q.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "qzlu4Gc6rbI",
+            "task": "77721",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/qzlu4Gc6rbI.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/77721_qzlu4Gc6rbI.pkl"
+        },
+        "instruction_len": 5
+    },
+    {
+        "id": {
+            "vid": "Fyvnx0gl2NA",
+            "task": "87706",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/Fyvnx0gl2NA.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/87706_Fyvnx0gl2NA.pkl"
+        },
+        "instruction_len": 9
+    },
+    {
+        "id": {
+            "vid": "2IbsZqlhuDs",
+            "task": "87706",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/2IbsZqlhuDs.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/87706_2IbsZqlhuDs.pkl"
+        },
+        "instruction_len": 9
+    },
+    {
+        "id": {
+            "vid": "zJd_FdhOtFM",
+            "task": "87706",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/zJd_FdhOtFM.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/87706_zJd_FdhOtFM.pkl"
+        },
+        "instruction_len": 9
+    },
+    {
+        "id": {
+            "vid": "LYhvw4M2IXo",
+            "task": "87706",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/LYhvw4M2IXo.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/87706_LYhvw4M2IXo.pkl"
+        },
+        "instruction_len": 9
+    },
+    {
+        "id": {
+            "vid": "akCIlGT0q9o",
+            "task": "87706",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/akCIlGT0q9o.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/87706_akCIlGT0q9o.pkl"
+        },
+        "instruction_len": 9
+    },
+    {
+        "id": {
+            "vid": "JBpurJxhkiI",
+            "task": "87706",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/JBpurJxhkiI.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/87706_JBpurJxhkiI.pkl"
+        },
+        "instruction_len": 9
+    },
+    {
+        "id": {
+            "vid": "_pWW4Jig8Tc",
+            "task": "87706",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/_pWW4Jig8Tc.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/87706__pWW4Jig8Tc.pkl"
+        },
+        "instruction_len": 9
+    },
+    {
+        "id": {
+            "vid": "Y5raqjVvl40",
+            "task": "87706",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/Y5raqjVvl40.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/87706_Y5raqjVvl40.pkl"
+        },
+        "instruction_len": 9
+    },
+    {
+        "id": {
+            "vid": "IOqJwH7SNMo",
+            "task": "87706",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/IOqJwH7SNMo.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/87706_IOqJwH7SNMo.pkl"
+        },
+        "instruction_len": 9
+    },
+    {
+        "id": {
+            "vid": "F56rtGvAWvI",
+            "task": "87706",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/F56rtGvAWvI.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/87706_F56rtGvAWvI.pkl"
+        },
+        "instruction_len": 9
+    },
+    {
+        "id": {
+            "vid": "dUhVp1gpbLE",
+            "task": "87706",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/dUhVp1gpbLE.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/87706_dUhVp1gpbLE.pkl"
+        },
+        "instruction_len": 9
+    },
+    {
+        "id": {
+            "vid": "hcDbgHeBvJg",
+            "task": "87706",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/hcDbgHeBvJg.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/87706_hcDbgHeBvJg.pkl"
+        },
+        "instruction_len": 9
+    },
+    {
+        "id": {
+            "vid": "2DBvWJmg7Sk",
+            "task": "87706",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/2DBvWJmg7Sk.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/87706_2DBvWJmg7Sk.pkl"
+        },
+        "instruction_len": 9
+    },
+    {
+        "id": {
+            "vid": "Gy3MURE_2Jw",
+            "task": "87706",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/Gy3MURE_2Jw.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/87706_Gy3MURE_2Jw.pkl"
+        },
+        "instruction_len": 9
+    },
+    {
+        "id": {
+            "vid": "jN6kowC-w0o",
+            "task": "87706",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/jN6kowC-w0o.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/87706_jN6kowC-w0o.pkl"
+        },
+        "instruction_len": 9
+    },
+    {
+        "id": {
+            "vid": "Ymd_lVa1T8g",
+            "task": "87706",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/Ymd_lVa1T8g.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/87706_Ymd_lVa1T8g.pkl"
+        },
+        "instruction_len": 9
+    },
+    {
+        "id": {
+            "vid": "xF9T3AkqLic",
+            "task": "87706",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/xF9T3AkqLic.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/87706_xF9T3AkqLic.pkl"
+        },
+        "instruction_len": 9
+    },
+    {
+        "id": {
+            "vid": "wL9Bf8Kak9A",
+            "task": "87706",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/wL9Bf8Kak9A.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/87706_wL9Bf8Kak9A.pkl"
+        },
+        "instruction_len": 9
+    },
+    {
+        "id": {
+            "vid": "PeCA5gMa3dc",
+            "task": "87706",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/PeCA5gMa3dc.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/87706_PeCA5gMa3dc.pkl"
+        },
+        "instruction_len": 9
+    },
+    {
+        "id": {
+            "vid": "hlWktQ_sHcY",
+            "task": "91515",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/hlWktQ_sHcY.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/91515_hlWktQ_sHcY.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "ziJGhpSwNlc",
+            "task": "91515",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/ziJGhpSwNlc.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/91515_ziJGhpSwNlc.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "FLd00Bx4tOk",
+            "task": "91515",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/FLd00Bx4tOk.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/91515_FLd00Bx4tOk.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "YQtnB14lHE4",
+            "task": "91515",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/YQtnB14lHE4.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/91515_YQtnB14lHE4.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "d3Bus1Me_B4",
+            "task": "91515",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/d3Bus1Me_B4.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/91515_d3Bus1Me_B4.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "Kez9B1ww8-Y",
+            "task": "91515",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/Kez9B1ww8-Y.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/91515_Kez9B1ww8-Y.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "1D2ODXSMis8",
+            "task": "91515",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/1D2ODXSMis8.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/91515_1D2ODXSMis8.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "jhKDSmC8du8",
+            "task": "91515",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/jhKDSmC8du8.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/91515_jhKDSmC8du8.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "LBuL5UIRTMc",
+            "task": "91515",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/LBuL5UIRTMc.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/91515_LBuL5UIRTMc.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "5jGVJ2IXXrk",
+            "task": "91515",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/5jGVJ2IXXrk.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/91515_5jGVJ2IXXrk.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "bOJQE4xSfqU",
+            "task": "91515",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bOJQE4xSfqU.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/91515_bOJQE4xSfqU.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "96ePpBIYucw",
+            "task": "91515",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/96ePpBIYucw.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/91515_96ePpBIYucw.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "LKOTDWw7gz8",
+            "task": "91515",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/LKOTDWw7gz8.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/91515_LKOTDWw7gz8.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "GCqVVmfyDR4",
+            "task": "91515",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/GCqVVmfyDR4.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/91515_GCqVVmfyDR4.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "00EXA31EVO8",
+            "task": "91515",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/00EXA31EVO8.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/91515_00EXA31EVO8.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "LuZXa72mEsg",
+            "task": "91515",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/LuZXa72mEsg.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/91515_LuZXa72mEsg.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "AUZHZ3PH6vM",
+            "task": "91515",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/AUZHZ3PH6vM.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/91515_AUZHZ3PH6vM.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "d6OjOLtrxuI",
+            "task": "91515",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/d6OjOLtrxuI.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/91515_d6OjOLtrxuI.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "BATQfDFcQMo",
+            "task": "91515",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/BATQfDFcQMo.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/91515_BATQfDFcQMo.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "_Ek1NK1bedE",
+            "task": "91515",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/_Ek1NK1bedE.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/91515__Ek1NK1bedE.pkl"
+        },
+        "instruction_len": 8
+    },
+    {
+        "id": {
+            "vid": "JU06owY7128",
+            "task": "94276",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/JU06owY7128.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/94276_JU06owY7128.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "sHnsHFHSDaM",
+            "task": "94276",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/sHnsHFHSDaM.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/94276_sHnsHFHSDaM.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "f5U9GaInuxQ",
+            "task": "94276",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/f5U9GaInuxQ.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/94276_f5U9GaInuxQ.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "TgbaA5_HVDE",
+            "task": "94276",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/TgbaA5_HVDE.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/94276_TgbaA5_HVDE.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "ZVkKZBaeWM4",
+            "task": "94276",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/ZVkKZBaeWM4.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/94276_ZVkKZBaeWM4.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "B59XlosKXwM",
+            "task": "94276",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/B59XlosKXwM.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/94276_B59XlosKXwM.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "l5YNrb7Ng3Y",
+            "task": "94276",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/l5YNrb7Ng3Y.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/94276_l5YNrb7Ng3Y.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "TF1CaU_muOA",
+            "task": "94276",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/TF1CaU_muOA.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/94276_TF1CaU_muOA.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "9XKYoe7BGgI",
+            "task": "94276",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/9XKYoe7BGgI.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/94276_9XKYoe7BGgI.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "3RY1-fHJym8",
+            "task": "94276",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/3RY1-fHJym8.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/94276_3RY1-fHJym8.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "F081F0NFGJY",
+            "task": "94276",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/F081F0NFGJY.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/94276_F081F0NFGJY.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "Cnm3vorDXIQ",
+            "task": "94276",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/Cnm3vorDXIQ.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/94276_Cnm3vorDXIQ.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "rstrOXxvy4s",
+            "task": "94276",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/rstrOXxvy4s.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/94276_rstrOXxvy4s.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "HmDSpSE_dRc",
+            "task": "94276",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/HmDSpSE_dRc.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/94276_HmDSpSE_dRc.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "7p75OXKrBbU",
+            "task": "94276",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/7p75OXKrBbU.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/94276_7p75OXKrBbU.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "NS4yqgNjl9Y",
+            "task": "94276",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/NS4yqgNjl9Y.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/94276_NS4yqgNjl9Y.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "Rxk_ot88l0M",
+            "task": "94276",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/Rxk_ot88l0M.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/94276_Rxk_ot88l0M.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "E5HA-ZsDdMg",
+            "task": "94276",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/E5HA-ZsDdMg.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/94276_E5HA-ZsDdMg.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "lacs_y6OIh4",
+            "task": "94276",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/lacs_y6OIh4.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/94276_lacs_y6OIh4.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "V3VGxebDcuY",
+            "task": "94276",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/V3VGxebDcuY.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/94276_V3VGxebDcuY.pkl"
+        },
+        "instruction_len": 6
+    },
+    {
+        "id": {
+            "vid": "LySFpLAiYRg",
+            "task": "95603",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/LySFpLAiYRg.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/95603_LySFpLAiYRg.pkl"
+        },
+        "instruction_len": 7
+    },
+    {
+        "id": {
+            "vid": "ih50eesaJLM",
+            "task": "95603",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/ih50eesaJLM.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/95603_ih50eesaJLM.pkl"
+        },
+        "instruction_len": 7
+    },
+    {
+        "id": {
+            "vid": "YTRXoPMeito",
+            "task": "95603",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/YTRXoPMeito.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/95603_YTRXoPMeito.pkl"
+        },
+        "instruction_len": 7
+    },
+    {
+        "id": {
+            "vid": "93Qve5SVwp0",
+            "task": "95603",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/93Qve5SVwp0.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/95603_93Qve5SVwp0.pkl"
+        },
+        "instruction_len": 7
+    },
+    {
+        "id": {
+            "vid": "IRzKnaDcyTQ",
+            "task": "95603",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/IRzKnaDcyTQ.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/95603_IRzKnaDcyTQ.pkl"
+        },
+        "instruction_len": 7
+    },
+    {
+        "id": {
+            "vid": "L_gMua8pJq8",
+            "task": "95603",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/L_gMua8pJq8.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/95603_L_gMua8pJq8.pkl"
+        },
+        "instruction_len": 7
+    },
+    {
+        "id": {
+            "vid": "aDmbFHL1FYY",
+            "task": "95603",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/aDmbFHL1FYY.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/95603_aDmbFHL1FYY.pkl"
+        },
+        "instruction_len": 7
+    },
+    {
+        "id": {
+            "vid": "2Fwm_1N6TQQ",
+            "task": "95603",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/2Fwm_1N6TQQ.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/95603_2Fwm_1N6TQQ.pkl"
+        },
+        "instruction_len": 7
+    },
+    {
+        "id": {
+            "vid": "q5Ob6Be4nFo",
+            "task": "95603",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/q5Ob6Be4nFo.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/95603_q5Ob6Be4nFo.pkl"
+        },
+        "instruction_len": 7
+    },
+    {
+        "id": {
+            "vid": "dmRvTRaTGYA",
+            "task": "95603",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/dmRvTRaTGYA.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/95603_dmRvTRaTGYA.pkl"
+        },
+        "instruction_len": 7
+    },
+    {
+        "id": {
+            "vid": "BEOuxZgXKl4",
+            "task": "95603",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/BEOuxZgXKl4.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/95603_BEOuxZgXKl4.pkl"
+        },
+        "instruction_len": 7
+    },
+    {
+        "id": {
+            "vid": "gRuu61nkOLM",
+            "task": "95603",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/gRuu61nkOLM.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/95603_gRuu61nkOLM.pkl"
+        },
+        "instruction_len": 7
+    },
+    {
+        "id": {
+            "vid": "3bBtY08wMyg",
+            "task": "95603",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/3bBtY08wMyg.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/95603_3bBtY08wMyg.pkl"
+        },
+        "instruction_len": 7
+    },
+    {
+        "id": {
+            "vid": "7uXtlI6vH9g",
+            "task": "95603",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/7uXtlI6vH9g.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/95603_7uXtlI6vH9g.pkl"
+        },
+        "instruction_len": 7
+    },
+    {
+        "id": {
+            "vid": "Glk5tKfFUnc",
+            "task": "95603",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/Glk5tKfFUnc.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/95603_Glk5tKfFUnc.pkl"
+        },
+        "instruction_len": 7
+    },
+    {
+        "id": {
+            "vid": "EjqPJp8dc2Y",
+            "task": "95603",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/EjqPJp8dc2Y.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/95603_EjqPJp8dc2Y.pkl"
+        },
+        "instruction_len": 7
+    },
+    {
+        "id": {
+            "vid": "AxwxLNE_qLA",
+            "task": "95603",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/AxwxLNE_qLA.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/95603_AxwxLNE_qLA.pkl"
+        },
+        "instruction_len": 7
+    },
+    {
+        "id": {
+            "vid": "nBY5zp_Ebeg",
+            "task": "95603",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/nBY5zp_Ebeg.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/95603_nBY5zp_Ebeg.pkl"
+        },
+        "instruction_len": 7
+    },
+    {
+        "id": {
+            "vid": "A0eDoZ8cwhg",
+            "task": "95603",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/A0eDoZ8cwhg.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/95603_A0eDoZ8cwhg.pkl"
+        },
+        "instruction_len": 7
+    },
+    {
+        "id": {
+            "vid": "NrLU_sCrVXg",
+            "task": "95603",
+            "feature": "/home/yulei/data/crosstask/crosstask_features_clip_336px/NrLU_sCrVXg.npy",
+            "bbox": "/home/yulei/data/crosstask/crosstask_features_clip_336px/bbox_v0/95603_NrLU_sCrVXg.pkl"
+        },
+        "instruction_len": 7
+    }
+]

@@ -1,0 +1,11 @@
+[2024-03-07 22:05:31,676][main.py][line:143][INFO] checkpoints/crosstask/T3_log_eval.txt
+[2024-03-07 22:05:31,676][main.py][line:144][INFO] Namespace(model_name='crosstask', num_layers=2, attn_heads=32, mlp_ratio=2, text_input_dim=768, img_input_dim=512, embed_dim=128, max_traj_len=3, dataset='crosstask', num_action=133, num_tasks=18, epochs=500, batch_size=256, dropout=0.2, optimizer='adam', lr=0.01, step_size=20, lr_decay=0.65, weight_decay=0.0001, M=2, aug_range=0, no_state_task=False, root_dir='dataset/crosstask/crosstask_release', train_json='dataset/crosstask/cross_task_data_False.json', valid_json='dataset/crosstask/cross_task_data_True.json', features_dir='data/crosstask_features/processed_data', eval=True, saved_path='checkpoints', last_epoch=-1, split='base', seed=3407, uncertain=False, num_sample=1500)
+[2024-03-07 22:05:31,677][main.py][line:149][INFO] Loading prompt features...
+[2024-03-07 22:05:38,985][main.py][line:160][INFO] Loading training data...
+[2024-03-07 22:05:42,246][main.py][line:165][INFO] Loading valid data...
+[2024-03-07 22:05:42,706][main.py][line:203][INFO] Training set volumn: 12255 Testing set volumn: 2023
+[2024-03-07 22:05:46,466][main.py][line:101][INFO] Epoch: 0 State Loss: 1.38 Top1 Acc: 56.64%
+[2024-03-07 22:05:46,467][main.py][line:103][INFO] 	Action Loss: 2.52, SR: 27.09% Acc1: 56.47% Acc5: 90.16% MIoU: 69.63
+[2024-03-07 22:05:46,467][main.py][line:109][INFO] 	Viterbi, SR: 31.83% Acc: 57.31% MIoU: 78.33
+[2024-03-07 22:05:46,467][main.py][line:113][INFO] 	Task Loss: 0.31, Acc1: 93.67%
+[2024-03-07 22:05:46,467][main.py][line:115][INFO] 	State Pred Loss: 2.16

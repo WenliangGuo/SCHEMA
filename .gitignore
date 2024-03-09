@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+data/crosstask_features
+data/niv_features
+data/coin_features
+logs/
