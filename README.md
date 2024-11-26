@@ -99,10 +99,10 @@ bash scripts/eval_{DATASET}.sh
 
 In this work, we followed the data pre-processing of [1] to curate and load datasets, and used the data-split of [2] to train and evaluate models. For comparison purposes, the dataloaders and data-splits of P3IV [3] and PDPP [4] are also provided in this repo. You can use them by simply setting the argument *split* to *pdpp* or *p3iv* in files *scripts/run_crosstask.sh* and *scripts/eval_crosstask.sh*.
 
-[1] Chang, C. Y., Huang, D. A., Xu, D., Adeli, E., Fei-Fei, L., & Niebles, J. C. (2020, August). Procedure planning in instructional videos. In European Conference on Computer Vision (pp. 334-350). Cham: Springer International Publishing.
-[2] Sun, J., Huang, D. A., Lu, B., Liu, Y. H., Zhou, B., & Garg, A. (2022). PlaTe: Visually-grounded planning with transformers in procedural tasks. IEEE Robotics and Automation Letters, 7(2), 4924-4930.
-[3] Zhao, H., Hadji, I., Dvornik, N., Derpanis, K. G., Wildes, R. P., & Jepson, A. D. (2022). P3iv: Probabilistic procedure planning from instructional videos with weak supervision. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 2938-2948).
-[4] Wang, H., Wu, Y., Guo, S., & Wang, L. (2023). Pdpp: Projected diffusion for procedure planning in instructional videos. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 14836-14845).
+[1] Chang, C. Y., Huang, D. A., Xu, D., Adeli, E., Fei-Fei, L., & Niebles, J. C. (2020, August). Procedure planning in instructional videos. In European Conference on Computer Vision (pp. 334-350). Cham: Springer International Publishing.  
+[2] Sun, J., Huang, D. A., Lu, B., Liu, Y. H., Zhou, B., & Garg, A. (2022). PlaTe: Visually-grounded planning with transformers in procedural tasks. IEEE Robotics and Automation Letters, 7(2), 4924-4930.  
+[3] Zhao, H., Hadji, I., Dvornik, N., Derpanis, K. G., Wildes, R. P., & Jepson, A. D. (2022). P3iv: Probabilistic procedure planning from instructional videos with weak supervision. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 2938-2948).  
+[4] Wang, H., Wu, Y., Guo, S., & Wang, L. (2023). Pdpp: Projected diffusion for procedure planning in instructional videos. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 14836-14845).  
 
 ## Probabilistic (Uncertain) Modeling
 
