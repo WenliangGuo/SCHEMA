@@ -19,7 +19,7 @@ Either creating manually:
 ```
 conda create -n schema python==3.10.9
 conda activate schema
-conda install pytorch==1.13.1 torchvision==0.14. pytorch-cuda=11.6 -c pytorch -c nvidia
+conda install pytorch==1.13.1 torchvision==0.14.1 pytorch-cuda=11.6 -c pytorch -c nvidia
 conda install tensorboardX==2.2 pandas==1.5.3 ftfy==5.8 regex==2022.7.9
 pip install timm==0.6.13
 ```
